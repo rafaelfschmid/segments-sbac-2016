@@ -20,10 +20,10 @@ global: globalv1.cu
 	nvcc -O3 globalv1.cu -o globalv1.exe -std=c++11 --expt-relaxed-constexpr -DEXP_BITS_SIZE=$(BITS) -DBLOCK_SIZE=$(BLOCK) -DELAPSED_TIME=$(TIME)
 
 segmented: segmented_sort.cu
-	nvcc -O3 segmented_sort.cu -o segmented.exe -I"../../lib/moderngpu-master/src" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME)
+	nvcc -O3 segmented_sort.cu -o segmented.exe -I"../lib" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME)
 
 segmentedradix: segmented_radix_sort.cu
-	nvcc -O3 segmented_radix_sort.cu -o segmentedradix.exe -I"../../lib/cub-1.5.2" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME)
+	nvcc -O3 segmented_radix_sort.cu -o segmentedradix.exe -I"../lib" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME)
 
 #nthrust: nthrust.cu
 #	nvcc nthrust.cu -o nthrust.exe -std=c++11 -DELAPSED_TIME=$(TIME)
@@ -35,7 +35,7 @@ segmentedradix: segmented_radix_sort.cu
 #	nvcc -O3 by_key.cu -o by_key.exe -std=c++11 -DELAPSED_TIME=$(TIME)
 
 cub: cub.cu
-	nvcc -O3 cub.cu -o cub.exe -I"../../lib/cub-1.5.2" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME)
+	nvcc -O3 cub.cu -o cub.exe -I"../lib" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME)
 
 cuball: cuball.cu
-	nvcc -O3 cuball.cu -o cuball.exe -I"../../lib/cub-1.5.2" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME)
+	nvcc -O3 cuball.cu -o cuball.exe -I"../lib" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME)
