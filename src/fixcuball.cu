@@ -107,7 +107,8 @@ int main(void) {
 	cudaTest(cudaMalloc((void **) &d_value_out, mem_size_vec));
 
 	cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
-	cudaTest(cudaMemcpy(d_value, h_value, mem_size_vec, cudaMemcpyHostToDevice));
+	cudaTest(
+			cudaMemcpy(d_value, h_value, mem_size_vec, cudaMemcpyHostToDevice));
 
 	cudaEventRecord(start);
 	cub::DeviceRadixSort::SortPairs(d_temp, temp_bytes, d_vec, d_vec_out,
@@ -117,7 +118,13 @@ int main(void) {
 			d_value, d_value_out, num_of_elements);
 	cudaEventRecord(stop);
 
-	//cudaTest(cudaPeekAtLastError());
+	cudaError_t errSync = cudaGetLastError();
+	cudaError_t errAsync = cudaDeviceSynchronize();
+	if (errSync != cudaSuccess)
+		printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
+	if (errAsync != cudaSuccess)
+		printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+
 	cudaMemcpy(h_value, d_value_out, mem_size_vec, cudaMemcpyDeviceToHost);
 	cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost);
 

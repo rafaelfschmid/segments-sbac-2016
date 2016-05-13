@@ -43,17 +43,6 @@ void cudaTest(cudaError_t error) {
 	}
 }
 
-template<typename T>
-struct rand_key {
-	T m;
-	rand_key(T m) {
-		this->m = m;
-	}
-	__host__    __device__ T operator()(T i) const {
-		return (i * m);
-	}
-};
-
 void print(int* host_data, int n) {
 	std::cout << "\n";
 	for (int i = 0; i < n; i++) {
@@ -114,7 +103,13 @@ int main(int argc, char** argv) {
 	mgpu::segmented_sort(d_vec, d_index_resp, num_of_elements, d_seg,
 			num_of_segments, mgpu::less_t<int>(), context);
 	cudaEventRecord(stop);
-
+	cudaError_t errSync  = cudaGetLastError();
+	cudaError_t errAsync = cudaDeviceSynchronize();
+	if (errSync != cudaSuccess)
+	  printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
+	if (errAsync != cudaSuccess)
+	  printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+	//Check_CUDA_Error("Kernel error");
 	//cudaTest(cudaPeekAtLastError());
 	//cudaTest(cudaDeviceSynchronize());
 	cudaTest(cudaMemcpy(h_seg, d_seg, mem_size_seg, cudaMemcpyDeviceToHost));
