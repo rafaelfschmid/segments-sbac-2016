@@ -7,7 +7,7 @@
 // The multithread code is from me.
 
 #include <stdio.h>
-#include "cdpQuicksort.h"
+#include "quicksort.h"
 
 // Inline PTX call to return index of highest non-zero bit in a word
 static __device__ __forceinline__ unsigned int __btflo(unsigned int word)

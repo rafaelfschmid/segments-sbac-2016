@@ -6,6 +6,7 @@ Consideracoes.ods
 *.exe
 *.ods
 *.in
+*.o
 *~
 /Debug/
 .cproject

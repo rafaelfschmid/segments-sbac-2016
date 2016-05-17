@@ -28,7 +28,7 @@
 #include <thrust/device_vector.h>
 #include <helper_cuda.h>
 #include <helper_string.h>
-#include "cdpQuicksort.h"
+#include "quicksort.h"
 #include <chrono>
 
 #ifndef ELAPSED_TIME
