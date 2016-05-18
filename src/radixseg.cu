@@ -141,7 +141,7 @@ int main(int argc, char** argv) {
 	cudaFree(d_value);
 	cudaFree(d_value_out);
 	cudaFree(d_temp);
-	//cudaDeviceReset();
+	cudaDeviceReset();
 
 	return 0;
 }

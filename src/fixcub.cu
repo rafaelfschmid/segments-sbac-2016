@@ -155,6 +155,7 @@ int main(void) {
 	cudaFree(d_value);
 	cudaFree(d_value_out);
 	cudaFree(d_temp);
+	cudaDeviceReset();
 
 	return 0;
 }

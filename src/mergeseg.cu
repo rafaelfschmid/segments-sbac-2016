@@ -132,6 +132,7 @@ int main(int argc, char** argv) {
 	cudaFree(d_seg);
 	cudaFree(d_vec);
 	cudaFree(d_index_resp);
+	cudaDeviceReset();
 
 	return 0;
 }
