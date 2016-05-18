@@ -823,12 +823,6 @@
 33.1714
 56.5328
 53.2564
-Stack allocation error!
-Ringbuf:
-	 head = 1935
-	 tail = 1933
-	count = 1935
-	  max = 1935
 44.4025
 37.2521
 33.1545
@@ -1269,12 +1263,6 @@ Ringbuf:
 16777216
 129.803
 126.752
-Stack allocation error!
-Ringbuf:
-	 head = 25808
-	 tail = 25806
-	count = 25808
-	  max = 25808
 127.972
 128.835
 126.569

@@ -149,7 +149,9 @@ int main(int argc, char** argv) {
 	} else
 		print(h_vec, num_of_elements);
 
+	free(h_seg);
 	free(h_vec);
+	free(h_value);
 	cudaFree(d_vec);
 	cudaFree(d_vec_out);
 	cudaFree(d_value);

@@ -39,7 +39,7 @@ void cudaTest(cudaError_t error) {
 	if (error != cudaSuccess) {
 		printf("cuda returned error %s (code %d), line(%d)\n",
 				cudaGetErrorString(error), error, __LINE__);
-		exit(EXIT_FAILURE);
+		exit (EXIT_FAILURE);
 	}
 }
 
@@ -103,12 +103,12 @@ int main(int argc, char** argv) {
 	mgpu::segmented_sort(d_vec, d_index_resp, num_of_elements, d_seg,
 			num_of_segments, mgpu::less_t<int>(), context);
 	cudaEventRecord(stop);
-	cudaError_t errSync  = cudaGetLastError();
+	cudaError_t errSync = cudaGetLastError();
 	cudaError_t errAsync = cudaDeviceSynchronize();
 	if (errSync != cudaSuccess)
-	  printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
+		printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
 	if (errAsync != cudaSuccess)
-	  printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+		printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
 	//Check_CUDA_Error("Kernel error");
 	//cudaTest(cudaPeekAtLastError());
 	//cudaTest(cudaDeviceSynchronize());
@@ -116,18 +116,16 @@ int main(int argc, char** argv) {
 	cudaTest(cudaMemcpy(h_vec, d_vec, mem_size_vec, cudaMemcpyDeviceToHost));
 
 	if (ELAPSED_TIME == 1) {
-			cudaEventSynchronize(stop);
-			float milliseconds = 0;
-			cudaEventElapsedTime(&milliseconds, start, stop);
-			std::cout << milliseconds << "\n";
-		}
-		else
-			print(h_vec, num_of_elements);
+		cudaEventSynchronize(stop);
+		float milliseconds = 0;
+		cudaEventElapsedTime(&milliseconds, start, stop);
+		std::cout << milliseconds << "\n";
+	} else
+		print(h_vec, num_of_elements);
 
 	/*
 	 * NUNCA usar cudaDeviceReset nesse código * */
-	 //cudaDeviceReset();
-
+	//cudaDeviceReset();
 
 	free(h_seg);
 	free(h_vec);

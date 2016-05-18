@@ -26,7 +26,7 @@ void cudaTest(cudaError_t error) {
 	if (error != cudaSuccess) {
 		printf("cuda returned error %s (code %d), line(%d)\n",
 				cudaGetErrorString(error), error, __LINE__);
-		exit(EXIT_FAILURE);
+		exit (EXIT_FAILURE);
 	}
 }
 
@@ -143,6 +143,7 @@ int main(int argc, char **argv) {
 	} else
 		print(h_vec, num_of_elements);
 
+	free(h_seg);
 	free(h_vec);
 	free(h_value);
 	cudaFree(d_vec);

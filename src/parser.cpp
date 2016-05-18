@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
 
 				getline(input, line);
 
-				if (seg >= 32768) {
+				if (seg >= 1048576) {
 					break;
 				}
 
