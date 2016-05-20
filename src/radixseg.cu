@@ -114,7 +114,7 @@ int main(int argc, char** argv) {
 			cub::DeviceSegmentedRadixSort::SortPairs(d_temp, temp_bytes, d_vec,
 					d_vec_out, d_value, d_value_out, num_of_elements,
 					num_of_segments, d_seg, d_seg + 1);
-			cudaMalloc((void **) &d_temp, temp_bytes);
+			cudaTest(cudaMalloc((void **) &d_temp, temp_bytes));
 		}
 		cudaEventRecord(start);
 		cub::DeviceSegmentedRadixSort::SortPairs(d_temp, temp_bytes, d_vec,

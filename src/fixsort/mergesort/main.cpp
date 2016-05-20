@@ -145,5 +145,6 @@ int main(int argc, char **argv) {
 
 	free(h_seg);
 	free(h_vec);
+	free(h_norm);
 	free(h_value);
 }

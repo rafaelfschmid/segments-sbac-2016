@@ -78,6 +78,7 @@ int main(void) {
 	cudaTest(cudaMalloc((void **) &d_value_out, mem_size_vec));
 
 	int *h_vec = (int *) malloc(mem_size_vec);
+	int *h_norm = (int *) malloc(mem_size_seg);
 	for (int k = 0; k < EXECUTIONS; k++) {
 
 		for(int j = 0; j < num_of_elements; j++)
@@ -85,7 +86,6 @@ int main(void) {
 
 		std::chrono::high_resolution_clock::time_point start1 =
 				std::chrono::high_resolution_clock::now();
-		int *h_norm = (int *) malloc(mem_size_seg);
 		int previousMax = 0;
 		for (i = 0; i < num_of_segments; i++) {
 			int currentMin = h_vec[h_seg[i]];
@@ -160,6 +160,7 @@ int main(void) {
 
 	free(h_seg);
 	free(h_vec);
+	free(h_norm);
 	free(h_vec_aux);
 	free(h_value);
 

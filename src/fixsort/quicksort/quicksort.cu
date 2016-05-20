@@ -389,12 +389,12 @@ float 	elapse = 0.0f;
 	return elapse;
 }
 
-static void usage() {
-	printf(
-			"Syntax: qsort [-size=<num>] [-seed=<num>] [-debug] [-loop-step=<num>] [-verbose]\n");
-	printf(
-			"If loop_step is non-zero, will run from 1->array_len in steps of loop_step\n");
-}
+//static void usage() {
+//	printf(
+//			"Syntax: qsort [-size=<num>] [-seed=<num>] [-debug] [-loop-step=<num>] [-verbose]\n");
+//	printf(
+//			"If loop_step is non-zero, will run from 1->array_len in steps of loop_step\n");
+//}
 
 void cudaTest(cudaError_t error) {
 	if (error != cudaSuccess) {
@@ -468,7 +468,7 @@ int main(int argc, char *argv[]) {
 		cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
 
 		cudaEventRecord(start);
-		float elapse = run_quicksort_cdp(d_vec, d_scratchdata, num_of_elements, NULL);
+		run_quicksort_cdp(d_vec, d_scratchdata, num_of_elements, NULL);
 		cudaEventRecord(stop);
 
 		cudaError_t errSync = cudaGetLastError();
@@ -505,6 +505,7 @@ int main(int argc, char *argv[]) {
 
 	free(h_seg);
 	free(h_vec);
+	free(h_norm);
 
 	return 0;
 }
