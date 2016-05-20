@@ -358,11 +358,11 @@ float run_quicksort_cdp(unsigned *gpudata, unsigned *scratchdata,
 		bitonicsort<<<1, BITONICSORT_LEN>>>(gpudata, gpudata, 0, count);
 	}
 
-	checkCudaErrors(cudaGetLastError());
-	checkCudaErrors(cudaEventRecord(ev2));
-	checkCudaErrors(cudaDeviceSynchronize());
+	checkCudaErrors (cudaGetLastError());checkCudaErrors
+	(cudaEventRecord(ev2));
+	checkCudaErrors (cudaDeviceSynchronize());
 
-	float elapse = 0.0f;
+float 	elapse = 0.0f;
 
 	if (cudaPeekAtLastError() != cudaSuccess)
 		printf("Launch failure: %s\n", cudaGetErrorString(cudaGetLastError()));
@@ -433,8 +433,6 @@ int main(int argc, char *argv[]) {
 		scanf("%d", &h_vec[i]);
 	}
 
-	std::chrono::high_resolution_clock::time_point start1 =
-			std::chrono::high_resolution_clock::now();
 	uint *h_norm = (uint *) malloc(mem_size_seg);
 	uint previousMax = 0;
 	for (i = 0; i < num_of_segments; i++) {
@@ -455,10 +453,6 @@ int main(int argc, char *argv[]) {
 		}
 		previousMax = currentMax + normalize;
 	}
-	std::chrono::high_resolution_clock::time_point stop1 =
-			std::chrono::high_resolution_clock::now();
-	std::chrono::duration<double> time_span = std::chrono::duration_cast<
-			std::chrono::duration<double>>(stop1 - start1);
 
 	cudaEvent_t start, stop;
 	cudaEventCreate(&start);
@@ -468,45 +462,49 @@ int main(int argc, char *argv[]) {
 
 	cudaTest(cudaMalloc((void **) &d_vec, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_scratchdata, mem_size_vec));
-	cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
 
-	cudaEventRecord(start);
-	float elapse;
-	elapse = run_quicksort_cdp(d_vec, d_scratchdata, num_of_elements, NULL);
-	cudaEventRecord(stop);
+	for (int i = 0; i < EXECUTIONS; i++) {
 
-	cudaError_t errSync = cudaGetLastError();
-	cudaError_t errAsync = cudaDeviceSynchronize();
-	if (errSync != cudaSuccess)
-		printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
-	if (errAsync != cudaSuccess)
-		printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+		cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
+
+		cudaEventRecord(start);
+		float elapse = run_quicksort_cdp(d_vec, d_scratchdata, num_of_elements, NULL);
+		cudaEventRecord(stop);
+
+		cudaError_t errSync = cudaGetLastError();
+		cudaError_t errAsync = cudaDeviceSynchronize();
+		if (errSync != cudaSuccess)
+			printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
+		if (errAsync != cudaSuccess)
+			printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+
+		if (ELAPSED_TIME == 1) {
+			cudaEventSynchronize(stop);
+			float milliseconds = 0;
+			cudaEventElapsedTime(&milliseconds, start, stop);
+			std::cout << milliseconds << "\n";
+		}
+
+		cudaDeviceSynchronize();
+	}
 
 	cudaMemcpy(h_vec, d_vec, mem_size_vec, cudaMemcpyDeviceToHost);
 
-	start1 = std::chrono::high_resolution_clock::now();
 	for (i = 0; i < num_of_segments; i++) {
 		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
 			h_vec[j] -= h_norm[i];
 		}
 	}
-	stop1 = std::chrono::high_resolution_clock::now();
-	time_span += std::chrono::duration_cast<std::chrono::duration<double>>(
-			stop1 - start1);
 
-	if (ELAPSED_TIME == 1) {
-		cudaEventSynchronize(stop);
-		float milliseconds = 0;
-		cudaEventElapsedTime(&milliseconds, start, stop);
-		std::cout << milliseconds << "\n";
-	} else
+	cudaFree (d_vec);
+	cudaFree (d_scratchdata);
+
+	if (ELAPSED_TIME != 1) {
 		print(h_vec, num_of_elements);
+	}
 
 	free(h_seg);
 	free(h_vec);
-	cudaFree(d_vec);
-	cudaFree(d_scratchdata);
-	cudaDeviceReset();
 
 	return 0;
 }

@@ -44,8 +44,6 @@ int main(void) {
 	for (i = 0; i < num_of_elements; i++)
 		scanf("%d", &h_vec[i]);
 
-	std::chrono::high_resolution_clock::time_point start1 =
-				std::chrono::high_resolution_clock::now();
 	thrust::host_vector<int> h_norm(num_of_segments);
 	int previousMax = 0;
 	for (i = 0; i < num_of_segments; i++) {
@@ -66,39 +64,40 @@ int main(void) {
 		}
 		previousMax = currentMax + normalize;
 	}
-	std::chrono::high_resolution_clock::time_point stop1 =
-				std::chrono::high_resolution_clock::now();
-	std::chrono::duration<double> time_span = std::chrono::duration_cast<std::chrono::duration<double>>(stop1 - start1);
-//	print(h_vec);
-//	print(h_norm);
 
-	cudaEvent_t start, stop;
-	cudaEventCreate(&start);
-	cudaEventCreate(&stop);
-	thrust::device_vector<int> d_vec = h_vec;
+	thrust::device_vector<int> d_vec(num_of_elements);
 
-	cudaEventRecord(start);
-	thrust::sort(d_vec.begin(), d_vec.end());
-	cudaEventRecord(stop);
+	for (int i = 0; i < EXECUTIONS; i++) {
+		cudaEvent_t start, stop;
+		cudaEventCreate(&start);
+		cudaEventCreate(&stop);
+		thrust::copy(h_vec.begin(), h_vec.end(), d_vec.begin());
+
+		cudaEventRecord(start);
+		thrust::sort(d_vec.begin(), d_vec.end());
+		cudaEventRecord(stop);
+
+		if (ELAPSED_TIME == 1) {
+			cudaEventSynchronize(stop);
+			float milliseconds = 0;
+			cudaEventElapsedTime(&milliseconds, start, stop);
+			std::cout << milliseconds << "\n";
+		}
+
+		cudaDeviceSynchronize();
+	}
 
 	thrust::copy(d_vec.begin(), d_vec.end(), h_vec.begin());
 
-	start1 = std::chrono::high_resolution_clock::now();
 	for (i = 0; i < num_of_segments; i++) {
 		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
 			h_vec[j] -= h_norm[i];
 		}
 	}
-	stop1 = std::chrono::high_resolution_clock::now();
-	time_span += std::chrono::duration_cast<std::chrono::duration<double>>(stop1 - start1);
 
-	if (ELAPSED_TIME == 1) {
-		cudaEventSynchronize(stop);
-		float milliseconds = 0;
-		cudaEventElapsedTime(&milliseconds, start, stop);
-		std::cout << milliseconds << "\n";
-	} else
+	if (ELAPSED_TIME != 1) {
 		print(h_vec);
+	}
 
 	return 0;
 }

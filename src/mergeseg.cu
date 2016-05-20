@@ -94,45 +94,47 @@ int main(int argc, char** argv) {
 	cudaTest(cudaMalloc((void **) &d_vec, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_index_resp, mem_size_vec));
 
-	// copy host memory to device
-	cudaTest(cudaMemcpy(d_seg, h_seg, mem_size_seg, cudaMemcpyHostToDevice));
-	cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
+	for (int j = 0; j < EXECUTIONS; j++) {
 
-	cudaEventRecord(start);
-	mgpu::standard_context_t context;
-	mgpu::segmented_sort(d_vec, d_index_resp, num_of_elements, d_seg,
-			num_of_segments, mgpu::less_t<int>(), context);
-	cudaEventRecord(stop);
-	cudaError_t errSync = cudaGetLastError();
-	cudaError_t errAsync = cudaDeviceSynchronize();
-	if (errSync != cudaSuccess)
-		printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
-	if (errAsync != cudaSuccess)
-		printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
-	//Check_CUDA_Error("Kernel error");
-	//cudaTest(cudaPeekAtLastError());
-	//cudaTest(cudaDeviceSynchronize());
-	cudaTest(cudaMemcpy(h_seg, d_seg, mem_size_seg, cudaMemcpyDeviceToHost));
+		// copy host memory to device
+		cudaTest(cudaMemcpy(d_seg, h_seg, mem_size_seg, cudaMemcpyHostToDevice));
+		cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
+
+		cudaEventRecord(start);
+		mgpu::standard_context_t context;
+		mgpu::segmented_sort(d_vec, d_index_resp, num_of_elements, d_seg,
+				num_of_segments, mgpu::less_t<int>(), context);
+		cudaEventRecord(stop);
+
+		cudaError_t errSync = cudaGetLastError();
+		cudaError_t errAsync = cudaDeviceSynchronize();
+		if (errSync != cudaSuccess)
+			printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
+		if (errAsync != cudaSuccess)
+			printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+
+		if (ELAPSED_TIME == 1) {
+			cudaEventSynchronize(stop);
+			float milliseconds = 0;
+			cudaEventElapsedTime(&milliseconds, start, stop);
+			std::cout << milliseconds << "\n";
+		}
+
+		cudaDeviceSynchronize();
+	}
+
 	cudaTest(cudaMemcpy(h_vec, d_vec, mem_size_vec, cudaMemcpyDeviceToHost));
 
-	if (ELAPSED_TIME == 1) {
-		cudaEventSynchronize(stop);
-		float milliseconds = 0;
-		cudaEventElapsedTime(&milliseconds, start, stop);
-		std::cout << milliseconds << "\n";
-	} else
-		print(h_vec, num_of_elements);
-
-	/*
-	 * NUNCA usar cudaDeviceReset nesse código * */
-	//cudaDeviceReset();
-
-	free(h_seg);
-	free(h_vec);
 	cudaFree(d_seg);
 	cudaFree(d_vec);
 	cudaFree(d_index_resp);
-//	cudaDeviceReset();
+
+	if (ELAPSED_TIME != 1) {
+		print(h_vec, num_of_elements);
+	}
+
+	free(h_seg);
+	free(h_vec);
 
 	return 0;
 }

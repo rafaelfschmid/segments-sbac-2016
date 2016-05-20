@@ -57,32 +57,11 @@ int main(void) {
 
 	scanf("%d", &num_of_elements);
 	int mem_size_vec = sizeof(int) * num_of_elements;
-	int *h_vec = (int *) malloc(mem_size_vec);
+	int *h_vec_aux = (int *) malloc(mem_size_vec);
 	int *h_value = (int *) malloc(mem_size_vec);
 	for (i = 0; i < num_of_elements; i++) {
-		scanf("%d", &h_vec[i]);
+		scanf("%d", &h_vec_aux[i]);
 		h_value[i] = i;
-	}
-
-	int *h_norm = (int *) malloc(mem_size_seg);
-	int previousMax = 0;
-	for (i = 0; i < num_of_segments; i++) {
-		int currentMin = h_vec[h_seg[i]];
-		int currentMax = h_vec[h_seg[i]];
-
-		for (int j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
-			if (h_vec[j] < currentMin)
-				currentMin = h_vec[j];
-			else if (h_vec[j] > currentMax)
-				currentMax = h_vec[j];
-		}
-
-		int normalize = previousMax - currentMin;
-		h_norm[i] = ++normalize;
-		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
-			h_vec[j] += normalize;
-		}
-		previousMax = currentMax + normalize;
 	}
 
 	cudaEvent_t start, stop;
@@ -98,20 +77,49 @@ int main(void) {
 	cudaTest(cudaMalloc((void **) &d_vec_out, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_value_out, mem_size_vec));
 
-	for (int i = 0; i < EXECUTIONS; i++) {
+	int *h_vec = (int *) malloc(mem_size_vec);
+	for (int k = 0; k < EXECUTIONS; k++) {
+
+		for(int j = 0; j < num_of_elements; j++)
+			h_vec[j] = h_vec_aux[j];
+
+		std::chrono::high_resolution_clock::time_point start1 =
+				std::chrono::high_resolution_clock::now();
+		int *h_norm = (int *) malloc(mem_size_seg);
+		int previousMax = 0;
+		for (i = 0; i < num_of_segments; i++) {
+			int currentMin = h_vec[h_seg[i]];
+			int currentMax = h_vec[h_seg[i]];
+
+			for (int j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
+				if (h_vec[j] < currentMin)
+					currentMin = h_vec[j];
+				else if (h_vec[j] > currentMax)
+					currentMax = h_vec[j];
+			}
+
+			int normalize = previousMax - currentMin;
+			h_norm[i] = ++normalize;
+			for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
+				h_vec[j] += normalize;
+			}
+			previousMax = currentMax + normalize;
+		}
+		std::chrono::high_resolution_clock::time_point stop1 =
+				std::chrono::high_resolution_clock::now();
+		std::chrono::duration<double> time_span = std::chrono::duration_cast<
+				std::chrono::duration<double>>(stop1 - start1);
 
 		cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
-		cudaTest(cudaMemcpy(d_value, h_value, mem_size_vec, cudaMemcpyHostToDevice));
+		cudaTest(cudaMemcpy(d_value, h_value, mem_size_vec,	cudaMemcpyHostToDevice));
 
 		if(temp_bytes == 0) {
 			cub::DeviceRadixSort::SortPairs(d_temp, temp_bytes, d_vec, d_vec_out,
 					d_value, d_value_out, num_of_elements);
 			cudaMalloc((void **) &d_temp, temp_bytes);
 		}
-		cudaEventRecord(start);
 		cub::DeviceRadixSort::SortPairs(d_temp, temp_bytes, d_vec, d_vec_out,
 				d_value, d_value_out, num_of_elements);
-		cudaEventRecord(stop);
 
 		cudaError_t errSync = cudaGetLastError();
 		cudaError_t errAsync = cudaDeviceSynchronize();
@@ -120,29 +128,31 @@ int main(void) {
 		if (errAsync != cudaSuccess)
 			printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
 
+		cudaTest(cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost));
+
+		start1 = std::chrono::high_resolution_clock::now();
+		for (i = 0; i < num_of_segments; i++) {
+			for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
+				h_vec[j] -= h_norm[i];
+			}
+		}
+		stop1 = std::chrono::high_resolution_clock::now();
+		time_span += std::chrono::duration_cast<std::chrono::duration<double>>(
+				stop1 - start1);
+
 		if (ELAPSED_TIME == 1) {
-			cudaEventSynchronize(stop);
-			float milliseconds = 0;
-			cudaEventElapsedTime(&milliseconds, start, stop);
-			std::cout << milliseconds << "\n";
+			std::cout << time_span.count()*1000 << "\n";
 		}
 
 		cudaDeviceSynchronize();
 	}
 
-	cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost);
+	cudaFree (d_vec);
+	cudaFree (d_vec_out);
+	cudaFree (d_value);
+	cudaFree (d_value_out);
+	cudaFree (d_temp);
 
-	for (i = 0; i < num_of_segments; i++) {
-		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
-			h_vec[j] -= h_norm[i];
-		}
-	}
-
-	cudaFree(d_vec);
-	cudaFree(d_vec_out);
-	cudaFree(d_value);
-	cudaFree(d_value_out);
-	cudaFree(d_temp);
 
 	if (ELAPSED_TIME != 1) {
 		print(h_vec, num_of_elements);
@@ -150,6 +160,7 @@ int main(void) {
 
 	free(h_seg);
 	free(h_vec);
+	free(h_vec_aux);
 	free(h_value);
 
 	return 0;

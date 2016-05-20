@@ -60,8 +60,6 @@ int main(int argc, char **argv) {
 		h_value[i] = i;
 	}
 
-	std::chrono::high_resolution_clock::time_point start1 =
-			std::chrono::high_resolution_clock::now();
 	uint *h_norm = (uint *) malloc(mem_size_seg);
 	uint previousMax = 0;
 	for (i = 0; i < num_of_segments; i++) {
@@ -82,10 +80,6 @@ int main(int argc, char **argv) {
 		}
 		previousMax = currentMax + normalize;
 	}
-	std::chrono::high_resolution_clock::time_point stop1 =
-			std::chrono::high_resolution_clock::now();
-	std::chrono::duration<double> time_span = std::chrono::duration_cast<
-			std::chrono::duration<double>>(stop1 - start1);
 
 	cudaEvent_t start, stop;
 	cudaEventCreate(&start);
@@ -99,58 +93,57 @@ int main(int argc, char **argv) {
 	cudaTest(cudaMalloc((void **) &d_vec_out, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_value_out, mem_size_vec));
 
-	cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
-	cudaTest(
-			cudaMemcpy(d_value, h_value, mem_size_vec, cudaMemcpyHostToDevice));
+	cudaTest(cudaMalloc((void **) &d_BufKey, mem_size_vec));
+	cudaTest(cudaMalloc((void **) &d_BufVal, mem_size_vec));
 
-	checkCudaErrors(cudaMalloc((void **) &d_BufKey, mem_size_vec));
-	checkCudaErrors(cudaMalloc((void **) &d_BufVal, mem_size_vec));
+	for (int i = 0; i < EXECUTIONS; i++) {
 
-	initMergeSort();
+		cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
+		cudaTest(cudaMemcpy(d_value, h_value, mem_size_vec, cudaMemcpyHostToDevice));
 
-	cudaEventRecord(start);
-	mergeSort(d_vec_out, d_value_out, d_BufKey, d_BufVal, d_vec, d_value,
-			num_of_elements, 1);
-	cudaEventRecord(stop);
+		cudaEventRecord(start);
+		initMergeSort();
+		mergeSort(d_vec_out, d_value_out, d_BufKey, d_BufVal, d_vec, d_value, num_of_elements, 1);
+		closeMergeSort();
+		cudaEventRecord(stop);
 
-	closeMergeSort();
+		cudaError_t errSync = cudaGetLastError();
+		cudaError_t errAsync = cudaDeviceSynchronize();
+		if (errSync != cudaSuccess)
+			printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
+		if (errAsync != cudaSuccess)
+			printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
 
-	cudaError_t errSync = cudaGetLastError();
-	cudaError_t errAsync = cudaDeviceSynchronize();
-	if (errSync != cudaSuccess)
-		printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
-	if (errAsync != cudaSuccess)
-		printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+		if (ELAPSED_TIME == 1) {
+			cudaEventSynchronize(stop);
+			float milliseconds = 0;
+			cudaEventElapsedTime(&milliseconds, start, stop);
+			std::cout << milliseconds << "\n";
+		}
 
-	cudaMemcpy(h_value, d_value_out, mem_size_vec, cudaMemcpyDeviceToHost);
+		cudaDeviceSynchronize();
+	}
+
 	cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost);
 
-	start1 = std::chrono::high_resolution_clock::now();
 	for (i = 0; i < num_of_segments; i++) {
 		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
 			h_vec[j] -= h_norm[i];
 		}
 	}
-	stop1 = std::chrono::high_resolution_clock::now();
-	time_span += std::chrono::duration_cast<std::chrono::duration<double>>(
-			stop1 - start1);
 
-	if (ELAPSED_TIME == 1) {
-		cudaEventSynchronize(stop);
-		float milliseconds = 0;
-		cudaEventElapsedTime(&milliseconds, start, stop);
-		std::cout << milliseconds << "\n";
-	} else
-		print(h_vec, num_of_elements);
-
-	free(h_seg);
-	free(h_vec);
-	free(h_value);
 	cudaFree(d_vec);
 	cudaFree(d_vec_out);
 	cudaFree(d_value);
 	cudaFree(d_value_out);
 	cudaFree(d_BufVal);
 	cudaFree(d_BufKey);
-	cudaDeviceReset();
+
+	if (ELAPSED_TIME != 1) {
+		print(h_vec, num_of_elements);
+	}
+
+	free(h_seg);
+	free(h_vec);
+	free(h_value);
 }

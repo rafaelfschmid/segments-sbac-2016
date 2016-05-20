@@ -35,6 +35,11 @@
 #define ELAPSED_TIME 0
 #endif
 
+#ifndef EXECUTIONS
+#define EXECUTIONS 11
+#endif
+
+
 using namespace std::chrono;
 using namespace cub;
 
@@ -98,50 +103,59 @@ int main(int argc, char** argv) {
 	cudaTest(cudaMalloc((void **) &d_vec_out, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_value_out, mem_size_vec));
 
-	// copy host memory to device
-	cudaTest(cudaMemcpy(d_seg, h_seg, mem_size_seg, cudaMemcpyHostToDevice));
-	cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
-	cudaTest(
-			cudaMemcpy(d_value, h_value, mem_size_vec, cudaMemcpyHostToDevice));
+	for (int i = 0; i < EXECUTIONS; i++) {
 
-	cudaEventRecord(start);
-	cub::DeviceSegmentedRadixSort::SortPairs(d_temp, temp_bytes, d_vec,
-			d_vec_out, d_value, d_value_out, num_of_elements, num_of_segments,
-			d_seg, d_seg + 1);
-	cudaMalloc((void **) &d_temp, temp_bytes);
-	cub::DeviceSegmentedRadixSort::SortPairs(d_temp, temp_bytes, d_vec,
-			d_vec_out, d_value, d_value_out, num_of_elements, num_of_segments,
-			d_seg, d_seg + 1);
-	cudaEventRecord(stop);
+		// copy host memory to device
+		cudaTest(cudaMemcpy(d_seg, h_seg, mem_size_seg, cudaMemcpyHostToDevice));
+		cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
+		cudaTest(cudaMemcpy(d_value, h_value, mem_size_vec, cudaMemcpyHostToDevice));
 
-	cudaError_t errSync = cudaGetLastError();
-	cudaError_t errAsync = cudaDeviceSynchronize();
-	if (errSync != cudaSuccess)
-		printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
-	if (errAsync != cudaSuccess)
-		printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+		if(temp_bytes == 0) {
+			cub::DeviceSegmentedRadixSort::SortPairs(d_temp, temp_bytes, d_vec,
+					d_vec_out, d_value, d_value_out, num_of_elements,
+					num_of_segments, d_seg, d_seg + 1);
+			cudaMalloc((void **) &d_temp, temp_bytes);
+		}
+		cudaEventRecord(start);
+		cub::DeviceSegmentedRadixSort::SortPairs(d_temp, temp_bytes, d_vec,
+				d_vec_out, d_value, d_value_out, num_of_elements,
+				num_of_segments, d_seg, d_seg + 1);
+		cudaEventRecord(stop);
 
-	cudaMemcpy(h_value, d_value_out, mem_size_seg, cudaMemcpyDeviceToHost);
-	cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost);
+		cudaError_t errSync = cudaGetLastError();
+		cudaError_t errAsync = cudaDeviceSynchronize();
+		if (errSync != cudaSuccess)
+			printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
+		if (errAsync != cudaSuccess)
+			printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
 
-	if (ELAPSED_TIME == 1) {
-		cudaEventSynchronize(stop);
-		float milliseconds = 0;
-		cudaEventElapsedTime(&milliseconds, start, stop);
-		std::cout << milliseconds << "\n";
-	} else
-		print(h_vec, num_of_elements);
+		if (ELAPSED_TIME == 1) {
+			cudaEventSynchronize(stop);
+			float milliseconds = 0;
+			cudaEventElapsedTime(&milliseconds, start, stop);
+			std::cout << milliseconds << "\n";
+		}
 
-	free(h_seg);
-	free(h_vec);
-	free(h_value);
+		cudaDeviceSynchronize();
+	}
+
+	cudaTest(cudaMemcpy(h_value, d_value_out, mem_size_seg, cudaMemcpyDeviceToHost));
+	cudaTest(cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost));
+
 	cudaFree(d_seg);
 	cudaFree(d_vec);
 	cudaFree(d_vec_out);
 	cudaFree(d_value);
 	cudaFree(d_value_out);
 	cudaFree(d_temp);
-	cudaDeviceReset();
+
+	if (ELAPSED_TIME != 1) {
+		print(h_vec, num_of_elements);
+	}
+
+	free(h_seg);
+	free(h_vec);
+	free(h_value);
 
 	return 0;
 }
