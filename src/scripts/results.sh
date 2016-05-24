@@ -1,7 +1,7 @@
 #!/bin/bash
-prog1=$1
-dir1=$2
-dir2=$3
+prog1=$1 #program to generate results
+dir1=$2 #input files dir
+dir2=$3 #output files dir
 
 for filename in `ls -tr $dir1`; do
 		file=$filename

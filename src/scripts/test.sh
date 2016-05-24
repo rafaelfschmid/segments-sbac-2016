@@ -1,7 +1,7 @@
 #!/bin/bash
-prog1=$1
-dir1=$2
-dir2=$3
+prog1=$1 #program to test
+dir1=$2 #test files dir
+dir2=$3 #result files dir
 
 for filename in `ls -tr $dir1`; do
 		file=$filename

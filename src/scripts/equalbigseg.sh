@@ -1,5 +1,5 @@
 #!/bin/bash
-dir=$1
+dir=$1 #output files dir
 c=1048576
 while [ $c -le 134217728 ]
 do

@@ -1,5 +1,5 @@
-in=$1
-out=$2
+in=$1 # input files dir
+out=$2 # time files dir
 
 ./scripts/exec.sh fixpreprocess.exe $in > $out/fixpreprocess.time
 ./scripts/exec.sh mergeseg.exe $in > $out/mergeseg.time
