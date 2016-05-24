@@ -10,7 +10,7 @@ do
 		((x=$c/$d))
 		./equal.exe $d $x > $dir/$d"_"$c.in
 		((d=$d*2))
-		sleep 0.5
+		sleep 1.0
 	done
 	((c=$c*2))
 done
