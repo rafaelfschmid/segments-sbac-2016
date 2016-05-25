@@ -6,6 +6,10 @@
 #include <string>
 using namespace std;
 
+#ifndef SEGMENTS
+#define SEGMENTS 1048576
+#endif
+
 int main(int argc, char **argv) {
 
 	std::vector<std::vector<std::vector<double> > > matrix;
@@ -41,7 +45,7 @@ int main(int argc, char **argv) {
 
 				getline(input, line);
 
-				if (seg >= 1048576) {
+				if (seg >= SEGMENTS) {
 					break;
 				}
 
