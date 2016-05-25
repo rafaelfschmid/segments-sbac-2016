@@ -1,5 +1,5 @@
-TIME=1
-EXECS=10
+#TIME=1
+#EXECS=10
 ################################################################################
 INCLUDES  := -I/usr/local/cuda-7.5/samples/common/inc
 LIBRARIES := -lcuda

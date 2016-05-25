@@ -1,8 +1,8 @@
-BLOCK=32
-TIME=1
-BITS=10
-EXECS=10
-SEGS=1048576
+#BLOCK=32
+#TIME=0
+#BITS=10
+#EXECS=10
+#SEGS=1048576
 
 all: generate cpu mergeseg radixseg fixcub fixpreprocess fixthrust 
 #bitonicsort mergesort oddevensort quicksort
