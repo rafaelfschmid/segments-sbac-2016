@@ -28,6 +28,10 @@
 #define ELAPSED_TIME 0
 #endif
 
+#ifndef EXECUTIONS
+#define EXECUTIONS 10
+#endif
+
 void cudaTest(cudaError_t error) {
 	if (error != cudaSuccess) {
 		printf("cuda returned error %s (code %d), line(%d)\n",
@@ -92,7 +96,6 @@ int main(int argc, char **argv) {
 	uint *d_vec;
 
 	cudaTest(cudaMalloc((void **) &d_vec, mem_size_vec));
-	cudaTest(cudaMalloc((void **) &d_value, mem_size_vec));
 
 	for (int i = 0; i < EXECUTIONS; i++) {
 

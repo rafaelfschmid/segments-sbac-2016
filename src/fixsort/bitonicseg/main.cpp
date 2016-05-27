@@ -35,6 +35,10 @@
 #define ELAPSED_TIME 0
 #endif
 
+#ifndef EXECUTIONS
+#define EXECUTIONS 10
+#endif
+
 void cudaTest(cudaError_t error) {
 	if (error != cudaSuccess) {
 		printf("cuda returned error %s (code %d), line(%d)\n",
@@ -96,6 +100,7 @@ int main(int argc, char** argv) {
 	cudaTest(cudaMalloc((void **) &d_vec_out, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_value_out, mem_size_vec));
 
+	for (int i = 0; i < EXECUTIONS; i++) {
 	cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
 	cudaTest(
 			cudaMemcpy(d_value, h_value, mem_size_vec, cudaMemcpyHostToDevice));
@@ -113,15 +118,19 @@ int main(int argc, char** argv) {
 	if (errAsync != cudaSuccess)
 		printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
 
-	cudaMemcpy(h_value, d_value_out, mem_size_vec, cudaMemcpyDeviceToHost);
-	cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost);
-
 	if (ELAPSED_TIME == 1) {
 		cudaEventSynchronize(stop);
 		float milliseconds = 0;
 		cudaEventElapsedTime(&milliseconds, start, stop);
 		std::cout << milliseconds << "\n";
-	} else
+	}
+
+
+	}
+	cudaMemcpy(h_value, d_value_out, mem_size_vec, cudaMemcpyDeviceToHost);
+	cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost);
+
+	if(ELAPSED_TIME != 1)
 		print(h_vec, num_of_elements);
 
 	free(h_vec);

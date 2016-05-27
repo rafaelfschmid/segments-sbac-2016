@@ -1,4 +1,4 @@
-TIME=0
+TIME=1
 
 all: bitonicseg.exe
 
