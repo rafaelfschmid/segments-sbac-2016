@@ -9,4 +9,6 @@ dir=$1
 ./parser.exe $dir/fixthrust.time $dir/00fixthrust.time
 ./parser.exe $dir/mergeseg.time $dir/00mergeseg.time
 ./parser.exe $dir/radixseg.time $dir/00radixseg.time
+./parser.exe $dir/bitonicseg.time $dir/00bitonicseg.time
+./parser.exe $dir/fixmergemgpu.time $dir/00fixmergemgpu.time
 

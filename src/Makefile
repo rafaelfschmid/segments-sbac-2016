@@ -3,6 +3,7 @@
 #BITS=10
 #EXECS=10
 #SEGS=1048576
+SEGS=32768
 
 all: generate cpu mergeseg radixseg fixcub fixpreprocess fixthrust 
 #bitonicsort mergesort oddevensort quicksort
@@ -34,3 +35,18 @@ fixpreprocess: fixpreprocess.cu
 fixthrust: fixthrust.cu
 	nvcc -gencode arch=compute_20,code=sm_20 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_35,code=sm_35 -gencode arch=compute_37,code=sm_37 -gencode arch=compute_50,code=sm_50 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_52,code=compute_52 fixthrust.cu -o fixthrust.exe -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME) -DEXECUTIONS=$(EXECS)
 
+fixbitonic: fixsort/bitonic/main.cpp
+	make clean -C fixsort/bitonic
+	make -C fixsort/bitonic
+
+fixmerge: fixsort/mergesort/main.cpp
+	make clean -C fixsort/mergesort
+	make -C fixsort/mergesort
+
+fixoddeven: fixsort/oddevensort/main.cpp
+	make clean -C fixsort/oddevensort
+	make -C fixsort/oddevensort
+
+fixquick: fixsort/quicksort/quicksort.cu
+	make clean -C fixsort/quicksort
+	make -C fixsort/quicksort
