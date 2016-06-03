@@ -3,9 +3,18 @@
 #include <math.h>
 #include <cstdlib>
 #include <stdio.h>
+#include <iostream>
 
 #ifndef EXP_BITS_SIZE
 #define EXP_BITS_SIZE 10
+#endif
+
+#ifdef RAND
+#define generate_number(i, n, bits_size_elements) (rand() % bits_size_elements);
+#elif SORTASC
+#define generate_number(i, n, bits_size_elements) (i);
+#elif SORTDESC
+#define generate_number(i, n, bits_size_elements) (n-i-1);
 #endif
 
 void segments_gen(int num_segments, int size_segment) {
@@ -16,7 +25,8 @@ void segments_gen(int num_segments, int size_segment) {
 void vectors_gen(int num_elements, int bits_size_elements) {
 	for (int i = 0; i < num_elements; i++)
 	{
-		printf("%d ", rand() % bits_size_elements);
+		std::cout << generate_number(i, num_elements, bits_size_elements);
+		std::cout << " ";
 	}
 }
 
