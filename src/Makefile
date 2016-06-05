@@ -3,9 +3,9 @@
 #BITS=10
 #EXECS=10
 #SEGS=1048576
-SEGS=32768
+#SEGS=32768
 
-all: generate cpu mergeseg radixseg fixcub fixpreprocess fixthrust 
+all: cpu mergeseg radixseg fixcub fixpreprocess fixthrust 
 #bitonicsort mergesort oddevensort quicksort
 
 generate: gen_equal.cpp gen_diff.cpp
