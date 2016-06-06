@@ -4,17 +4,10 @@
 #include <cstdlib>
 #include <stdio.h>
 #include <iostream>
+#include <vector>
 
 #ifndef EXP_BITS_SIZE
 #define EXP_BITS_SIZE 10
-#endif
-
-#ifdef RAND
-#define generate_number(i, n, bits_size_elements) (rand() % bits_size_elements);
-#elif SORTASC
-#define generate_number(i, n, bits_size_elements) (i);
-#elif SORTDESC
-#define generate_number(i, n, bits_size_elements) (n-i-1);
 #endif
 
 void segments_gen(int num_segments, int size_segment) {
@@ -22,13 +15,50 @@ void segments_gen(int num_segments, int size_segment) {
 		printf("%d ", i * size_segment);
 }
 
+#ifdef RAND
 void vectors_gen(int num_elements, int bits_size_elements) {
+
 	for (int i = 0; i < num_elements; i++)
 	{
-		std::cout << generate_number(i, num_elements, bits_size_elements);
+		std::cout << rand() % bits_size_elements;
 		std::cout << " ";
 	}
 }
+#elif SORTASC
+void vectors_gen(int num_elements, int bits_size_elements) {
+	std::vector<int> vec;
+
+	for (int i = 0; i < num_elements; i++)
+	{
+		vec.push_back(rand() % bits_size_elements);
+	}
+
+	std::sort(vec.begin(), vec.end());
+
+	for (int i = 0; i < num_elements; i++)
+	{
+		std::cout << vec[i];
+		std::cout << " ";
+	}
+}
+#elif SORTDESC
+void vectors_gen(int num_elements, int bits_size_elements) {
+	std::vector<int> vec;
+
+	for (int i = 0; i < num_elements; i++)
+	{
+		vec.push_back(rand() % bits_size_elements);
+	}
+
+	std::sort(vec.begin(), vec.end(), std::greater<int>());
+
+	for (int i = 0; i < num_elements; i++)
+	{
+		std::cout << vec[i];
+		std::cout << " ";
+	}
+}
+#endif
 
 int main(int argc, char** argv) {
 
