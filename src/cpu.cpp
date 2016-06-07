@@ -19,26 +19,26 @@
 #include <time.h>
 #include <chrono>
 
-void print(std::vector<int> h_vec) {
+void print(std::vector<uint> h_vec) {
 	std::cout << "\n";
-	for (int i = 0; i < h_vec.size(); i++) {
+	for (uint i = 0; i < h_vec.size(); i++) {
 		std::cout << h_vec[i] << " ";
 	}
 	std::cout << "\n";
 }
 
 int main(void) {
-	int num_of_segments;
-	int num_of_elements;
-	int i;
+	uint num_of_segments;
+	uint num_of_elements;
+	uint i;
 
 	scanf("%d", &num_of_segments);
-	std::vector<int> h_seg(num_of_segments + 1);
+	std::vector<uint> h_seg(num_of_segments + 1);
 	for (i = 0; i < num_of_segments + 1; i++)
 		scanf("%d", &h_seg[i]);
 
 	scanf("%d", &num_of_elements);
-	std::vector<int> h_vec(num_of_elements);
+	std::vector<uint> h_vec(num_of_elements);
 	for (i = 0; i < num_of_elements; i++)
 		scanf("%d", &h_vec[i]);
 

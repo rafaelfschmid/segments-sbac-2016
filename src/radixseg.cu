@@ -51,7 +51,7 @@ void cudaTest(cudaError_t error) {
 	}
 }
 
-void print(int* host_data, uint n) {
+void print(uint* host_data, uint n) {
 	std::cout << "\n";
 	for (uint i = 0; i < n; i++) {
 		std::cout << host_data[i] << " ";
@@ -68,15 +68,15 @@ void printSeg(int* host_data, uint num_seg, uint num_ele) {
 	std::cout << "\n";
 }
 
-int main(uint argc, char** argv) {
+int main(int argc, char** argv) {
 
-	uint num_of_segments;
-	uint num_of_elements;
+	int num_of_segments;
+	int num_of_elements;
 	uint i;
 
 	scanf("%d", &num_of_segments);
 	uint mem_size_seg = sizeof(uint) * (num_of_segments + 1);
-	uint *h_seg = (uint *) malloc(mem_size_seg);
+	int *h_seg = (int *) malloc(mem_size_seg);
 	for (i = 0; i < num_of_segments + 1; i++)
 		scanf("%d", &h_seg[i]);
 
@@ -93,7 +93,8 @@ int main(uint argc, char** argv) {
 	cudaEventCreate(&start);
 	cudaEventCreate(&stop);
 
-	uint *d_seg, *d_value, *d_value_out, *d_vec, *d_vec_out;
+	uint *d_value, *d_value_out, *d_vec, *d_vec_out;
+	int *d_seg;
 	void *d_temp = NULL;
 	size_t temp_bytes = 0;
 

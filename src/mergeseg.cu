@@ -43,7 +43,7 @@ void cudaTest(cudaError_t error) {
 	}
 }
 
-void print(int* host_data, uint n) {
+void print(uint* host_data, uint n) {
 	std::cout << "\n";
 	for (uint i = 0; i < n; i++) {
 		std::cout << host_data[i] << " ";
@@ -51,7 +51,7 @@ void print(int* host_data, uint n) {
 	std::cout << "\n";
 }
 
-void printSeg(int* host_data, uint num_seg, uint num_ele) {
+void printSeg(uint* host_data, uint num_seg, uint num_ele) {
 	std::cout << "\n";
 	for (uint i = 0; i < num_seg; i++) {
 		std::cout << host_data[i] << " ";
@@ -60,7 +60,7 @@ void printSeg(int* host_data, uint num_seg, uint num_ele) {
 	std::cout << "\n";
 }
 
-int main(uint argc, char** argv) {
+int main(int argc, char** argv) {
 
 	uint num_of_segments;
 	uint num_of_elements;

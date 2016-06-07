@@ -30,6 +30,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include <chrono>
 
 #ifndef ELAPSED_TIME
@@ -73,25 +74,19 @@ int main(int argc, char** argv) {
 		h_value[i] = i;
 	}
 
-	uint *h_norm = (uint *) malloc(mem_size_seg);
-	uint previousMax = 0;
+	uint maxValue = 0;
+	for (i = 0; i < num_of_elements; i++) {
+		if(maxValue < h_vec[i])
+			maxValue = h_vec[i];
+	}
+
+	uint mostSignificantBit = (uint)log2((double)maxValue) + 1;
+
 	for (i = 0; i < num_of_segments; i++) {
-		uint currentMin = h_vec[h_seg[i]];
-		uint currentMax = h_vec[h_seg[i]];
-
-		for (uint j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
-			if (h_vec[j] < currentMin)
-				currentMin = h_vec[j];
-			else if (h_vec[j] > currentMax)
-				currentMax = h_vec[j];
-		}
-
-		uint normalize = previousMax - currentMin;
-		h_norm[i] = ++normalize;
 		for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
-			h_vec[j] += normalize;
+			uint segIndex = i << mostSignificantBit;
+			h_vec[j] += segIndex;
 		}
-		previousMax = currentMax + normalize;
 	}
 
 	cudaEvent_t start, stop;
@@ -134,8 +129,9 @@ int main(int argc, char** argv) {
 	cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost);
 
 	for (i = 0; i < num_of_segments; i++) {
-		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
-			h_vec[j] -= h_norm[i];
+		for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
+			uint segIndex = i << mostSignificantBit;
+			h_vec[j] -= segIndex;
 		}
 	}
 
@@ -150,7 +146,6 @@ int main(int argc, char** argv) {
 
 	free(h_seg);
 	free(h_vec);
-	free(h_norm);
 	free(h_value);
 
 	return 0;

@@ -3,7 +3,7 @@ out=$2 # time files dir
 
 ./scripts/exec.sh fixmergemgpu.exe $in > $out/fixmergemgpu.time
 ./scripts/exec.sh fixsort/bitonicseg/bitonicseg.exe $in > $out/bitonicseg.time
-./scripts/exec.sh fixpreprocess.exe $in > $out/fixpreprocess.time
+./scripts/exec.sh fixpass.exe $in > $out/fixpass.time
 ./scripts/exec.sh mergeseg.exe $in > $out/mergeseg.time
 ./scripts/exec.sh radixseg.exe $in > $out/radixseg.time
 ./scripts/exec.sh fixcub.exe $in > $out/fixcub.time

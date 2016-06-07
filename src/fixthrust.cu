@@ -44,25 +44,19 @@ int main(void) {
 	for (i = 0; i < num_of_elements; i++)
 		scanf("%d", &h_vec[i]);
 
-	thrust::host_vector<uint> h_norm(num_of_segments);
-	uint previousMax = 0;
+	uint maxValue = 0;
+	for (i = 0; i < num_of_elements; i++) {
+		if(maxValue < h_vec[i])
+			maxValue = h_vec[i];
+	}
+
+	uint mostSignificantBit = (uint)log2((double)maxValue) + 1;
+
 	for (i = 0; i < num_of_segments; i++) {
-		uint currentMin = h_vec[h_seg[i]];
-		uint currentMax = h_vec[h_seg[i]];
-
-		for (uint j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
-			if (h_vec[j] < currentMin)
-				currentMin = h_vec[j];
-			else if (h_vec[j] > currentMax)
-				currentMax = h_vec[j];
-		}
-
-		uint normalize = previousMax - currentMin;
-		h_norm[i] = ++normalize;
 		for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
-			h_vec[j] += normalize;
+			uint segIndex = i << mostSignificantBit;
+			h_vec[j] += segIndex;
 		}
-		previousMax = currentMax + normalize;
 	}
 
 	thrust::device_vector<uint> d_vec(num_of_elements);
@@ -91,7 +85,8 @@ int main(void) {
 
 	for (i = 0; i < num_of_segments; i++) {
 		for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
-			h_vec[j] -= h_norm[i];
+			uint segIndex = i << mostSignificantBit;
+			h_vec[j] -= segIndex;
 		}
 	}
 
