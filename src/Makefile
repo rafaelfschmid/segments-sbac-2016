@@ -5,7 +5,7 @@
 #SEGS=1048576
 #SEGS=32768
 
-all: cpu mergeseg radixseg fixcub fixpass fixthrust fixmergemgpu 
+all: cpu mergeseg radixseg fixcub fixpass fixthrust fixmergemgpu fixbitonic fixmerge fixoddeven fixquick bitonicseg 
 #bitonicsort mergesort oddevensort quicksort
 
 generate: gen_equal.cpp gen_diff.cpp
@@ -40,7 +40,7 @@ radixseg: radixseg.cu
 fixcub: fixcub.cu
 	nvcc -gencode arch=compute_20,code=sm_20 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_35,code=sm_35 -gencode arch=compute_37,code=sm_37 -gencode arch=compute_50,code=sm_50 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_52,code=compute_52 fixcub.cu -o fixcub.exe -I"../lib" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME) -DEXECUTIONS=$(EXECS)
  
-fixpreprocess: fixpass.cu
+fixpass: fixpass.cu
 	nvcc -O3 -gencode arch=compute_20,code=sm_20 -gencode arch=compute_30,code=sm_30 -gencode arch=compute_35,code=sm_35 -gencode arch=compute_37,code=sm_37 -gencode arch=compute_50,code=sm_50 -gencode arch=compute_52,code=sm_52 -gencode arch=compute_52,code=compute_52 fixpass.cu -o fixpass.exe -I"../lib" -std=c++11 --expt-extended-lambda -lcuda -DELAPSED_TIME=$(TIME) -DEXECUTIONS=$(EXECS)
 
 fixthrust: fixthrust.cu
