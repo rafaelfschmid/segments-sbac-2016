@@ -42,8 +42,6 @@ int main(void) {
 	for (i = 0; i < num_of_elements; i++)
 		scanf("%d", &h_vec[i]);
 
-	//print(h_seg);
-	//print(h_vec);
 	std::chrono::high_resolution_clock::time_point start =
 				std::chrono::high_resolution_clock::now();
 	for (i = 0; i < num_of_segments; ++i) {
