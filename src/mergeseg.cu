@@ -43,44 +43,44 @@ void cudaTest(cudaError_t error) {
 	}
 }
 
-void print(int* host_data, int n) {
+void print(int* host_data, uint n) {
 	std::cout << "\n";
-	for (int i = 0; i < n; i++) {
+	for (uint i = 0; i < n; i++) {
 		std::cout << host_data[i] << " ";
 	}
 	std::cout << "\n";
 }
 
-void printSeg(int* host_data, int num_seg, int num_ele) {
+void printSeg(int* host_data, uint num_seg, uint num_ele) {
 	std::cout << "\n";
-	for (int i = 0; i < num_seg; i++) {
+	for (uint i = 0; i < num_seg; i++) {
 		std::cout << host_data[i] << " ";
 	}
 	std::cout << num_ele << " ";
 	std::cout << "\n";
 }
 
-int main(int argc, char** argv) {
+int main(uint argc, char** argv) {
 
-	int num_of_segments;
-	int num_of_elements;
-	int i;
+	uint num_of_segments;
+	uint num_of_elements;
+	uint i;
 
 	scanf("%d", &num_of_segments);
-	int mem_size_seg = sizeof(int) * (num_of_segments);
-	int *h_seg = (int *) malloc(mem_size_seg);
+	uint mem_size_seg = sizeof(uint) * (num_of_segments);
+	uint *h_seg = (uint *) malloc(mem_size_seg);
 	for (i = 0; i < num_of_segments; i++)
 		scanf("%d", &h_seg[i]);
 
 	/*
 	 * Different from other algorithms this do not need the last segment element
 	 */
-	int aux;
+	uint aux;
 	scanf("%d", &aux);
 
 	scanf("%d", &num_of_elements);
-	int mem_size_vec = sizeof(int) * num_of_elements;
-	int *h_vec = (int *) malloc(mem_size_vec);
+	uint mem_size_vec = sizeof(uint) * num_of_elements;
+	uint *h_vec = (uint *) malloc(mem_size_vec);
 	for (i = 0; i < num_of_elements; i++)
 		scanf("%d", &h_vec[i]);
 
@@ -88,13 +88,13 @@ int main(int argc, char** argv) {
 	cudaEventCreate(&start);
 	cudaEventCreate(&stop);
 
-	int *d_seg, *d_vec, *d_index_resp;
+	uint *d_seg, *d_vec, *d_index_resp;
 
 	cudaTest(cudaMalloc((void **) &d_seg, mem_size_seg));
 	cudaTest(cudaMalloc((void **) &d_vec, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_index_resp, mem_size_vec));
 
-	for (int j = 0; j < EXECUTIONS; j++) {
+	for (uint j = 0; j < EXECUTIONS; j++) {
 
 		// copy host memory to device
 		cudaTest(cudaMemcpy(d_seg, h_seg, mem_size_seg, cudaMemcpyHostToDevice));
@@ -104,11 +104,9 @@ int main(int argc, char** argv) {
 		cudaEventRecord(start);
 		mgpu::standard_context_t context;
 		mgpu::segmented_sort(d_vec, d_index_resp, num_of_elements, d_seg,
-				num_of_segments, mgpu::less_t<int>(), context);
+				num_of_segments, mgpu::less_t<uint>(), context);
 		cudaEventRecord(stop);
 		} catch (mgpu::cuda_exception_t ex) {
-			//printf("Kernel error: %s\n", cudaGetErrorString(ex.result));
-
 			cudaError_t errSync = cudaGetLastError();
 			cudaError_t errAsync = cudaDeviceSynchronize();
 			if (errSync != cudaSuccess)
@@ -148,27 +146,27 @@ int main(int argc, char** argv) {
  * SEGMENTED SORT FUNCIONANDO
  *
  *
- int n = atoi(argv[1]);
- int m = atoi(argv[2]);
- int num_segments = n / m;
+ uint n = atoi(argv[1]);
+ uint m = atoi(argv[2]);
+ uint num_segments = n / m;
  mgpu::standard_context_t context;
- rand_key<int> func(m);
+ rand_key<uint> func(m);
 
- mgpu::mem_t<int> segs = mgpu::fill_function(func, num_segments, context);
- //mgpu::mem_t<int> segs = mgpu::fill_random(0, n - 1, num_segments, true, context);
- std::vector<int> segs_host = mgpu::from_mem(segs);
- mgpu::mem_t<int> data = mgpu::fill_random(0, pow(2, NUMBER_BITS_SIZE), n,
+ mgpu::mem_t<uint> segs = mgpu::fill_function(func, num_segments, context);
+ //mgpu::mem_t<uint> segs = mgpu::fill_random(0, n - 1, num_segments, true, context);
+ std::vector<uint> segs_host = mgpu::from_mem(segs);
+ mgpu::mem_t<uint> data = mgpu::fill_random(0, pow(2, NUMBER_BITS_SIZE), n,
  false, context);
- mgpu::mem_t<int> values(n, context);
- std::vector<int> data_host = mgpu::from_mem(data);
+ mgpu::mem_t<uint> values(n, context);
+ std::vector<uint> data_host = mgpu::from_mem(data);
 
  //	print(segs_host); print(data_host);
 
  mgpu::segmented_sort(data.data(), values.data(), n, segs.data(),
- num_segments, mgpu::less_t<int>(), context);
+ num_segments, mgpu::less_t<uint>(), context);
 
- std::vector<int> sorted = from_mem(data);
- std::vector<int> indices_host = from_mem(values);
+ std::vector<uint> sorted = from_mem(data);
+ std::vector<uint> indices_host = from_mem(values);
 
  std::cout << "\n";
  //print(segs_host);

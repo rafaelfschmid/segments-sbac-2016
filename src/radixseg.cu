@@ -51,39 +51,39 @@ void cudaTest(cudaError_t error) {
 	}
 }
 
-void print(int* host_data, int n) {
+void print(int* host_data, uint n) {
 	std::cout << "\n";
-	for (int i = 0; i < n; i++) {
+	for (uint i = 0; i < n; i++) {
 		std::cout << host_data[i] << " ";
 	}
 	std::cout << "\n";
 }
 
-void printSeg(int* host_data, int num_seg, int num_ele) {
+void printSeg(int* host_data, uint num_seg, uint num_ele) {
 	std::cout << "\n";
-	for (int i = 0; i < num_seg; i++) {
+	for (uint i = 0; i < num_seg; i++) {
 		std::cout << host_data[i] << " ";
 	}
 	std::cout << num_ele << " ";
 	std::cout << "\n";
 }
 
-int main(int argc, char** argv) {
+int main(uint argc, char** argv) {
 
-	int num_of_segments;
-	int num_of_elements;
-	int i;
+	uint num_of_segments;
+	uint num_of_elements;
+	uint i;
 
 	scanf("%d", &num_of_segments);
-	int mem_size_seg = sizeof(int) * (num_of_segments + 1);
-	int *h_seg = (int *) malloc(mem_size_seg);
+	uint mem_size_seg = sizeof(uint) * (num_of_segments + 1);
+	uint *h_seg = (uint *) malloc(mem_size_seg);
 	for (i = 0; i < num_of_segments + 1; i++)
 		scanf("%d", &h_seg[i]);
 
 	scanf("%d", &num_of_elements);
-	int mem_size_vec = sizeof(int) * num_of_elements;
-	int *h_vec = (int *) malloc(mem_size_vec);
-	int *h_value = (int *) malloc(mem_size_vec);
+	uint mem_size_vec = sizeof(uint) * num_of_elements;
+	uint *h_vec = (uint *) malloc(mem_size_vec);
+	uint *h_value = (uint *) malloc(mem_size_vec);
 	for (i = 0; i < num_of_elements; i++) {
 		scanf("%d", &h_vec[i]);
 		h_value[i] = i;
@@ -93,7 +93,7 @@ int main(int argc, char** argv) {
 	cudaEventCreate(&start);
 	cudaEventCreate(&stop);
 
-	int *d_seg, *d_value, *d_value_out, *d_vec, *d_vec_out;
+	uint *d_seg, *d_value, *d_value_out, *d_vec, *d_vec_out;
 	void *d_temp = NULL;
 	size_t temp_bytes = 0;
 
@@ -103,7 +103,7 @@ int main(int argc, char** argv) {
 	cudaTest(cudaMalloc((void **) &d_vec_out, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_value_out, mem_size_vec));
 
-	for (int i = 0; i < EXECUTIONS; i++) {
+	for (uint i = 0; i < EXECUTIONS; i++) {
 
 		// copy host memory to device
 		cudaTest(cudaMemcpy(d_seg, h_seg, mem_size_seg, cudaMemcpyHostToDevice));
@@ -164,9 +164,9 @@ int main(int argc, char** argv) {
  * SEGMENTED SORT FUNCIONANDO
  *
  *
- int n = atoi(argv[1]);
- int m = atoi(argv[2]);
- int num_segments = n / m;
+ uint n = atoi(argv[1]);
+ uint m = atoi(argv[2]);
+ uint num_segments = n / m;
  mgpu::standard_context_t context;
  rand_key<int> func(m);
 

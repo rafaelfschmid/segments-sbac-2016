@@ -24,6 +24,8 @@
 #include <iostream>
 #include <chrono>
 
+typedef unsigned int uint;
+
 #ifndef ELAPSED_TIME
 #define ELAPSED_TIME 0
 #endif
@@ -36,50 +38,50 @@ void cudaTest(cudaError_t error) {
 	}
 }
 
-void print(int* host_data, int n) {
+void print(uint* host_data, uint n) {
 	std::cout << "\n";
-	for (int i = 0; i < n; i++) {
+	for (uint i = 0; i < n; i++) {
 		std::cout << host_data[i] << " ";
 	}
 	std::cout << "\n";
 }
 
 int main(void) {
-	int num_of_segments;
-	int num_of_elements;
-	int i;
+	uint num_of_segments;
+	uint num_of_elements;
+	uint i;
 
 	scanf("%d", &num_of_segments);
-	int mem_size_seg = sizeof(int) * (num_of_segments + 1);
-	int *h_seg = (int *) malloc(mem_size_seg);
+	uint mem_size_seg = sizeof(uint) * (num_of_segments + 1);
+	uint *h_seg = (uint *) malloc(mem_size_seg);
 	for (i = 0; i < num_of_segments + 1; i++)
 		scanf("%d", &h_seg[i]);
 
 	scanf("%d", &num_of_elements);
-	int mem_size_vec = sizeof(int) * num_of_elements;
-	int *h_vec = (int *) malloc(mem_size_vec);
-	int *h_value = (int *) malloc(mem_size_vec);
+	int mem_size_vec = sizeof(uint) * num_of_elements;
+	uint *h_vec = (uint *) malloc(mem_size_vec);
+	uint *h_value = (uint *) malloc(mem_size_vec);
 	for (i = 0; i < num_of_elements; i++) {
 		scanf("%d", &h_vec[i]);
 		h_value[i] = i;
 	}
 
-	int *h_norm = (int *) malloc(mem_size_seg);
-	int previousMax = 0;
+	uint *h_norm = (uint *) malloc(mem_size_seg);
+	uint previousMax = 0;
 	for (i = 0; i < num_of_segments; i++) {
-		int currentMin = h_vec[h_seg[i]];
-		int currentMax = h_vec[h_seg[i]];
+		uint currentMin = h_vec[h_seg[i]];
+		uint currentMax = h_vec[h_seg[i]];
 
-		for (int j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
+		for (uint j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
 			if (h_vec[j] < currentMin)
 				currentMin = h_vec[j];
 			else if (h_vec[j] > currentMax)
 				currentMax = h_vec[j];
 		}
 
-		int normalize = previousMax - currentMin;
+		uint normalize = previousMax - currentMin;
 		h_norm[i] = ++normalize;
-		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
+		for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
 			h_vec[j] += normalize;
 		}
 		previousMax = currentMax + normalize;
@@ -89,7 +91,7 @@ int main(void) {
 	cudaEventCreate(&start);
 	cudaEventCreate(&stop);
 
-	int *d_value, *d_value_out, *d_vec, *d_vec_out;
+	uint *d_value, *d_value_out, *d_vec, *d_vec_out;
 	void *d_temp = NULL;
 	size_t temp_bytes = 0;
 
@@ -98,7 +100,7 @@ int main(void) {
 	cudaTest(cudaMalloc((void **) &d_vec_out, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_value_out, mem_size_vec));
 
-	for (int i = 0; i < EXECUTIONS; i++) {
+	for (uint i = 0; i < EXECUTIONS; i++) {
 
 		cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
 		cudaTest(cudaMemcpy(d_value, h_value, mem_size_vec, cudaMemcpyHostToDevice));
@@ -133,7 +135,7 @@ int main(void) {
 	cudaMemcpy(h_vec, d_vec_out, mem_size_vec, cudaMemcpyDeviceToHost);
 
 	for (i = 0; i < num_of_segments; i++) {
-		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
+		for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
 			h_vec[j] -= h_norm[i];
 		}
 	}

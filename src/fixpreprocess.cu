@@ -36,29 +36,29 @@ void cudaTest(cudaError_t error) {
 	}
 }
 
-void print(int* host_data, int n) {
+void print(uint* host_data, uint n) {
 	std::cout << "\n";
-	for (int i = 0; i < n; i++) {
+	for (uint i = 0; i < n; i++) {
 		std::cout << host_data[i] << " ";
 	}
 	std::cout << "\n";
 }
 
 int main(void) {
-	int num_of_segments;
-	int num_of_elements;
-	int i;
+	uint num_of_segments;
+	uint num_of_elements;
+	uint i;
 
 	scanf("%d", &num_of_segments);
-	int mem_size_seg = sizeof(int) * (num_of_segments + 1);
-	int *h_seg = (int *) malloc(mem_size_seg);
+	uint mem_size_seg = sizeof(uint) * (num_of_segments + 1);
+	uint *h_seg = (uint *) malloc(mem_size_seg);
 	for (i = 0; i < num_of_segments + 1; i++)
 		scanf("%d", &h_seg[i]);
 
 	scanf("%d", &num_of_elements);
-	int mem_size_vec = sizeof(int) * num_of_elements;
-	int *h_vec_aux = (int *) malloc(mem_size_vec);
-	int *h_value = (int *) malloc(mem_size_vec);
+	uint mem_size_vec = sizeof(uint) * num_of_elements;
+	uint *h_vec_aux = (uint *) malloc(mem_size_vec);
+	uint *h_value = (uint *) malloc(mem_size_vec);
 	for (i = 0; i < num_of_elements; i++) {
 		scanf("%d", &h_vec_aux[i]);
 		h_value[i] = i;
@@ -68,7 +68,7 @@ int main(void) {
 	cudaEventCreate(&start);
 	cudaEventCreate(&stop);
 
-	int *d_value, *d_value_out, *d_vec, *d_vec_out;
+	uint *d_value, *d_value_out, *d_vec, *d_vec_out;
 	void *d_temp = NULL;
 	size_t temp_bytes = 0;
 
@@ -77,35 +77,35 @@ int main(void) {
 	cudaTest(cudaMalloc((void **) &d_vec_out, mem_size_vec));
 	cudaTest(cudaMalloc((void **) &d_value_out, mem_size_vec));
 
-	int *h_vec = (int *) malloc(mem_size_vec);
-	int *h_norm = (int *) malloc(mem_size_seg);
-	for (int k = 0; k < EXECUTIONS; k++) {
+	uint *h_vec = (uint *) malloc(mem_size_vec);
+	uint *h_norm = (uint *) malloc(mem_size_seg);
+	for (uint k = 0; k < EXECUTIONS; k++) {
 
-		for(int j = 0; j < num_of_elements; j++)
+		for(uint j = 0; j < num_of_elements; j++)
 			h_vec[j] = h_vec_aux[j];
 
-		std::chrono::high_resolution_clock::time_point start1 =
+		std::chrono::high_resolution_clock::time_pouint start1 =
 				std::chrono::high_resolution_clock::now();
-		int previousMax = 0;
+		uint previousMax = 0;
 		for (i = 0; i < num_of_segments; i++) {
-			int currentMin = h_vec[h_seg[i]];
-			int currentMax = h_vec[h_seg[i]];
+			uint currentMin = h_vec[h_seg[i]];
+			uint currentMax = h_vec[h_seg[i]];
 
-			for (int j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
+			for (uint j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
 				if (h_vec[j] < currentMin)
 					currentMin = h_vec[j];
 				else if (h_vec[j] > currentMax)
 					currentMax = h_vec[j];
 			}
 
-			int normalize = previousMax - currentMin;
+			uint normalize = previousMax - currentMin;
 			h_norm[i] = ++normalize;
-			for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
+			for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
 				h_vec[j] += normalize;
 			}
 			previousMax = currentMax + normalize;
 		}
-		std::chrono::high_resolution_clock::time_point stop1 =
+		std::chrono::high_resolution_clock::time_pouint stop1 =
 				std::chrono::high_resolution_clock::now();
 		std::chrono::duration<double> time_span = std::chrono::duration_cast<
 				std::chrono::duration<double>>(stop1 - start1);
@@ -132,7 +132,7 @@ int main(void) {
 
 		start1 = std::chrono::high_resolution_clock::now();
 		for (i = 0; i < num_of_segments; i++) {
-			for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
+			for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
 				h_vec[j] -= h_norm[i];
 			}
 		}
