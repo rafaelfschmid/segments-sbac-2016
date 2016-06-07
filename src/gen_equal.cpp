@@ -7,7 +7,7 @@
 #include <vector>
 
 #ifndef EXP_BITS_SIZE
-#define EXP_BITS_SIZE 10
+#define EXP_BITS_SIZE 12
 #endif
 
 void segments_gen(int num_segments, int size_segment) {
