@@ -45,7 +45,7 @@ int main(int argc, char **argv) {
 
 				getline(input, line);
 
-				if (seg >= SEGMENTS) {
+				if (seg >= SEGMENTS || seg >= (size/2) ) {
 					break;
 				}
 

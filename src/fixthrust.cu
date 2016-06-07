@@ -21,53 +21,53 @@
 #define ELAPSED_TIME 0
 #endif
 
-void print(thrust::host_vector<int> h_vec) {
+void print(thrust::host_vector<uint> h_vec) {
 	std::cout << "\n";
-	for (int i = 0; i < h_vec.size(); i++) {
+	for (uint i = 0; i < h_vec.size(); i++) {
 		std::cout << h_vec[i] << " ";
 	}
 	std::cout << "\n";
 }
 
 int main(void) {
-	int num_of_segments;
-	int num_of_elements;
-	int i;
+	uint num_of_segments;
+	uint num_of_elements;
+	uint i;
 
 	scanf("%d", &num_of_segments);
-	thrust::host_vector<int> h_seg(num_of_segments + 1);
+	thrust::host_vector<uint> h_seg(num_of_segments + 1);
 	for (i = 0; i < num_of_segments + 1; i++)
 		scanf("%d", &h_seg[i]);
 
 	scanf("%d", &num_of_elements);
-	thrust::host_vector<int> h_vec(num_of_elements);
+	thrust::host_vector<uint> h_vec(num_of_elements);
 	for (i = 0; i < num_of_elements; i++)
 		scanf("%d", &h_vec[i]);
 
-	thrust::host_vector<int> h_norm(num_of_segments);
-	int previousMax = 0;
+	thrust::host_vector<uint> h_norm(num_of_segments);
+	uint previousMax = 0;
 	for (i = 0; i < num_of_segments; i++) {
-		int currentMin = h_vec[h_seg[i]];
-		int currentMax = h_vec[h_seg[i]];
+		uint currentMin = h_vec[h_seg[i]];
+		uint currentMax = h_vec[h_seg[i]];
 
-		for (int j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
+		for (uint j = h_seg[i] + 1; j < h_seg[i + 1]; j++) {
 			if (h_vec[j] < currentMin)
 				currentMin = h_vec[j];
 			else if (h_vec[j] > currentMax)
 				currentMax = h_vec[j];
 		}
 
-		int normalize = previousMax - currentMin;
+		uint normalize = previousMax - currentMin;
 		h_norm[i] = ++normalize;
-		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
+		for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
 			h_vec[j] += normalize;
 		}
 		previousMax = currentMax + normalize;
 	}
 
-	thrust::device_vector<int> d_vec(num_of_elements);
+	thrust::device_vector<uint> d_vec(num_of_elements);
 
-	for (int i = 0; i < EXECUTIONS; i++) {
+	for (uint i = 0; i < EXECUTIONS; i++) {
 		cudaEvent_t start, stop;
 		cudaEventCreate(&start);
 		cudaEventCreate(&stop);
@@ -90,7 +90,7 @@ int main(void) {
 	thrust::copy(d_vec.begin(), d_vec.end(), h_vec.begin());
 
 	for (i = 0; i < num_of_segments; i++) {
-		for (int j = h_seg[i]; j < h_seg[i + 1]; j++) {
+		for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
 			h_vec[j] -= h_norm[i];
 		}
 	}

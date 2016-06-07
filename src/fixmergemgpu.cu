@@ -56,13 +56,13 @@ int main(int argc, char **argv) {
 	uint i;
 
 	scanf("%d", &num_of_segments);
-	uint mem_size_seg = sizeof(int) * (num_of_segments + 1);
+	uint mem_size_seg = sizeof(uint) * (num_of_segments + 1);
 	uint *h_seg = (uint *) malloc(mem_size_seg);
 	for (i = 0; i < num_of_segments + 1; i++)
 		scanf("%d", &h_seg[i]);
 
 	scanf("%d", &num_of_elements);
-	uint mem_size_vec = sizeof(int) * num_of_elements;
+	uint mem_size_vec = sizeof(uint) * num_of_elements;
 	uint *h_vec = (uint *) malloc(mem_size_vec);
 	for (i = 0; i < num_of_elements; i++) {
 		scanf("%d", &h_vec[i]);
