@@ -104,9 +104,13 @@ int main(void) {
 				for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
 					h_vec[j] += normalize;
 				}
-				currentMax += normalize;
 			}
-			previousMax = currentMax;
+			else
+			{
+				h_norm[i] = 0;
+				normalize = 0;
+			}
+			previousMax = currentMax + normalize;
 		}
 		std::chrono::high_resolution_clock::time_point stop1 =
 				std::chrono::high_resolution_clock::now();
