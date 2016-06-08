@@ -94,18 +94,19 @@ int main(int argc, char **argv) {
 	for (int i = 0; i < EXECUTIONS; i++) {
 
 		cudaTest(cudaMemcpy(d_vec, h_vec, mem_size_vec, cudaMemcpyHostToDevice));
-
-		cudaEventRecord(start);
-		mgpu::standard_context_t context;
-		mgpu::mergesort(d_vec, num_of_elements, mgpu::less_t<int>(), context);
-		cudaEventRecord(stop);
-
-		cudaError_t errSync = cudaGetLastError();
-		cudaError_t errAsync = cudaDeviceSynchronize();
-		if (errSync != cudaSuccess)
-			printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
-		if (errAsync != cudaSuccess)
-			printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+		try {
+			cudaEventRecord(start);
+			mgpu::standard_context_t context;
+			mgpu::mergesort(d_vec, num_of_elements, mgpu::less_t<int>(), context);
+			cudaEventRecord(stop);
+		} catch (mgpu::cuda_exception_t ex) {
+                        cudaError_t errSync = cudaGetLastError();
+                        cudaError_t errAsync = cudaDeviceSynchronize();
+                        if (errSync != cudaSuccess)
+                                printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
+                        if (errAsync != cudaSuccess)
+                                printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+                }
 
 		if (ELAPSED_TIME == 1) {
 			cudaEventSynchronize(stop);
@@ -129,7 +130,9 @@ int main(int argc, char **argv) {
 	cudaFree(d_vec);
 
 	if (ELAPSED_TIME != 1) {
-		print(h_vec, num_of_elements);
+//		print(h_vec, num_of_elements);
+		print(h_vec, 30);
+
 	}
 
 	free(h_seg);
