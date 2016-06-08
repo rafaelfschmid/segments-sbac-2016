@@ -97,7 +97,7 @@ int main(int argc, char **argv) {
 		try {
 			cudaEventRecord(start);
 			mgpu::standard_context_t context;
-			mgpu::mergesort(d_vec, num_of_elements, mgpu::less_t<int>(), context);
+			mgpu::mergesort(d_vec, num_of_elements, mgpu::less_t<uint>(), context);
 			cudaEventRecord(stop);
 		} catch (mgpu::cuda_exception_t ex) {
                         cudaError_t errSync = cudaGetLastError();
