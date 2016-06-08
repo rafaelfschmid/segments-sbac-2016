@@ -100,13 +100,13 @@ int main(int argc, char **argv) {
 			mgpu::mergesort(d_vec, num_of_elements, mgpu::less_t<uint>(), context);
 			cudaEventRecord(stop);
 		} catch (mgpu::cuda_exception_t ex) {
-                        cudaError_t errSync = cudaGetLastError();
-                        cudaError_t errAsync = cudaDeviceSynchronize();
-                        if (errSync != cudaSuccess)
-                                printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
-                        if (errAsync != cudaSuccess)
-                                printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
-                }
+				cudaError_t errSync = cudaGetLastError();
+				cudaError_t errAsync = cudaDeviceSynchronize();
+				if (errSync != cudaSuccess)
+						printf("Sync kernel error: %s\n", cudaGetErrorString(errSync));
+				if (errAsync != cudaSuccess)
+						printf("Async kernel error: %s\n", cudaGetErrorString(errAsync));
+		}
 
 		if (ELAPSED_TIME == 1) {
 			cudaEventSynchronize(stop);

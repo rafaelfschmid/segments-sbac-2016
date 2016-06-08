@@ -84,7 +84,7 @@ int main(void) {
 		for(uint j = 0; j < num_of_elements; j++)
 			h_vec[j] = h_vec_aux[j];
 
-		std::chrono::high_resolution_clock::time_pouint start1 =
+		std::chrono::high_resolution_clock::time_point start1 =
 				std::chrono::high_resolution_clock::now();
 		uint previousMax = 0;
 		for (i = 0; i < num_of_segments; i++) {
@@ -98,14 +98,17 @@ int main(void) {
 					currentMax = h_vec[j];
 			}
 
-			uint normalize = previousMax - currentMin;
-			h_norm[i] = ++normalize;
-			for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
-				h_vec[j] += normalize;
+			int normalize = previousMax - currentMin;
+			if(normalize > 0) {
+				h_norm[i] = ++normalize;
+				for (uint j = h_seg[i]; j < h_seg[i + 1]; j++) {
+					h_vec[j] += normalize;
+				}
+				currentMax += normalize;
 			}
-			previousMax = currentMax + normalize;
+			previousMax = currentMax;
 		}
-		std::chrono::high_resolution_clock::time_pouint stop1 =
+		std::chrono::high_resolution_clock::time_point stop1 =
 				std::chrono::high_resolution_clock::now();
 		std::chrono::duration<double> time_span = std::chrono::duration_cast<
 				std::chrono::duration<double>>(stop1 - start1);
