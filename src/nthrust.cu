@@ -44,28 +44,37 @@ int main(void) {
 	for (i = 0; i < num_of_elements; i++)
 		scanf("%d", &h_vec[i]);
 
-	//print(h_seg); print(h_vec);
+	thrust::device_vector<uint> d_vec(num_of_elements);
 
-	cudaEvent_t start, stop;
-	cudaEventCreate(&start);
-	cudaEventCreate(&stop);
-	thrust::device_vector<int> d_vec = h_vec;
+	for (uint i = 0; i < EXECUTIONS; i++) {
+		cudaEvent_t start, stop;
+		cudaEventCreate(&start);
+		cudaEventCreate(&stop);
 
-	cudaEventRecord(start);
-	for (int i = 0; i < num_of_segments; i++) {
-		thrust::sort(d_vec.begin() + h_seg[i], d_vec.begin() + h_seg[i + 1]);
+		thrust::copy(h_vec.begin(), h_vec.end(), d_vec.begin());
+
+		cudaEventRecord(start);
+		for (int i = 0; i < num_of_segments; i++) {
+			thrust::sort(d_vec.begin() + h_seg[i],
+					d_vec.begin() + h_seg[i + 1]);
+		}
+		cudaEventRecord(stop);
+
+		if (ELAPSED_TIME == 1) {
+			cudaEventSynchronize(stop);
+			float milliseconds = 0;
+			cudaEventElapsedTime(&milliseconds, start, stop);
+			std::cout << milliseconds << "\n";
+		}
+
+		cudaDeviceSynchronize();
 	}
-	cudaEventRecord(stop);
 
 	thrust::copy(d_vec.begin(), d_vec.end(), h_vec.begin());
 
-	if (ELAPSED_TIME == 1) {
-		cudaEventSynchronize(stop);
-		float milliseconds = 0;
-		cudaEventElapsedTime(&milliseconds, start, stop);
-		std::cout << milliseconds << "\n";
-	} else
+	if (ELAPSED_TIME != 1) {
 		print(h_vec);
+	}
 
 	return 0;
 }
