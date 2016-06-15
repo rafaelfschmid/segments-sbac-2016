@@ -16,7 +16,7 @@ void segments_gen(int num_segments, int size_segment) {
 }
 
 #ifdef RAND
-void vectors_gen(int num_elements, int bits_size_elements) {
+void vectors_gen(int num_elements, int bits_size_elements, int number_of_segments = 0, int segment_size = 0) {
 
 	for (int i = 0; i < num_elements; i++)
 	{
@@ -24,8 +24,40 @@ void vectors_gen(int num_elements, int bits_size_elements) {
 		std::cout << " ";
 	}
 }
+#elif RANDMINMAX
+void vectors_gen(int num_elements, int bits_size_elements, int number_of_segments, int segment_size) {
+	std::vector<int> vecTotal;
+
+	for(int j = 0; j < number_of_segments; j++) {
+		std::vector<int> vec;
+
+		vec.push_back(0);
+		vec.push_back(bits_size_elements-1);
+
+		for (int i = 2; i < segment_size; i++)
+		{
+			vec.push_back(rand() % bits_size_elements);
+		}
+
+		for (int i = 0; i < segment_size; i++)
+		{
+			int index = rand() % segment_size;
+			int aux = vec[i];
+			vec[i] = vec[index];
+			vec[index] = aux;
+		}
+
+		vecTotal.insert(vecTotal.end(), vec.begin(), vec.end());
+	}
+
+	for (int i = 0; i < num_elements; i++)
+	{
+		std::cout << vecTotal[i];
+		std::cout << " ";
+	}
+}
 #elif SORTASC
-void vectors_gen(int num_elements, int bits_size_elements) {
+void vectors_gen(int num_elements, int bits_size_elements, int number_of_segments = 0, int segment_size = 0) {
 	std::vector<int> vec;
 
 	for (int i = 0; i < num_elements; i++)
@@ -42,7 +74,7 @@ void vectors_gen(int num_elements, int bits_size_elements) {
 	}
 }
 #elif SORTDESC
-void vectors_gen(int num_elements, int bits_size_elements) {
+void vectors_gen(int num_elements, int bits_size_elements, int number_of_segments = 0, int segment_size = 0) {
 	std::vector<int> vec;
 
 	for (int i = 0; i < num_elements; i++)
@@ -78,7 +110,7 @@ int main(int argc, char** argv) {
 	printf("\n");
 
 	printf("%d\n", number_of_elements);
-	vectors_gen(number_of_elements, pow(2, EXP_BITS_SIZE));
+	vectors_gen(number_of_elements, pow(2, EXP_BITS_SIZE), number_of_segments, size_of_segments);
 	printf("\n");
 
 	return 0;
