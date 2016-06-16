@@ -2452,12 +2452,6 @@
 102.508
 102.299
 102.704
-Stack allocation error!
-Ringbuf:
-	 head = 25538
-	 tail = 25536
-	count = 25538
-	  max = 25538
 102.757
 102.62
  
