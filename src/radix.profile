@@ -1,0 +1,3 @@
+
+
+./radixseg.exe < test.txt
