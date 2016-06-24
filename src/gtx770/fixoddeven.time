@@ -1,5313 +1,3003 @@
 1
 32768
-Sync kernel error: invalid device function
-0.172256
-Sync kernel error: invalid device function
-0.135168
-Sync kernel error: invalid device function
-0.131872
-Sync kernel error: invalid device function
-0.131712
-Sync kernel error: invalid device function
-0.132352
-Sync kernel error: invalid device function
-0.132736
-Sync kernel error: invalid device function
-0.13184
-Sync kernel error: invalid device function
-0.132032
-Sync kernel error: invalid device function
-0.132064
-Sync kernel error: invalid device function
-0.132
+0.738208
+0.671008
+0.713856
+0.663584
+0.623456
+0.597632
+0.666464
+0.677504
+0.664736
+0.645664
  
 2
 32768
-Sync kernel error: invalid device function
-0.173152
-Sync kernel error: invalid device function
-0.049312
-Sync kernel error: invalid device function
-0.048384
-Sync kernel error: invalid device function
-0.047616
-Sync kernel error: invalid device function
-0.04768
-Sync kernel error: invalid device function
-0.048448
-Sync kernel error: invalid device function
-0.04816
-Sync kernel error: invalid device function
-0.047616
-Sync kernel error: invalid device function
-0.048096
-Sync kernel error: invalid device function
-0.047776
+0.69856
+0.321312
+0.318432
+0.317952
+0.319616
+0.319936
+0.319616
+0.320832
+0.320544
+0.320032
  
 4
 32768
-Sync kernel error: invalid device function
-0.069152
-Sync kernel error: invalid device function
-0.100032
-Sync kernel error: invalid device function
-0.13264
-Sync kernel error: invalid device function
-0.131872
-Sync kernel error: invalid device function
-0.13136
-Sync kernel error: invalid device function
-0.050784
-Sync kernel error: invalid device function
-0.047968
-Sync kernel error: invalid device function
-0.131936
-Sync kernel error: invalid device function
-0.131392
-Sync kernel error: invalid device function
-0.13104
+0.48512
+0.32128
+0.320512
+0.319808
+0.321152
+0.321824
+0.321952
+0.322592
+0.324736
+0.320352
  
 8
 32768
-Sync kernel error: invalid device function
-0.19664
-Sync kernel error: invalid device function
-0.0608
-Sync kernel error: invalid device function
-0.059104
-Sync kernel error: invalid device function
-0.058784
-Sync kernel error: invalid device function
-0.058688
-Sync kernel error: invalid device function
-0.059776
-Sync kernel error: invalid device function
-0.15856
-Sync kernel error: invalid device function
-0.15616
-Sync kernel error: invalid device function
-0.155552
-Sync kernel error: invalid device function
-0.155904
+0.658656
+0.330144
+0.32
+0.318944
+0.320384
+0.32208
+0.319744
+0.320672
+0.319072
+0.321312
  
 16
 32768
-Sync kernel error: invalid device function
-0.168768
-Sync kernel error: invalid device function
-0.168192
-Sync kernel error: invalid device function
-0.125888
-Sync kernel error: invalid device function
-0.125408
-Sync kernel error: invalid device function
-0.125568
-Sync kernel error: invalid device function
-0.12608
-Sync kernel error: invalid device function
-0.125632
-Sync kernel error: invalid device function
-0.125472
-Sync kernel error: invalid device function
-0.1256
-Sync kernel error: invalid device function
-0.125536
+0.66672
+0.321216
+0.320864
+0.31968
+0.320704
+0.320256
+0.3208
+0.320288
+0.320224
+0.322016
  
 32
 32768
-Sync kernel error: invalid device function
-0.074944
-Sync kernel error: invalid device function
-0.058592
-Sync kernel error: invalid device function
-0.05472
-Sync kernel error: invalid device function
-0.121248
-Sync kernel error: invalid device function
-0.14592
-Sync kernel error: invalid device function
-0.146528
-Sync kernel error: invalid device function
-0.145792
-Sync kernel error: invalid device function
-0.145632
-Sync kernel error: invalid device function
-0.145952
-Sync kernel error: invalid device function
-0.145952
+0.48416
+0.320992
+0.320416
+0.318144
+0.321472
+0.32016
+0.322016
+0.320576
+0.320672
+0.319616
  
 64
 32768
-Sync kernel error: invalid device function
-0.067424
-Sync kernel error: invalid device function
-0.047712
-Sync kernel error: invalid device function
-0.046432
-Sync kernel error: invalid device function
-0.046464
-Sync kernel error: invalid device function
-0.04592
-Sync kernel error: invalid device function
-0.046688
-Sync kernel error: invalid device function
-0.0456
-Sync kernel error: invalid device function
-0.045952
-Sync kernel error: invalid device function
-0.045856
-Sync kernel error: invalid device function
-0.046048
+0.694048
+0.3184
+0.318048
+0.318976
+0.317824
+0.319968
+0.317152
+0.318752
+0.318816
+0.317632
  
 128
 32768
-Sync kernel error: invalid device function
-0.066848
-Sync kernel error: invalid device function
-0.046848
-Sync kernel error: invalid device function
-0.045728
-Sync kernel error: invalid device function
-0.04512
-Sync kernel error: invalid device function
-0.045184
-Sync kernel error: invalid device function
-0.045632
-Sync kernel error: invalid device function
-0.046912
-Sync kernel error: invalid device function
-0.096384
-Sync kernel error: invalid device function
-0.1256
-Sync kernel error: invalid device function
-0.12592
+0.682528
+0.316
+0.316768
+0.315776
+0.314944
+0.315712
+0.318208
+0.316032
+0.316096
+0.31664
  
 256
 32768
-Sync kernel error: invalid device function
-0.167104
-Sync kernel error: invalid device function
-0.128768
-Sync kernel error: invalid device function
-0.083872
-Sync kernel error: invalid device function
-0.045088
-Sync kernel error: invalid device function
-0.12592
-Sync kernel error: invalid device function
-0.126752
-Sync kernel error: invalid device function
-0.1256
-Sync kernel error: invalid device function
-0.125312
-Sync kernel error: invalid device function
-0.125792
-Sync kernel error: invalid device function
-0.125472
+0.64704
+0.3128
+0.313376
+0.314016
+0.314656
+0.314784
+0.314592
+0.315744
+0.313856
+0.316224
  
 512
 32768
-Sync kernel error: invalid device function
-0.16576
-Sync kernel error: invalid device function
-0.129376
-Sync kernel error: invalid device function
-0.126208
-Sync kernel error: invalid device function
-0.125408
-Sync kernel error: invalid device function
-0.125664
-Sync kernel error: invalid device function
-0.12672
-Sync kernel error: invalid device function
-0.126016
-Sync kernel error: invalid device function
-0.125696
-Sync kernel error: invalid device function
-0.126368
-Sync kernel error: invalid device function
-0.125568
+0.333184
+0.31168
+0.311904
+0.313056
+0.312224
+0.311904
+0.31232
+0.31232
+0.312832
+0.3128
  
 1024
 32768
-Sync kernel error: invalid device function
-0.070368
-Sync kernel error: invalid device function
-0.134848
-Sync kernel error: invalid device function
-0.169504
-Sync kernel error: invalid device function
-0.131424
-Sync kernel error: invalid device function
-0.131104
-Sync kernel error: invalid device function
-0.131648
-Sync kernel error: invalid device function
-0.131296
-Sync kernel error: invalid device function
-0.131008
-Sync kernel error: invalid device function
-0.131072
-Sync kernel error: invalid device function
-0.131104
+0.72304
+0.613632
+0.600992
+0.606784
+0.654848
+0.597728
+0.596032
+0.317824
+0.605888
+0.617376
  
 2048
 32768
-Sync kernel error: invalid device function
-0.186112
-Sync kernel error: invalid device function
-0.148896
-Sync kernel error: invalid device function
-0.145312
-Sync kernel error: invalid device function
-0.14544
-Sync kernel error: invalid device function
-0.145184
-Sync kernel error: invalid device function
-0.146304
-Sync kernel error: invalid device function
-0.145984
-Sync kernel error: invalid device function
-0.14448
-Sync kernel error: invalid device function
-0.144736
-Sync kernel error: invalid device function
-0.14528
+0.638464
+0.309408
+0.312064
+0.309568
+0.310688
+0.310528
+0.312064
+0.311232
+0.309984
+0.312064
  
 4096
 32768
-Sync kernel error: invalid device function
-0.171136
-Sync kernel error: invalid device function
-0.135392
-Sync kernel error: invalid device function
-0.131168
-Sync kernel error: invalid device function
-0.131264
-Sync kernel error: invalid device function
-0.131328
-Sync kernel error: invalid device function
-0.145888
-Sync kernel error: invalid device function
-0.131264
-Sync kernel error: invalid device function
-0.131072
-Sync kernel error: invalid device function
-0.131424
-Sync kernel error: invalid device function
-0.13152
+0.57904
+0.30896
+0.310528
+0.309088
+0.310656
+0.310144
+0.310624
+0.310368
+0.31088
+0.310112
  
 8192
 32768
-Sync kernel error: invalid device function
-0.069056
-Sync kernel error: invalid device function
-0.0496
-Sync kernel error: invalid device function
-0.048704
-Sync kernel error: invalid device function
-0.048032
-Sync kernel error: invalid device function
-0.048032
-Sync kernel error: invalid device function
-0.048416
-Sync kernel error: invalid device function
-0.048288
-Sync kernel error: invalid device function
-0.048064
-Sync kernel error: invalid device function
-0.048192
-Sync kernel error: invalid device function
-0.048192
+0.33104
+0.309184
+0.30992
+0.3104
+0.309664
+0.309824
+0.309408
+0.309632
+0.310464
+0.310816
  
 16384
 32768
-Sync kernel error: invalid device function
-0.06864
-Sync kernel error: invalid device function
-0.10512
-Sync kernel error: invalid device function
-0.131456
-Sync kernel error: invalid device function
-0.13136
-Sync kernel error: invalid device function
-0.131072
-Sync kernel error: invalid device function
-0.132064
-Sync kernel error: invalid device function
-0.131552
-Sync kernel error: invalid device function
-0.13152
-Sync kernel error: invalid device function
-0.131776
-Sync kernel error: invalid device function
-0.130944
+0.677088
+0.439488
+0.603712
+0.595808
+0.596096
+0.599776
+0.615584
+0.593664
+0.5952
+0.613696
  
 1
 65536
-Sync kernel error: invalid device function
-0.215456
-Sync kernel error: invalid device function
-0.177952
-Sync kernel error: invalid device function
-0.175808
-Sync kernel error: invalid device function
-0.173248
-Sync kernel error: invalid device function
-0.173696
-Sync kernel error: invalid device function
-0.17472
-Sync kernel error: invalid device function
-0.174112
-Sync kernel error: invalid device function
-0.174016
-Sync kernel error: invalid device function
-0.173696
-Sync kernel error: invalid device function
-0.057856
+0.559264
+0.563392
+0.560672
+0.564096
+0.563072
+0.5624
+0.561408
+0.563232
+0.56336
+0.56176
  
 2
 65536
-Sync kernel error: invalid device function
-0.18784
-Sync kernel error: invalid device function
-0.151936
-Sync kernel error: invalid device function
-0.185664
-Sync kernel error: invalid device function
-0.148448
-Sync kernel error: invalid device function
-0.147712
-Sync kernel error: invalid device function
-0.149536
-Sync kernel error: invalid device function
-0.147648
-Sync kernel error: invalid device function
-0.147744
-Sync kernel error: invalid device function
-0.14736
-Sync kernel error: invalid device function
-0.147872
+0.778528
+0.561568
+0.56352
+0.56288
+0.564448
+0.562528
+0.563648
+0.564416
+0.56288
+0.564672
  
 4
 65536
-Sync kernel error: invalid device function
-0.066272
-Sync kernel error: invalid device function
-0.066976
-Sync kernel error: invalid device function
-0.149664
-Sync kernel error: invalid device function
-0.14736
-Sync kernel error: invalid device function
-0.148
-Sync kernel error: invalid device function
-0.149408
-Sync kernel error: invalid device function
-0.14816
-Sync kernel error: invalid device function
-0.147936
-Sync kernel error: invalid device function
-0.148128
-Sync kernel error: invalid device function
-0.148
+0.769216
+0.561216
+0.564384
+0.566336
+0.563872
+0.56352
+0.563488
+0.562144
+0.562784
+0.562144
  
 8
 65536
-Sync kernel error: invalid device function
-0.063456
-Sync kernel error: invalid device function
-0.14512
-Sync kernel error: invalid device function
-0.140096
-Sync kernel error: invalid device function
-0.140288
-Sync kernel error: invalid device function
-0.16336
-Sync kernel error: invalid device function
-0.041376
-Sync kernel error: invalid device function
-0.140704
-Sync kernel error: invalid device function
-0.141792
-Sync kernel error: invalid device function
-0.140032
-Sync kernel error: invalid device function
-0.140192
+0.559872
+0.5592
+0.564576
+0.562464
+0.561632
+0.563072
+0.561728
+0.562784
+0.560352
+0.560576
  
 16
 65536
-Sync kernel error: invalid device function
-0.06208
-Sync kernel error: invalid device function
-0.041088
-Sync kernel error: invalid device function
-0.040032
-Sync kernel error: invalid device function
-0.039552
-Sync kernel error: invalid device function
-0.04032
-Sync kernel error: invalid device function
-0.039936
-Sync kernel error: invalid device function
-0.03968
-Sync kernel error: invalid device function
-0.040032
-Sync kernel error: invalid device function
-0.039744
-Sync kernel error: invalid device function
-0.039744
+0.68976
+0.563296
+0.564768
+0.560896
+0.56416
+0.56528
+0.562496
+0.564704
+0.56208
+0.56384
  
 32
 65536
-Sync kernel error: invalid device function
-0.062368
-Sync kernel error: invalid device function
-0.042016
-Sync kernel error: invalid device function
-0.040704
-Sync kernel error: invalid device function
-0.04032
-Sync kernel error: invalid device function
-0.04048
-Sync kernel error: invalid device function
-0.041376
-Sync kernel error: invalid device function
-0.0408
-Sync kernel error: invalid device function
-0.040512
-Sync kernel error: invalid device function
-0.040416
-Sync kernel error: invalid device function
-0.08272
+0.850912
+0.561504
+0.561632
+0.560352
+0.564704
+0.55904
+0.563104
+0.563584
+0.562368
+0.565056
  
 64
 65536
-Sync kernel error: invalid device function
-0.200864
-Sync kernel error: invalid device function
-0.190976
-Sync kernel error: invalid device function
-0.159904
-Sync kernel error: invalid device function
-0.159904
-Sync kernel error: invalid device function
-0.159552
-Sync kernel error: invalid device function
-0.160448
-Sync kernel error: invalid device function
-0.159456
-Sync kernel error: invalid device function
-0.159968
-Sync kernel error: invalid device function
-0.159712
-Sync kernel error: invalid device function
-0.159808
+0.77664
+0.5664
+0.564608
+0.562624
+0.563776
+0.563808
+0.562528
+0.562784
+0.562592
+0.562528
  
 128
 65536
-Sync kernel error: invalid device function
-0.18064
-Sync kernel error: invalid device function
-0.143072
-Sync kernel error: invalid device function
-0.080608
-Sync kernel error: invalid device function
-0.139488
-Sync kernel error: invalid device function
-0.079712
-Sync kernel error: invalid device function
-0.140512
-Sync kernel error: invalid device function
-0.1392
-Sync kernel error: invalid device function
-0.138752
-Sync kernel error: invalid device function
-0.139168
-Sync kernel error: invalid device function
-0.139008
+0.555776
+0.68176
+0.71696
+0.758496
+0.707328
+0.707552
+0.707808
+0.736672
+0.709568
+0.704896
  
 256
 65536
-Sync kernel error: invalid device function
-0.183424
-Sync kernel error: invalid device function
-0.042656
-Sync kernel error: invalid device function
-0.041664
-Sync kernel error: invalid device function
-0.040896
-Sync kernel error: invalid device function
-0.04112
-Sync kernel error: invalid device function
-0.042464
-Sync kernel error: invalid device function
-0.04144
-Sync kernel error: invalid device function
-0.041056
-Sync kernel error: invalid device function
-0.04112
-Sync kernel error: invalid device function
-0.041824
+0.777344
+0.776672
+0.706496
+0.7024
+0.718176
+0.556352
+0.554976
+0.556
+0.553664
+0.552416
  
 512
 65536
-Sync kernel error: invalid device function
-0.063296
-Sync kernel error: invalid device function
-0.143552
-Sync kernel error: invalid device function
-0.040448
-Sync kernel error: invalid device function
-0.140128
-Sync kernel error: invalid device function
-0.13936
-Sync kernel error: invalid device function
-0.128576
-Sync kernel error: invalid device function
-0.14784
-Sync kernel error: invalid device function
-0.139648
-Sync kernel error: invalid device function
-0.13952
-Sync kernel error: invalid device function
-0.140064
+0.788928
+0.549216
+0.551008
+0.549536
+0.55024
+0.551648
+0.733408
+0.728064
+0.710912
+0.713088
  
 1024
 65536
-Sync kernel error: invalid device function
-0.073472
-Sync kernel error: invalid device function
-0.053184
-Sync kernel error: invalid device function
-0.051616
-Sync kernel error: invalid device function
-0.051936
-Sync kernel error: invalid device function
-0.052064
-Sync kernel error: invalid device function
-0.05232
-Sync kernel error: invalid device function
-0.05184
-Sync kernel error: invalid device function
-0.051904
-Sync kernel error: invalid device function
-0.051808
-Sync kernel error: invalid device function
-0.051744
+0.80192
+0.548352
+0.548064
+0.547008
+0.550976
+0.54912
+0.54912
+0.547904
+0.547296
+0.547808
  
 2048
 65536
-Sync kernel error: invalid device function
-0.193792
-Sync kernel error: invalid device function
-0.197344
-Sync kernel error: invalid device function
-0.154432
-Sync kernel error: invalid device function
-0.154176
-Sync kernel error: invalid device function
-0.15376
-Sync kernel error: invalid device function
-0.154624
-Sync kernel error: invalid device function
-0.15424
-Sync kernel error: invalid device function
-0.153792
-Sync kernel error: invalid device function
-0.154208
-Sync kernel error: invalid device function
-0.15408
+0.80064
+0.546528
+0.54624
+0.545024
+0.545696
+0.545856
+0.546912
+0.548704
+0.546304
+0.54544
  
 4096
 65536
-Sync kernel error: invalid device function
-0.18784
-Sync kernel error: invalid device function
-0.150752
-Sync kernel error: invalid device function
-0.089696
-Sync kernel error: invalid device function
-0.120576
-Sync kernel error: invalid device function
-0.147008
-Sync kernel error: invalid device function
-0.147328
-Sync kernel error: invalid device function
-0.146784
-Sync kernel error: invalid device function
-0.146848
-Sync kernel error: invalid device function
-0.146496
-Sync kernel error: invalid device function
-0.146496
+0.788768
+0.544064
+0.544864
+0.545504
+0.547712
+0.550592
+0.690688
+0.553504
+0.681312
+0.590496
  
 8192
 65536
-Sync kernel error: invalid device function
-0.1872
-Sync kernel error: invalid device function
-0.062336
-Sync kernel error: invalid device function
-0.04528
-Sync kernel error: invalid device function
-0.148512
-Sync kernel error: invalid device function
-0.146656
-Sync kernel error: invalid device function
-0.147552
-Sync kernel error: invalid device function
-0.146432
-Sync kernel error: invalid device function
-0.14624
-Sync kernel error: invalid device function
-0.146432
-Sync kernel error: invalid device function
-0.146208
+0.722656
+0.542848
+0.544256
+0.545088
+0.545152
+0.543232
+0.543168
+0.54432
+0.543232
+0.543904
  
 16384
 65536
-Sync kernel error: invalid device function
-0.190976
-Sync kernel error: invalid device function
-0.154368
-Sync kernel error: invalid device function
-0.150112
-Sync kernel error: invalid device function
-0.149056
-Sync kernel error: invalid device function
-0.148928
-Sync kernel error: invalid device function
-0.149728
-Sync kernel error: invalid device function
-0.149312
-Sync kernel error: invalid device function
-0.149024
-Sync kernel error: invalid device function
-0.149408
-Sync kernel error: invalid device function
-0.14912
+0.77664
+0.542112
+0.54208
+0.541696
+0.541184
+0.541152
+0.545056
+0.544032
+0.542144
+0.543552
  
 32768
 65536
-Sync kernel error: invalid device function
-0.18832
-Sync kernel error: invalid device function
-0.044256
-Sync kernel error: invalid device function
-0.043584
-Sync kernel error: invalid device function
-0.043072
-Sync kernel error: invalid device function
-0.043136
-Sync kernel error: invalid device function
-0.044608
-Sync kernel error: invalid device function
-0.066144
-Sync kernel error: invalid device function
-0.14112
-Sync kernel error: invalid device function
-0.147104
-Sync kernel error: invalid device function
-0.146496
+0.783552
+0.539584
+0.542784
+0.541632
+0.542144
+0.543424
+0.542816
+0.542048
+0.542112
+0.541344
  
 1
 131072
-Sync kernel error: invalid device function
-0.1864
-Sync kernel error: invalid device function
-0.021888
-Sync kernel error: invalid device function
-0.020128
-Sync kernel error: invalid device function
-0.019712
-Sync kernel error: invalid device function
-0.019712
-Sync kernel error: invalid device function
-0.091424
-Sync kernel error: invalid device function
-0.143776
-Sync kernel error: invalid device function
-0.144224
-Sync kernel error: invalid device function
-0.143968
-Sync kernel error: invalid device function
-0.142912
+1.3752
+1.37158
+1.37923
+1.37254
+1.37072
+1.36662
+1.37162
+1.37494
+1.36947
+1.37056
  
 2
 131072
-Sync kernel error: invalid device function
-0.041376
-Sync kernel error: invalid device function
-0.021344
-Sync kernel error: invalid device function
-0.019488
-Sync kernel error: invalid device function
-0.019776
-Sync kernel error: invalid device function
-0.019872
-Sync kernel error: invalid device function
-0.020064
-Sync kernel error: invalid device function
-0.01952
-Sync kernel error: invalid device function
-0.01984
-Sync kernel error: invalid device function
-0.144928
-Sync kernel error: invalid device function
-0.143552
+1.3745
+1.37222
+1.37101
+1.37158
+1.37379
+1.3728
+1.37062
+1.37427
+1.3729
+1.37075
  
 4
 131072
-Sync kernel error: invalid device function
-0.207136
-Sync kernel error: invalid device function
-0.169184
-Sync kernel error: invalid device function
-0.164192
-Sync kernel error: invalid device function
-0.164672
-Sync kernel error: invalid device function
-0.164448
-Sync kernel error: invalid device function
-0.1656
-Sync kernel error: invalid device function
-0.16528
-Sync kernel error: invalid device function
-0.166112
-Sync kernel error: invalid device function
-0.164672
-Sync kernel error: invalid device function
-0.1648
+1.41491
+1.37427
+1.3751
+1.37408
+1.37133
+1.37325
+1.37091
+1.37357
+1.37459
+1.37363
  
 8
 131072
-Sync kernel error: invalid device function
-0.176096
-Sync kernel error: invalid device function
-0.138656
-Sync kernel error: invalid device function
-0.134848
-Sync kernel error: invalid device function
-0.13456
-Sync kernel error: invalid device function
-0.124256
-Sync kernel error: invalid device function
-0.135616
-Sync kernel error: invalid device function
-0.134016
-Sync kernel error: invalid device function
-0.134432
-Sync kernel error: invalid device function
-0.13456
-Sync kernel error: invalid device function
-0.169984
+1.37891
+1.37206
+1.36883
+1.37008
+1.37088
+1.37229
+1.36602
+1.37037
+1.37318
+1.37171
  
 16
 131072
-Sync kernel error: invalid device function
-0.197152
-Sync kernel error: invalid device function
-0.159616
-Sync kernel error: invalid device function
-0.098304
-Sync kernel error: invalid device function
-0.154592
-Sync kernel error: invalid device function
-0.155392
-Sync kernel error: invalid device function
-0.15712
-Sync kernel error: invalid device function
-0.15504
-Sync kernel error: invalid device function
-0.155808
-Sync kernel error: invalid device function
-0.15456
-Sync kernel error: invalid device function
-0.154784
+1.37274
+1.37539
+1.36986
+1.37104
+1.36982
+1.38064
+1.37235
+1.37219
+1.36934
+1.37059
  
 32
 131072
-Sync kernel error: invalid device function
-0.178752
-Sync kernel error: invalid device function
-0.138048
-Sync kernel error: invalid device function
-0.134656
-Sync kernel error: invalid device function
-0.13408
-Sync kernel error: invalid device function
-0.13408
-Sync kernel error: invalid device function
-0.134848
-Sync kernel error: invalid device function
-0.140896
-Sync kernel error: invalid device function
-0.135776
-Sync kernel error: invalid device function
-0.133984
-Sync kernel error: invalid device function
-0.133472
+1.37731
+1.37523
+1.3759
+1.37357
+1.36787
+1.37107
+1.3712
+1.37062
+1.36973
+1.3704
  
 64
 131072
-Sync kernel error: invalid device function
-0.037472
-Sync kernel error: invalid device function
-0.139424
-Sync kernel error: invalid device function
-0.134464
-Sync kernel error: invalid device function
-0.13344
-Sync kernel error: invalid device function
-0.133408
-Sync kernel error: invalid device function
-0.016384
-Sync kernel error: invalid device function
-0.13424
-Sync kernel error: invalid device function
-0.13408
-Sync kernel error: invalid device function
-0.133856
-Sync kernel error: invalid device function
-0.133568
+1.37814
+1.36928
+1.37011
+1.36848
+1.37171
+1.37216
+1.37181
+1.37651
+1.37421
+1.37309
  
 128
 131072
-Sync kernel error: invalid device function
-0.202528
-Sync kernel error: invalid device function
-0.14016
-Sync kernel error: invalid device function
-0.136512
-Sync kernel error: invalid device function
-0.136896
-Sync kernel error: invalid device function
-0.137312
-Sync kernel error: invalid device function
-0.138336
-Sync kernel error: invalid device function
-0.137088
-Sync kernel error: invalid device function
-0.136864
-Sync kernel error: invalid device function
-0.136768
-Sync kernel error: invalid device function
-0.136544
+1.37446
+1.37907
+1.37443
+1.38771
+1.37674
+1.37037
+1.37277
+1.37011
+1.36678
+1.37792
  
 256
 131072
-Sync kernel error: invalid device function
-0.044256
-Sync kernel error: invalid device function
-0.152256
-Sync kernel error: invalid device function
-0.147552
-Sync kernel error: invalid device function
-0.14752
-Sync kernel error: invalid device function
-0.14688
-Sync kernel error: invalid device function
-0.18752
-Sync kernel error: invalid device function
-0.147264
-Sync kernel error: invalid device function
-0.146848
-Sync kernel error: invalid device function
-0.147424
-Sync kernel error: invalid device function
-0.147616
+1.36986
+1.36835
+1.36838
+1.37555
+1.36429
+1.36051
+1.36515
+1.36422
+1.3608
+1.36973
  
 512
 131072
-Sync kernel error: invalid device function
-0.165888
-Sync kernel error: invalid device function
-0.0336
-Sync kernel error: invalid device function
-0.030944
-Sync kernel error: invalid device function
-0.031552
-Sync kernel error: invalid device function
-0.030784
-Sync kernel error: invalid device function
-0.032096
-Sync kernel error: invalid device function
-0.03104
-Sync kernel error: invalid device function
-0.031008
-Sync kernel error: invalid device function
-0.031136
-Sync kernel error: invalid device function
-0.165024
+1.35533
+1.35248
+1.35942
+1.36202
+1.35952
+1.36307
+1.36035
+1.36122
+1.35475
+1.35498
  
 1024
 131072
-Sync kernel error: invalid device function
-0.199296
-Sync kernel error: invalid device function
-0.160928
-Sync kernel error: invalid device function
-0.156832
-Sync kernel error: invalid device function
-0.156256
-Sync kernel error: invalid device function
-0.156608
-Sync kernel error: invalid device function
-0.15904
-Sync kernel error: invalid device function
-0.157632
-Sync kernel error: invalid device function
-0.156736
-Sync kernel error: invalid device function
-0.157024
-Sync kernel error: invalid device function
-0.156416
+1.34592
+1.34493
+1.34829
+1.34778
+1.3528
+1.35312
+1.35411
+1.35213
+1.34912
+1.34512
  
 2048
 131072
-Sync kernel error: invalid device function
-0.216992
-Sync kernel error: invalid device function
-0.146528
-Sync kernel error: invalid device function
-0.14304
-Sync kernel error: invalid device function
-0.143104
-Sync kernel error: invalid device function
-0.14304
-Sync kernel error: invalid device function
-0.183616
-Sync kernel error: invalid device function
-0.142688
-Sync kernel error: invalid device function
-0.142496
-Sync kernel error: invalid device function
-0.142848
-Sync kernel error: invalid device function
-0.1432
+1.34643
+1.34291
+1.34147
+1.34381
+1.33882
+1.34432
+1.33936
+1.34298
+1.33958
+1.34326
  
 4096
 131072
-Sync kernel error: invalid device function
-0.065824
-Sync kernel error: invalid device function
-0.019488
-Sync kernel error: invalid device function
-0.01824
-Sync kernel error: invalid device function
-0.018016
-Sync kernel error: invalid device function
-0.018592
-Sync kernel error: invalid device function
-0.018976
-Sync kernel error: invalid device function
-0.018048
-Sync kernel error: invalid device function
-0.017888
-Sync kernel error: invalid device function
-0.018688
-Sync kernel error: invalid device function
-0.131296
+1.34179
+1.34144
+1.34861
+1.33946
+1.33366
+1.33712
+1.33811
+1.33802
+1.33904
+1.3344
  
 8192
 131072
-Sync kernel error: invalid device function
-0.042624
-Sync kernel error: invalid device function
-0.02128
-Sync kernel error: invalid device function
-0.019936
-Sync kernel error: invalid device function
-0.019776
-Sync kernel error: invalid device function
-0.019648
-Sync kernel error: invalid device function
-0.02064
-Sync kernel error: invalid device function
-0.02032
-Sync kernel error: invalid device function
-0.020032
-Sync kernel error: invalid device function
-0.020096
-Sync kernel error: invalid device function
-0.107776
+1.33722
+1.33558
+1.32982
+1.33347
+1.33354
+1.33382
+1.33258
+1.33347
+1.33456
+1.33651
  
 16384
 131072
-Sync kernel error: invalid device function
-0.041696
-Sync kernel error: invalid device function
-0.021568
-Sync kernel error: invalid device function
-0.144128
-Sync kernel error: invalid device function
-0.14224
-Sync kernel error: invalid device function
-0.142592
-Sync kernel error: invalid device function
-0.14304
-Sync kernel error: invalid device function
-0.142464
-Sync kernel error: invalid device function
-0.144224
-Sync kernel error: invalid device function
-0.142272
-Sync kernel error: invalid device function
-0.143168
+1.33232
+1.32864
+1.33274
+1.33264
+1.33194
+1.33072
+1.3311
+1.33027
+1.33146
+1.33341
  
 32768
 131072
-Sync kernel error: invalid device function
-0.042464
-Sync kernel error: invalid device function
-0.020768
-Sync kernel error: invalid device function
-0.019424
-Sync kernel error: invalid device function
-0.019296
-Sync kernel error: invalid device function
-0.019872
-Sync kernel error: invalid device function
-0.020416
-Sync kernel error: invalid device function
-0.019968
-Sync kernel error: invalid device function
-0.019648
-Sync kernel error: invalid device function
-0.020384
-Sync kernel error: invalid device function
-0.143456
+1.33149
+1.33267
+1.33059
+1.33421
+1.33408
+1.33325
+1.33453
+1.32944
+1.33232
+1.32752
  
 65536
 131072
-Sync kernel error: invalid device function
-0.041216
-Sync kernel error: invalid device function
-0.021792
-Sync kernel error: invalid device function
-0.019168
-Sync kernel error: invalid device function
-0.01968
-Sync kernel error: invalid device function
-0.020832
-Sync kernel error: invalid device function
-0.144992
-Sync kernel error: invalid device function
-0.143424
-Sync kernel error: invalid device function
-0.143232
-Sync kernel error: invalid device function
-0.14288
-Sync kernel error: invalid device function
-0.142848
+1.33376
+1.32944
+1.33411
+1.33194
+1.33245
+1.33366
+1.34074
+1.32829
+1.32819
+1.33171
  
 1
 262144
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001728
-Sync kernel error: invalid device function
-0.103328
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.099744
-Sync kernel error: invalid device function
-0.099552
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.100256
+2.96768
+2.96768
+2.96797
+2.96365
+2.96358
+2.96259
+2.96714
+2.96496
+2.95984
+2.96509
  
 2
 262144
-Sync kernel error: invalid device function
-0.0016
-Sync kernel error: invalid device function
-0.102976
-Sync kernel error: invalid device function
-0.09824
-Sync kernel error: invalid device function
-0.100256
-Sync kernel error: invalid device function
-0.1008
-Sync kernel error: invalid device function
-0.061792
-Sync kernel error: invalid device function
-0.103072
-Sync kernel error: invalid device function
-0.098592
-Sync kernel error: invalid device function
-0.09904
-Sync kernel error: invalid device function
-0.09824
+2.96419
+2.97283
+2.96672
+2.96662
+2.9777
+2.9663
+2.96413
+2.96624
+2.95795
+2.96429
  
 4
 262144
-Sync kernel error: invalid device function
-0.145312
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.11328
-Sync kernel error: invalid device function
-0.101472
-Sync kernel error: invalid device function
-0.099808
-Sync kernel error: invalid device function
-0.10032
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
+2.9625
+2.96982
+2.96666
+2.97139
+2.96336
+2.96384
+2.96154
+2.96064
+2.96666
+2.96093
  
 8
 262144
-Sync kernel error: invalid device function
-0.136896
-Sync kernel error: invalid device function
-0.096672
-Sync kernel error: invalid device function
-0.093696
-Sync kernel error: invalid device function
-0.094752
-Sync kernel error: invalid device function
-0.001664
-Sync kernel error: invalid device function
-0.093152
-Sync kernel error: invalid device function
-0.092672
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.00144
+2.96518
+2.96365
+2.96342
+2.96
+2.95962
+2.9665
+2.96378
+2.96307
+2.95955
+2.96195
  
 16
 262144
-Sync kernel error: invalid device function
-0.133984
-Sync kernel error: invalid device function
-0.019488
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001664
-Sync kernel error: invalid device function
-0.090336
-Sync kernel error: invalid device function
-0.0904
-Sync kernel error: invalid device function
-0.090272
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+2.96598
+2.96432
+2.96928
+2.96531
+2.97437
+2.96026
+2.96141
+2.96442
+2.96346
+2.9641
  
 32
 262144
-Sync kernel error: invalid device function
-0.131648
-Sync kernel error: invalid device function
-0.089824
-Sync kernel error: invalid device function
-0.090304
-Sync kernel error: invalid device function
-0.089152
-Sync kernel error: invalid device function
-0.08896
-Sync kernel error: invalid device function
-0.098752
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
+2.97619
+2.96627
+2.96656
+2.95914
+2.96448
+2.9577
+2.95862
+2.96506
+2.9585
+2.95882
  
 64
 262144
-Sync kernel error: invalid device function
-0.130048
-Sync kernel error: invalid device function
-0.08848
-Sync kernel error: invalid device function
-0.125248
-Sync kernel error: invalid device function
-0.085504
-Sync kernel error: invalid device function
-0.088608
-Sync kernel error: invalid device function
-0.086016
-Sync kernel error: invalid device function
-0.085888
-Sync kernel error: invalid device function
-0.085152
-Sync kernel error: invalid device function
-0.084416
-Sync kernel error: invalid device function
-0.084448
+2.97514
+2.96621
+2.96598
+2.96714
+2.96195
+2.95942
+2.95894
+2.9689
+2.95978
+2.96032
  
 128
 262144
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001664
-Sync kernel error: invalid device function
-0.089568
-Sync kernel error: invalid device function
-0.09184
-Sync kernel error: invalid device function
-0.08944
-Sync kernel error: invalid device function
-0.091232
-Sync kernel error: invalid device function
-0.088192
-Sync kernel error: invalid device function
-0.089536
+2.96947
+2.96666
+2.96877
+2.96483
+2.96787
+2.95968
+2.96698
+2.96237
+2.9617
+2.96
  
 256
 262144
-Sync kernel error: invalid device function
-0.04448
-Sync kernel error: invalid device function
-0.09712
-Sync kernel error: invalid device function
-0.089312
-Sync kernel error: invalid device function
-0.088864
-Sync kernel error: invalid device function
-0.08848
-Sync kernel error: invalid device function
-0.090912
-Sync kernel error: invalid device function
-0.088992
-Sync kernel error: invalid device function
-0.088736
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001568
+2.97194
+2.97072
+2.97754
+2.96301
+2.96778
+2.95805
+2.96422
+2.96547
+2.96451
+2.9656
  
 512
 262144
-Sync kernel error: invalid device function
-0.13184
-Sync kernel error: invalid device function
-0.093184
-Sync kernel error: invalid device function
-0.08976
-Sync kernel error: invalid device function
-0.0888
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.092672
-Sync kernel error: invalid device function
-0.08976
-Sync kernel error: invalid device function
-0.088576
-Sync kernel error: invalid device function
-0.101568
-Sync kernel error: invalid device function
-0.088832
+2.94666
+2.94909
+2.94646
+2.9513
+2.94816
+2.94688
+2.93971
+2.94512
+2.94746
+2.9447
  
 1024
 262144
-Sync kernel error: invalid device function
-0.14608
-Sync kernel error: invalid device function
-0.105056
-Sync kernel error: invalid device function
-0.102688
-Sync kernel error: invalid device function
-0.102816
-Sync kernel error: invalid device function
-0.101568
-Sync kernel error: invalid device function
-0.104128
-Sync kernel error: invalid device function
-0.136128
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
+2.91558
+2.93149
+2.93238
+2.93862
+2.9352
+2.93056
+2.93168
+2.92573
+2.92186
+2.93117
  
 2048
 262144
-Sync kernel error: invalid device function
-0.16448
-Sync kernel error: invalid device function
-0.125088
-Sync kernel error: invalid device function
-0.123968
-Sync kernel error: invalid device function
-0.121952
-Sync kernel error: invalid device function
-0.12144
-Sync kernel error: invalid device function
-0.124704
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001696
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.0016
+2.91478
+2.91402
+2.91712
+2.91587
+2.91798
+2.90813
+2.91062
+2.9121
+2.9104
+2.90909
  
 4096
 262144
-Sync kernel error: invalid device function
-0.029696
-Sync kernel error: invalid device function
-0.10208
-Sync kernel error: invalid device function
-0.099168
-Sync kernel error: invalid device function
-0.100512
-Sync kernel error: invalid device function
-0.022784
-Sync kernel error: invalid device function
-0.099968
-Sync kernel error: invalid device function
-0.098848
-Sync kernel error: invalid device function
-0.001632
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001472
+2.92323
+2.90637
+2.90845
+2.90224
+2.90342
+2.90237
+2.90128
+2.90122
+2.89702
+2.90448
  
 8192
 262144
-Sync kernel error: invalid device function
-0.16432
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.125024
-Sync kernel error: invalid device function
-0.12128
-Sync kernel error: invalid device function
-0.121632
-Sync kernel error: invalid device function
-0.1208
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.001472
+2.89779
+2.89482
+2.90317
+2.89584
+2.90051
+2.89414
+2.89187
+2.90333
+2.89427
+2.89472
  
 16384
 262144
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.099744
-Sync kernel error: invalid device function
-0.096864
-Sync kernel error: invalid device function
-0.09744
-Sync kernel error: invalid device function
-0.097408
-Sync kernel error: invalid device function
-0.097056
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.098208
-Sync kernel error: invalid device function
-0.09696
-Sync kernel error: invalid device function
-0.096448
+2.88643
+2.88643
+2.89469
+2.88912
+2.88042
+2.88342
+2.88826
+2.88432
+2.88368
+2.88691
  
 32768
 262144
-Sync kernel error: invalid device function
-0.1672
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.129248
-Sync kernel error: invalid device function
-0.125728
-Sync kernel error: invalid device function
-0.126912
-Sync kernel error: invalid device function
-0.138976
+2.88704
+2.87952
+2.88282
+2.88461
+2.88611
+2.87958
+2.88368
+2.88368
+2.87984
+2.87971
  
 65536
 262144
-Sync kernel error: invalid device function
-0.140768
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.095904
-Sync kernel error: invalid device function
-0.100736
-Sync kernel error: invalid device function
-0.099936
-Sync kernel error: invalid device function
-0.099264
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+2.88131
+2.88854
+2.88246
+2.8817
+2.88512
+2.88118
+2.87814
+2.88224
+2.87738
+2.87786
  
 131072
 262144
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.041952
-Sync kernel error: invalid device function
-0.104416
-Sync kernel error: invalid device function
-0.10144
-Sync kernel error: invalid device function
-0.101728
-Sync kernel error: invalid device function
-0.056704
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
+2.87526
+2.88099
+2.88218
+2.88182
+2.88083
+2.87786
+2.87677
+2.87907
+2.87494
+2.87914
  
 1
 524288
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.184448
-Sync kernel error: invalid device function
-0.14272
-Sync kernel error: invalid device function
-0.142784
-Sync kernel error: invalid device function
-0.142496
-Sync kernel error: invalid device function
-0.14304
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001472
+6.54205
+6.53558
+6.53565
+6.54288
+6.54061
+6.54054
+6.53261
+6.54118
+6.53965
+6.53549
  
 2
 524288
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.143616
-Sync kernel error: invalid device function
-0.097792
-Sync kernel error: invalid device function
-0.142208
-Sync kernel error: invalid device function
-0.142144
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
+6.52973
+6.53565
+6.53789
+6.53059
+6.53619
+6.53603
+6.53587
+6.53408
+6.53523
+6.53811
  
 4
 524288
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.158976
-Sync kernel error: invalid device function
-0.183264
-Sync kernel error: invalid device function
-0.141824
-Sync kernel error: invalid device function
-0.141216
-Sync kernel error: invalid device function
-0.140352
-Sync kernel error: invalid device function
-0.141024
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
+6.53232
+6.53837
+6.53757
+6.52803
+6.53101
+6.53203
+6.52806
+6.55392
+6.53382
+6.53242
  
 8
 524288
-Sync kernel error: invalid device function
-0.198976
-Sync kernel error: invalid device function
-0.161216
-Sync kernel error: invalid device function
-0.157984
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+6.5345
+6.52954
+6.53504
+6.54006
+6.53229
+6.53933
+6.53696
+6.54755
+6.54531
+6.53958
  
 16
 524288
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.135872
-Sync kernel error: invalid device function
-0.129184
-Sync kernel error: invalid device function
-0.142304
-Sync kernel error: invalid device function
-0.131232
-Sync kernel error: invalid device function
-0.156416
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001536
+6.53174
+6.53773
+6.53872
+6.52787
+6.53539
+6.53517
+6.54173
+6.54198
+6.54422
+6.53328
  
 32
 524288
-Sync kernel error: invalid device function
-0.201472
-Sync kernel error: invalid device function
-0.1656
-Sync kernel error: invalid device function
-0.160736
-Sync kernel error: invalid device function
-0.001632
-Sync kernel error: invalid device function
-0.001728
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001504
+6.53565
+6.53574
+6.5407
+6.53309
+6.53008
+6.53757
+6.53709
+6.54173
+6.53379
+6.54339
  
 64
 524288
-Sync kernel error: invalid device function
-0.00176
-Sync kernel error: invalid device function
-0.135392
-Sync kernel error: invalid device function
-0.128736
-Sync kernel error: invalid device function
-0.130784
-Sync kernel error: invalid device function
-0.130944
-Sync kernel error: invalid device function
-0.141472
-Sync kernel error: invalid device function
-0.129184
-Sync kernel error: invalid device function
-0.128864
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001536
+6.53558
+6.5319
+6.53155
+6.54035
+6.53222
+6.53098
+6.53437
+6.54211
+6.54134
+6.544
  
 128
 524288
-Sync kernel error: invalid device function
-0.016
-Sync kernel error: invalid device function
-0.185824
-Sync kernel error: invalid device function
-0.18464
-Sync kernel error: invalid device function
-0.184512
-Sync kernel error: invalid device function
-0.19536
-Sync kernel error: invalid device function
-0.183168
-Sync kernel error: invalid device function
-0.155552
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001536
+6.5344
+6.53485
+6.54467
+6.53184
+6.52832
+6.53594
+6.53555
+6.53664
+6.53702
+6.53526
  
 256
 524288
-Sync kernel error: invalid device function
-0.173248
-Sync kernel error: invalid device function
-0.132096
-Sync kernel error: invalid device function
-0.128928
-Sync kernel error: invalid device function
-0.001728
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+6.53536
+6.53606
+6.52432
+6.53933
+6.52954
+6.52531
+6.53427
+6.54096
+6.54141
+6.53542
  
 512
 524288
-Sync kernel error: invalid device function
-0.169664
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001728
-Sync kernel error: invalid device function
-0.12832
-Sync kernel error: invalid device function
-0.12656
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.00144
+6.53466
+6.53398
+6.53834
+6.52563
+6.52934
+6.53184
+6.53488
+6.53501
+6.54688
+6.54074
  
 1024
 524288
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.143712
-Sync kernel error: invalid device function
-0.14208
-Sync kernel error: invalid device function
-0.141344
-Sync kernel error: invalid device function
-0.154272
-Sync kernel error: invalid device function
-0.140832
-Sync kernel error: invalid device function
-0.14112
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001504
+6.4984
+6.50301
+6.49517
+6.49155
+6.49664
+6.4969
+6.49248
+6.50029
+6.49994
+6.49885
  
 2048
 524288
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.162944
-Sync kernel error: invalid device function
-0.040096
-Sync kernel error: invalid device function
-0.16064
-Sync kernel error: invalid device function
-0.15648
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001728
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+6.46214
+6.46451
+6.46598
+6.46742
+6.46707
+6.4624
+6.46298
+6.47587
+6.47261
+6.47392
  
 4096
 524288
-Sync kernel error: invalid device function
-0.006752
-Sync kernel error: invalid device function
-0.172576
-Sync kernel error: invalid device function
-0.169344
-Sync kernel error: invalid device function
-0.183616
-Sync kernel error: invalid device function
-0.168224
-Sync kernel error: invalid device function
-0.001792
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
+6.43958
+6.43958
+6.44442
+6.44045
+6.44106
+6.43898
+6.43994
+6.44646
+6.4408
+6.44707
  
 8192
 524288
-Sync kernel error: invalid device function
-0.219008
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.175648
-Sync kernel error: invalid device function
-0.174304
-Sync kernel error: invalid device function
-0.206464
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001664
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+6.41699
+6.42586
+6.41568
+6.41478
+6.41014
+6.41222
+6.41632
+6.42179
+6.41789
+6.4096
  
 16384
 524288
-Sync kernel error: invalid device function
-0.183424
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.148224
-Sync kernel error: invalid device function
-0.143424
-Sync kernel error: invalid device function
-0.100064
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
+6.40579
+6.39987
+6.39203
+6.3961
+6.38979
+6.39373
+6.39923
+6.40659
+6.40525
+6.40995
  
 32768
 524288
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.05808
-Sync kernel error: invalid device function
-0.090432
-Sync kernel error: invalid device function
-0.09168
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
+6.38218
+6.38202
+6.38451
+6.37878
+6.37923
+6.38134
+6.3848
+6.3929
+6.38202
+6.38787
  
 65536
 524288
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.145792
-Sync kernel error: invalid device function
-0.140512
-Sync kernel error: invalid device function
-0.143296
-Sync kernel error: invalid device function
-0.152704
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001664
-Sync kernel error: invalid device function
-0.001504
+6.36902
+6.3777
+6.37501
+6.37626
+6.37386
+6.37798
+6.37088
+6.38019
+6.37965
+6.3759
  
 131072
 524288
-Sync kernel error: invalid device function
-0.20576
-Sync kernel error: invalid device function
-0.165504
-Sync kernel error: invalid device function
-0.16336
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
+6.36582
+6.36672
+6.36957
+6.3697
+6.37085
+6.36938
+6.3679
+6.37613
+6.37446
+6.37562
  
 262144
 524288
-Sync kernel error: invalid device function
-0.18224
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001728
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001472
+6.36259
+6.36624
+6.37523
+6.35846
+6.36294
+6.36195
+6.3727
+6.37274
+6.3712
+6.36848
  
 1
 1048576
-Sync kernel error: invalid device function
-0.257184
-Sync kernel error: invalid device function
-0.214016
-Sync kernel error: invalid device function
-0.212768
-Sync kernel error: invalid device function
-0.211776
-Sync kernel error: invalid device function
-0.212576
-Sync kernel error: invalid device function
-0.008096
-Sync kernel error: invalid device function
-0.004608
-Sync kernel error: invalid device function
-0.004672
-Sync kernel error: invalid device function
-0.006176
-Sync kernel error: invalid device function
-0.00416
+14.6431
+14.6422
+14.6487
+14.6618
+14.6572
+14.6561
+14.6581
+14.6509
+14.6449
+14.6241
  
 2
 1048576
-Sync kernel error: invalid device function
-0.230016
-Sync kernel error: invalid device function
-0.189888
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
+14.635
+14.641
+14.6535
+14.6496
+14.6554
+14.6677
+14.6612
+14.8176
+14.5191
+14.5223
  
 4
 1048576
-Sync kernel error: invalid device function
-0.225952
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.187744
-Sync kernel error: invalid device function
-0.183584
-Sync kernel error: invalid device function
-0.041472
-Sync kernel error: invalid device function
-0.181984
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001792
-Sync kernel error: invalid device function
-0.001504
+14.646
+14.6484
+14.6422
+14.6564
+14.6599
+14.6485
+14.6484
+14.6443
+14.6527
+14.6196
  
 8
 1048576
-Sync kernel error: invalid device function
-0.220608
-Sync kernel error: invalid device function
-0.179552
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001728
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001632
+14.634
+14.6443
+14.6437
+14.6503
+14.6592
+14.6449
+14.6586
+14.6521
+14.6932
+14.5362
  
 16
 1048576
-Sync kernel error: invalid device function
-0.00992
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.173728
-Sync kernel error: invalid device function
-0.173312
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+14.6456
+14.6429
+14.6456
+14.6484
+14.6475
+14.6538
+14.6608
+14.6556
+14.7372
+14.5306
  
 32
 1048576
-Sync kernel error: invalid device function
-0.011488
-Sync kernel error: invalid device function
-0.176832
-Sync kernel error: invalid device function
-0.187488
-Sync kernel error: invalid device function
-0.025856
-Sync kernel error: invalid device function
-0.033088
-Sync kernel error: invalid device function
-0.025792
-Sync kernel error: invalid device function
-0.031936
-Sync kernel error: invalid device function
-0.02528
-Sync kernel error: invalid device function
-0.02528
-Sync kernel error: invalid device function
-0.001504
+14.6334
+14.6459
+14.6428
+14.6577
+14.6538
+14.6543
+14.6579
+14.6651
+14.7469
+14.5223
  
 64
 1048576
-Sync kernel error: invalid device function
-0.011616
-Sync kernel error: invalid device function
-0.174944
-Sync kernel error: invalid device function
-0.172256
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001696
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001472
+14.6436
+14.6385
+14.6377
+14.6591
+14.656
+14.6513
+14.6431
+14.6603
+14.7441
+14.5296
  
 128
 1048576
-Sync kernel error: invalid device function
-0.008736
-Sync kernel error: invalid device function
-0.176384
-Sync kernel error: invalid device function
-0.17104
-Sync kernel error: invalid device function
-0.170592
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001792
-Sync kernel error: invalid device function
-0.001472
+14.6498
+14.6426
+14.6455
+14.65
+14.6512
+14.6599
+14.6564
+14.6564
+14.6369
+14.7324
  
 256
 1048576
-Sync kernel error: invalid device function
-0.0112
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.176
-Sync kernel error: invalid device function
-0.17296
-Sync kernel error: invalid device function
-0.174912
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
+14.6254
+14.6513
+14.6427
+14.6513
+14.6526
+14.6477
+14.6542
+14.6569
+14.6444
+14.694
  
 512
 1048576
-Sync kernel error: invalid device function
-0.25424
-Sync kernel error: invalid device function
-0.19968
-Sync kernel error: invalid device function
-0.001728
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001728
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
+14.6363
+14.6448
+14.6463
+14.6487
+14.6679
+14.6553
+14.6628
+14.662
+14.7496
+14.5272
  
 1024
 1048576
-Sync kernel error: invalid device function
-0.230112
-Sync kernel error: invalid device function
-0.188768
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.00144
+14.6346
+14.6436
+14.6356
+14.651
+14.6452
+14.6563
+14.6475
+14.649
+14.7372
+14.5217
  
 2048
 1048576
-Sync kernel error: invalid device function
-0.225568
-Sync kernel error: invalid device function
-0.186112
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
+14.5657
+14.5609
+14.5654
+14.5813
+14.5776
+14.5781
+14.5809
+14.5854
+14.68
+14.4484
  
 4096
 1048576
-Sync kernel error: invalid device function
-0.230496
-Sync kernel error: invalid device function
-0.18992
-Sync kernel error: invalid device function
-0.18864
-Sync kernel error: invalid device function
-0.186304
-Sync kernel error: invalid device function
-0.18736
-Sync kernel error: invalid device function
-0.011584
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+14.5248
+14.4946
+14.5124
+14.5118
+14.5219
+14.5146
+14.5119
+14.5076
+14.6619
+14.3941
  
 8192
 1048576
-Sync kernel error: invalid device function
-0.261728
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.189728
-Sync kernel error: invalid device function
-0.187328
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001472
+14.4559
+14.4643
+14.47
+14.4631
+14.4574
+14.4569
+14.4539
+14.4563
+14.4592
+14.459
  
 16384
 1048576
-Sync kernel error: invalid device function
-0.22592
-Sync kernel error: invalid device function
-0.185728
-Sync kernel error: invalid device function
-0.183488
-Sync kernel error: invalid device function
-0.183296
-Sync kernel error: invalid device function
-0.184704
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001696
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
+14.3949
+14.4151
+14.3997
+14.4234
+14.4232
+14.418
+14.4152
+14.4181
+14.4924
+14.3039
  
 32768
 1048576
-Sync kernel error: invalid device function
-0.01824
-Sync kernel error: invalid device function
-0.190688
-Sync kernel error: invalid device function
-0.187168
-Sync kernel error: invalid device function
-0.186368
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
+14.3741
+14.3747
+14.3593
+14.3825
+14.376
+14.3865
+14.3858
+14.3748
+14.3719
+14.3493
  
 65536
 1048576
-Sync kernel error: invalid device function
-0.231168
-Sync kernel error: invalid device function
-0.191744
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
+14.3418
+14.353
+14.3309
+14.3544
+14.357
+14.3577
+14.359
+14.3462
+14.3419
+14.2734
  
 131072
 1048576
-Sync kernel error: invalid device function
-0.015328
-Sync kernel error: invalid device function
-0.186752
-Sync kernel error: invalid device function
-0.187872
-Sync kernel error: invalid device function
-0.1832
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+14.3233
+14.3353
+14.3233
+14.3354
+14.3367
+14.346
+14.3431
+14.3447
+14.3404
+14.3249
  
 262144
 1048576
-Sync kernel error: invalid device function
-0.016416
-Sync kernel error: invalid device function
-0.190112
-Sync kernel error: invalid device function
-0.186848
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001632
+14.3029
+14.3237
+14.3166
+14.328
+14.3292
+14.3356
+14.3343
+14.33
+14.3281
+14.445
  
 524288
 1048576
-Sync kernel error: invalid device function
-0.0184
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.193184
-Sync kernel error: invalid device function
-0.001536
-Sync kernel error: invalid device function
-0.001504
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001568
-Sync kernel error: invalid device function
-0.001472
-Sync kernel error: invalid device function
-0.001472
+14.3142
+14.3216
+14.311
+14.3229
+14.3156
+14.322
+14.3173
+14.3149
+14.31
+14.41
  
 1
 2097152
-Sync kernel error: invalid device function
-0.041792
-Sync kernel error: invalid device function
-0.234208
-Sync kernel error: invalid device function
-0.01584
-Sync kernel error: invalid device function
-0.012992
-Sync kernel error: invalid device function
-0.014656
-Sync kernel error: invalid device function
-0.0136
-Sync kernel error: invalid device function
-0.013728
-Sync kernel error: invalid device function
-0.014656
-Sync kernel error: invalid device function
-0.013984
-Sync kernel error: invalid device function
-0.015008
+32.6201
+32.642
+32.6536
+32.635
+32.6357
+32.4196
+32.4478
+32.4463
+32.4489
+32.4347
  
 2
 2097152
-Sync kernel error: invalid device function
-0.11568
-Sync kernel error: invalid device function
-0.244064
-Sync kernel error: invalid device function
-0.243424
-Sync kernel error: invalid device function
-0.01792
-Sync kernel error: invalid device function
-0.0192
-Sync kernel error: invalid device function
-0.018048
-Sync kernel error: invalid device function
-0.018304
-Sync kernel error: invalid device function
-0.01888
-Sync kernel error: invalid device function
-0.017984
-Sync kernel error: invalid device function
-0.017824
+32.6338
+32.6284
+32.6528
+32.6617
+32.7082
+32.4231
+32.475
+32.4501
+32.4329
+32.4209
  
 4
 2097152
-Sync kernel error: invalid device function
-0.044544
-Sync kernel error: invalid device function
-0.02752
-Sync kernel error: invalid device function
-0.019296
-Sync kernel error: invalid device function
-0.0176
-Sync kernel error: invalid device function
-0.017088
-Sync kernel error: invalid device function
-0.016896
-Sync kernel error: invalid device function
-0.017024
-Sync kernel error: invalid device function
-0.01792
-Sync kernel error: invalid device function
-0.018464
-Sync kernel error: invalid device function
-0.018496
+32.6096
+32.6365
+32.6364
+32.6491
+32.4229
+32.4123
+32.4468
+32.4551
+32.4325
+32.4403
  
 8
 2097152
-Sync kernel error: invalid device function
-0.034336
-Sync kernel error: invalid device function
-0.22432
-Sync kernel error: invalid device function
-0.02448
-Sync kernel error: invalid device function
-0.025792
-Sync kernel error: invalid device function
-0.024736
-Sync kernel error: invalid device function
-0.010848
-Sync kernel error: invalid device function
-0.009792
-Sync kernel error: invalid device function
-0.008096
-Sync kernel error: invalid device function
-0.009184
-Sync kernel error: invalid device function
-0.008928
+32.6147
+32.6312
+32.6519
+32.6494
+32.4235
+32.3995
+32.4513
+32.4461
+32.4364
+32.43
  
 16
 2097152
-Sync kernel error: invalid device function
-0.035232
-Sync kernel error: invalid device function
-0.147968
-Sync kernel error: invalid device function
-0.011072
-Sync kernel error: invalid device function
-0.007104
-Sync kernel error: invalid device function
-0.007232
-Sync kernel error: invalid device function
-0.009376
-Sync kernel error: invalid device function
-0.008096
-Sync kernel error: invalid device function
-0.007712
-Sync kernel error: invalid device function
-0.007392
-Sync kernel error: invalid device function
-0.00832
+32.6171
+32.6543
+32.641
+32.6486
+32.5905
+32.4256
+32.4596
+32.461
+32.4453
+32.4175
  
 32
 2097152
-Sync kernel error: invalid device function
-0.03616
-Sync kernel error: invalid device function
-0.224032
-Sync kernel error: invalid device function
-0.011104
-Sync kernel error: invalid device function
-0.01184
-Sync kernel error: invalid device function
-0.010752
-Sync kernel error: invalid device function
-0.011648
-Sync kernel error: invalid device function
-0.012192
-Sync kernel error: invalid device function
-0.010816
-Sync kernel error: invalid device function
-0.011264
-Sync kernel error: invalid device function
-0.010848
+32.6046
+32.628
+32.6572
+32.643
+32.6234
+32.4356
+32.4573
+32.4382
+32.4401
+32.4067
  
 64
 2097152
-Sync kernel error: invalid device function
-0.035968
-Sync kernel error: invalid device function
-0.223168
-Sync kernel error: invalid device function
-0.010336
-Sync kernel error: invalid device function
-0.009792
-Sync kernel error: invalid device function
-0.010144
-Sync kernel error: invalid device function
-0.010656
-Sync kernel error: invalid device function
-0.010688
-Sync kernel error: invalid device function
-0.009152
-Sync kernel error: invalid device function
-0.00928
-Sync kernel error: invalid device function
-0.009504
+32.6118
+32.6392
+32.6514
+32.6507
+32.7391
+32.436
+32.4661
+32.4401
+32.4444
+32.4298
  
 128
 2097152
-Sync kernel error: invalid device function
-0.044864
-Sync kernel error: invalid device function
-0.221664
-Sync kernel error: invalid device function
-0.010112
-Sync kernel error: invalid device function
-0.009984
-Sync kernel error: invalid device function
-0.010208
-Sync kernel error: invalid device function
-0.01008
-Sync kernel error: invalid device function
-0.01872
-Sync kernel error: invalid device function
-0.009344
-Sync kernel error: invalid device function
-0.009088
-Sync kernel error: invalid device function
-0.009184
+32.6204
+32.6468
+32.6686
+32.6572
+32.4242
+32.4348
+32.4627
+32.4668
+32.4259
+32.4262
  
 256
 2097152
-Sync kernel error: invalid device function
-0.266624
-Sync kernel error: invalid device function
-0.221344
-Sync kernel error: invalid device function
-0.218304
-Sync kernel error: invalid device function
-0.009376
-Sync kernel error: invalid device function
-0.008256
-Sync kernel error: invalid device function
-0.009184
-Sync kernel error: invalid device function
-0.010528
-Sync kernel error: invalid device function
-0.009504
-Sync kernel error: invalid device function
-0.009248
-Sync kernel error: invalid device function
-0.009632
+32.6003
+32.6446
+32.6359
+32.6364
+32.417
+32.4191
+32.4542
+32.448
+32.4429
+32.4233
  
 512
 2097152
-Sync kernel error: invalid device function
-0.04176
-Sync kernel error: invalid device function
-0.232896
-Sync kernel error: invalid device function
-0.015104
-Sync kernel error: invalid device function
-0.014784
-Sync kernel error: invalid device function
-0.01616
-Sync kernel error: invalid device function
-0.014656
-Sync kernel error: invalid device function
-0.015264
-Sync kernel error: invalid device function
-0.014144
-Sync kernel error: invalid device function
-0.01536
-Sync kernel error: invalid device function
-0.015072
+32.6004
+32.6307
+32.6527
+32.6332
+32.6842
+32.4239
+32.46
+32.4681
+32.4246
+32.4207
  
 1024
 2097152
-Sync kernel error: invalid device function
-0.319872
-Sync kernel error: invalid device function
-0.27584
-Sync kernel error: invalid device function
-0.300672
-Sync kernel error: invalid device function
-0.03552
-Sync kernel error: invalid device function
-0.035296
-Sync kernel error: invalid device function
-0.033792
-Sync kernel error: invalid device function
-0.033728
-Sync kernel error: invalid device function
-0.033792
-Sync kernel error: invalid device function
-0.043616
-Sync kernel error: invalid device function
-0.034688
+32.6165
+32.6487
+32.6387
+32.7043
+32.4356
+32.441
+32.4493
+32.4515
+32.4285
+32.4331
  
 2048
 2097152
-Sync kernel error: invalid device function
-0.04384
-Sync kernel error: invalid device function
-0.23984
-Sync kernel error: invalid device function
-0.018624
-Sync kernel error: invalid device function
-0.017856
-Sync kernel error: invalid device function
-0.017568
-Sync kernel error: invalid device function
-0.016768
-Sync kernel error: invalid device function
-0.017152
-Sync kernel error: invalid device function
-0.017216
-Sync kernel error: invalid device function
-0.017216
-Sync kernel error: invalid device function
-0.017728
+32.6165
+32.6384
+32.6683
+32.7408
+32.4218
+32.4156
+32.4447
+32.4523
+32.4278
+32.4382
  
 4096
 2097152
-Sync kernel error: invalid device function
-0.28064
-Sync kernel error: invalid device function
-0.236768
-Sync kernel error: invalid device function
-0.234432
-Sync kernel error: invalid device function
-0.017344
-Sync kernel error: invalid device function
-0.01648
-Sync kernel error: invalid device function
-0.015936
-Sync kernel error: invalid device function
-0.0168
-Sync kernel error: invalid device function
-0.016608
-Sync kernel error: invalid device function
-0.017024
-Sync kernel error: invalid device function
-0.015968
+32.4465
+32.4801
+32.5155
+32.5096
+32.4982
+32.2872
+32.3279
+32.3265
+32.314
+32.2857
  
 8192
 2097152
-Sync kernel error: invalid device function
-0.287872
-Sync kernel error: invalid device function
-0.019936
-Sync kernel error: invalid device function
-0.239648
-Sync kernel error: invalid device function
-0.01904
-Sync kernel error: invalid device function
-0.02
-Sync kernel error: invalid device function
-0.019264
-Sync kernel error: invalid device function
-0.036416
-Sync kernel error: invalid device function
-0.019008
-Sync kernel error: invalid device function
-0.01824
-Sync kernel error: invalid device function
-0.018752
+32.3425
+32.3513
+32.3696
+32.3658
+32.176
+32.1864
+32.1982
+32.2205
+32.1961
+32.1795
  
 16384
 2097152
-Sync kernel error: invalid device function
-0.043104
-Sync kernel error: invalid device function
-0.237728
-Sync kernel error: invalid device function
-0.017888
-Sync kernel error: invalid device function
-0.016448
-Sync kernel error: invalid device function
-0.017664
-Sync kernel error: invalid device function
-0.016448
-Sync kernel error: invalid device function
-0.016928
-Sync kernel error: invalid device function
-0.016768
-Sync kernel error: invalid device function
-0.017472
-Sync kernel error: invalid device function
-0.017408
+32.2402
+32.2659
+32.2586
+32.2446
+32.0648
+32.0841
+32.1152
+32.1085
+32.0925
+32.0805
  
 32768
 2097152
-Sync kernel error: invalid device function
-0.042848
-Sync kernel error: invalid device function
-0.239456
-Sync kernel error: invalid device function
-0.018784
-Sync kernel error: invalid device function
-0.01792
-Sync kernel error: invalid device function
-0.01888
-Sync kernel error: invalid device function
-0.017408
-Sync kernel error: invalid device function
-0.027712
-Sync kernel error: invalid device function
-0.01728
-Sync kernel error: invalid device function
-0.018752
-Sync kernel error: invalid device function
-0.017056
+32.1377
+32.1614
+32.1683
+32.1863
+32.2371
+31.9782
+32.0132
+32.0171
+32.0075
+32.0074
  
 65536
 2097152
-Sync kernel error: invalid device function
-0.041376
-Sync kernel error: invalid device function
-0.249312
-Sync kernel error: invalid device function
-0.019776
-Sync kernel error: invalid device function
-0.018688
-Sync kernel error: invalid device function
-0.028032
-Sync kernel error: invalid device function
-0.0168
-Sync kernel error: invalid device function
-0.01872
-Sync kernel error: invalid device function
-0.017632
-Sync kernel error: invalid device function
-0.018336
-Sync kernel error: invalid device function
-0.017824
+32.0486
+32.0966
+32.0799
+32.0824
+31.9234
+31.9013
+31.9572
+31.9421
+31.946
+31.9178
  
 131072
 2097152
-Sync kernel error: invalid device function
-0.054944
-Sync kernel error: invalid device function
-0.072096
-Sync kernel error: invalid device function
-0.019872
-Sync kernel error: invalid device function
-0.017536
-Sync kernel error: invalid device function
-0.017472
-Sync kernel error: invalid device function
-0.017248
-Sync kernel error: invalid device function
-0.017376
-Sync kernel error: invalid device function
-0.018432
-Sync kernel error: invalid device function
-0.017024
-Sync kernel error: invalid device function
-0.018304
+32.0173
+32.048
+32.0561
+32.0387
+32.1141
+31.8579
+31.8921
+31.906
+31.8999
+31.8705
  
 262144
 2097152
-Sync kernel error: invalid device function
-0.056672
-Sync kernel error: invalid device function
-0.251296
-Sync kernel error: invalid device function
-0.019776
-Sync kernel error: invalid device function
-0.017152
-Sync kernel error: invalid device function
-0.016704
-Sync kernel error: invalid device function
-0.017568
-Sync kernel error: invalid device function
-0.016672
-Sync kernel error: invalid device function
-0.016448
-Sync kernel error: invalid device function
-0.017248
-Sync kernel error: invalid device function
-0.01712
+31.9949
+31.9961
+32.0097
+31.9984
+32.0765
+31.8494
+31.8706
+31.8588
+31.8682
+31.8424
  
 524288
 2097152
-Sync kernel error: invalid device function
-0.044544
-Sync kernel error: invalid device function
-0.21744
-Sync kernel error: invalid device function
-0.018816
-Sync kernel error: invalid device function
-0.017728
-Sync kernel error: invalid device function
-0.017184
-Sync kernel error: invalid device function
-0.0176
-Sync kernel error: invalid device function
-0.017696
-Sync kernel error: invalid device function
-0.016832
-Sync kernel error: invalid device function
-0.018208
-Sync kernel error: invalid device function
-0.017632
+31.9747
+31.9965
+31.9704
+31.9931
+31.9733
+31.8352
+31.8404
+31.854
+31.8323
+31.8203
  
 1048576
 2097152
-Sync kernel error: invalid device function
-0.041632
-Sync kernel error: invalid device function
-0.236416
-Sync kernel error: invalid device function
-0.015808
-Sync kernel error: invalid device function
-0.01536
-Sync kernel error: invalid device function
-0.014688
-Sync kernel error: invalid device function
-0.013856
-Sync kernel error: invalid device function
-0.015712
-Sync kernel error: invalid device function
-0.01392
-Sync kernel error: invalid device function
-0.014176
-Sync kernel error: invalid device function
-0.014752
+31.9361
+31.98
+31.9808
+31.9947
+31.9804
+31.8187
+31.8417
+31.8507
+31.847
+31.8108
  
 1
 4194304
-Sync kernel error: invalid device function
-0.076704
-Sync kernel error: invalid device function
-0.048224
-Sync kernel error: invalid device function
-0.045152
-Sync kernel error: invalid device function
-0.044896
-Sync kernel error: invalid device function
-0.044736
-Sync kernel error: invalid device function
-0.046624
-Sync kernel error: invalid device function
-0.044416
-Sync kernel error: invalid device function
-0.052768
-Sync kernel error: invalid device function
-0.045568
-Sync kernel error: invalid device function
-0.045024
+72.6777
+72.8738
+72.4068
+72.4635
+72.3582
+72.4578
+72.3874
+72.4674
+72.3974
+72.4594
  
 2
 4194304
-Sync kernel error: invalid device function
-0.074112
-Sync kernel error: invalid device function
-0.04736
-Sync kernel error: invalid device function
-0.044256
-Sync kernel error: invalid device function
-0.044992
-Sync kernel error: invalid device function
-0.044992
-Sync kernel error: invalid device function
-0.044864
-Sync kernel error: invalid device function
-0.044512
-Sync kernel error: invalid device function
-0.045216
-Sync kernel error: invalid device function
-0.045728
-Sync kernel error: invalid device function
-0.04608
+72.7523
+72.8356
+72.4295
+72.4508
+72.3966
+72.4541
+72.3654
+72.464
+72.3716
+72.457
  
 4
 4194304
-Sync kernel error: invalid device function
-0.076128
-Sync kernel error: invalid device function
-0.047488
-Sync kernel error: invalid device function
-0.046368
-Sync kernel error: invalid device function
-0.044928
-Sync kernel error: invalid device function
-0.045312
-Sync kernel error: invalid device function
-0.04464
-Sync kernel error: invalid device function
-0.069504
-Sync kernel error: invalid device function
-0.045312
-Sync kernel error: invalid device function
-0.045376
-Sync kernel error: invalid device function
-0.044576
+72.7406
+72.7614
+72.4375
+72.4229
+72.3958
+72.4608
+72.3991
+72.4922
+72.3784
+72.4602
  
 8
 4194304
-Sync kernel error: invalid device function
-0.065216
-Sync kernel error: invalid device function
-0.03584
-Sync kernel error: invalid device function
-0.034432
-Sync kernel error: invalid device function
-0.035584
-Sync kernel error: invalid device function
-0.034624
-Sync kernel error: invalid device function
-0.033984
-Sync kernel error: invalid device function
-0.035424
-Sync kernel error: invalid device function
-0.033792
-Sync kernel error: invalid device function
-0.04224
-Sync kernel error: invalid device function
-0.034336
+72.7366
+72.7772
+72.4422
+72.4694
+72.4234
+72.4784
+72.3661
+72.4218
+72.4056
+72.4734
  
 16
 4194304
-Sync kernel error: invalid device function
-0.068192
-Sync kernel error: invalid device function
-0.038688
-Sync kernel error: invalid device function
-0.037184
-Sync kernel error: invalid device function
-0.036032
-Sync kernel error: invalid device function
-0.036576
-Sync kernel error: invalid device function
-0.035488
-Sync kernel error: invalid device function
-0.036192
-Sync kernel error: invalid device function
-0.043552
-Sync kernel error: invalid device function
-0.036256
-Sync kernel error: invalid device function
-0.036896
+72.7244
+72.7908
+72.3994
+72.4606
+72.3897
+72.4576
+72.4025
+72.4491
+72.3651
+72.4636
  
 32
 4194304
-Sync kernel error: invalid device function
-0.066112
-Sync kernel error: invalid device function
-0.038784
-Sync kernel error: invalid device function
-0.037248
-Sync kernel error: invalid device function
-0.03888
-Sync kernel error: invalid device function
-0.036768
-Sync kernel error: invalid device function
-0.036704
-Sync kernel error: invalid device function
-0.036448
-Sync kernel error: invalid device function
-0.037664
-Sync kernel error: invalid device function
-0.03648
-Sync kernel error: invalid device function
-0.03632
+72.7411
+72.8433
+72.4124
+72.394
+72.418
+72.4349
+72.3827
+72.4747
+72.3845
+72.4931
  
 64
 4194304
-Sync kernel error: invalid device function
-0.08304
-Sync kernel error: invalid device function
-0.059168
-Sync kernel error: invalid device function
-0.057792
-Sync kernel error: invalid device function
-0.06336
-Sync kernel error: invalid device function
-0.057024
-Sync kernel error: invalid device function
-0.056736
-Sync kernel error: invalid device function
-0.057184
-Sync kernel error: invalid device function
-0.057312
-Sync kernel error: invalid device function
-0.057632
-Sync kernel error: invalid device function
-0.056448
+72.7054
+72.8251
+72.4005
+72.4354
+72.4257
+72.4639
+72.3904
+72.4188
+72.3835
+72.475
  
 128
 4194304
-Sync kernel error: invalid device function
-0.070368
-Sync kernel error: invalid device function
-0.038944
-Sync kernel error: invalid device function
-0.037824
-Sync kernel error: invalid device function
-0.037728
-Sync kernel error: invalid device function
-0.036864
-Sync kernel error: invalid device function
-0.037408
-Sync kernel error: invalid device function
-0.036512
-Sync kernel error: invalid device function
-0.037536
-Sync kernel error: invalid device function
-0.036672
-Sync kernel error: invalid device function
-0.037152
+72.7471
+72.7343
+72.4276
+72.4642
+72.403
+72.4506
+72.3819
+72.4358
+72.3846
+72.446
  
 256
 4194304
-Sync kernel error: invalid device function
-0.097024
-Sync kernel error: invalid device function
-0.058304
-Sync kernel error: invalid device function
-0.055264
-Sync kernel error: invalid device function
-0.05392
-Sync kernel error: invalid device function
-0.053536
-Sync kernel error: invalid device function
-0.054304
-Sync kernel error: invalid device function
-0.055744
-Sync kernel error: invalid device function
-0.054816
-Sync kernel error: invalid device function
-0.054592
-Sync kernel error: invalid device function
-0.0552
+72.7227
+72.8687
+72.4383
+72.4325
+72.3903
+72.4503
+72.383
+72.4585
+72.3957
+72.446
  
 512
 4194304
-Sync kernel error: invalid device function
-0.083616
-Sync kernel error: invalid device function
-0.315424
-Sync kernel error: invalid device function
-0.053952
-Sync kernel error: invalid device function
-0.054976
-Sync kernel error: invalid device function
-0.05328
-Sync kernel error: invalid device function
-0.053888
-Sync kernel error: invalid device function
-0.054208
-Sync kernel error: invalid device function
-0.054176
-Sync kernel error: invalid device function
-0.052448
-Sync kernel error: invalid device function
-0.05344
+72.7413
+72.8691
+72.4261
+72.4172
+72.3925
+72.4458
+72.4079
+72.4849
+72.394
+72.5074
  
 1024
 4194304
-Sync kernel error: invalid device function
-0.076896
-Sync kernel error: invalid device function
-0.046816
-Sync kernel error: invalid device function
-0.044704
-Sync kernel error: invalid device function
-0.044448
-Sync kernel error: invalid device function
-0.045216
-Sync kernel error: invalid device function
-0.044768
-Sync kernel error: invalid device function
-0.044256
-Sync kernel error: invalid device function
-0.044
-Sync kernel error: invalid device function
-0.045408
-Sync kernel error: invalid device function
-0.045408
+72.738
+72.7818
+72.4199
+72.4474
+72.4107
+72.4378
+72.3758
+72.4819
+72.3782
+72.4592
  
 2048
 4194304
-Sync kernel error: invalid device function
-0.072832
-Sync kernel error: invalid device function
-0.04512
-Sync kernel error: invalid device function
-0.042368
-Sync kernel error: invalid device function
-0.043136
-Sync kernel error: invalid device function
-0.0432
-Sync kernel error: invalid device function
-0.041792
-Sync kernel error: invalid device function
-0.059424
-Sync kernel error: invalid device function
-0.041568
-Sync kernel error: invalid device function
-0.042496
-Sync kernel error: invalid device function
-0.04288
+72.7359
+72.7808
+72.4437
+72.4611
+72.3833
+72.4966
+72.4037
+72.4529
+72.3932
+72.4531
  
 4096
 4194304
-Sync kernel error: invalid device function
-0.084832
-Sync kernel error: invalid device function
-0.29152
-Sync kernel error: invalid device function
-0.043392
-Sync kernel error: invalid device function
-0.04464
-Sync kernel error: invalid device function
-0.045792
-Sync kernel error: invalid device function
-0.044928
-Sync kernel error: invalid device function
-0.051808
-Sync kernel error: invalid device function
-0.045632
-Sync kernel error: invalid device function
-0.045152
-Sync kernel error: invalid device function
-0.043264
+72.7479
+72.7701
+72.449
+72.4899
+72.3898
+72.4955
+72.3978
+72.4939
+72.4002
+72.4826
  
 8192
 4194304
-Sync kernel error: invalid device function
-0.096448
-Sync kernel error: invalid device function
-0.069344
-Sync kernel error: invalid device function
-0.066976
-Sync kernel error: invalid device function
-0.068448
-Sync kernel error: invalid device function
-0.067488
-Sync kernel error: invalid device function
-0.064416
-Sync kernel error: invalid device function
-0.066176
-Sync kernel error: invalid device function
-0.064672
-Sync kernel error: invalid device function
-0.065696
-Sync kernel error: invalid device function
-0.065856
+72.4591
+72.5186
+72.1541
+72.1859
+72.1467
+72.1704
+72.1406
+72.192
+72.1536
+72.1871
  
 16384
 4194304
-Sync kernel error: invalid device function
-0.095232
-Sync kernel error: invalid device function
-0.066496
-Sync kernel error: invalid device function
-0.064512
-Sync kernel error: invalid device function
-0.06464
-Sync kernel error: invalid device function
-0.064864
-Sync kernel error: invalid device function
-0.06992
-Sync kernel error: invalid device function
-0.064896
-Sync kernel error: invalid device function
-0.06384
-Sync kernel error: invalid device function
-0.063648
-Sync kernel error: invalid device function
-0.064032
+72.1921
+72.2111
+71.9589
+71.9202
+71.8972
+71.9786
+71.8888
+71.9644
+71.8846
+71.9442
  
 32768
 4194304
-Sync kernel error: invalid device function
-0.089024
-Sync kernel error: invalid device function
-0.059104
-Sync kernel error: invalid device function
-0.05856
-Sync kernel error: invalid device function
-0.0584
-Sync kernel error: invalid device function
-0.060032
-Sync kernel error: invalid device function
-0.05872
-Sync kernel error: invalid device function
-0.05856
-Sync kernel error: invalid device function
-0.054528
-Sync kernel error: invalid device function
-0.05776
-Sync kernel error: invalid device function
-0.059712
+71.9746
+71.9851
+71.7159
+71.7461
+71.6976
+71.7776
+71.6989
+71.76
+71.7198
+71.7507
  
 65536
 4194304
-Sync kernel error: invalid device function
-0.077216
-Sync kernel error: invalid device function
-0.047392
-Sync kernel error: invalid device function
-0.04368
-Sync kernel error: invalid device function
-0.045376
-Sync kernel error: invalid device function
-0.044768
-Sync kernel error: invalid device function
-0.043488
-Sync kernel error: invalid device function
-0.04448
-Sync kernel error: invalid device function
-0.043776
-Sync kernel error: invalid device function
-0.044128
-Sync kernel error: invalid device function
-0.050464
+71.7698
+71.8605
+71.5424
+71.5495
+71.5163
+71.6103
+71.5257
+71.5914
+71.5233
+71.5959
  
 131072
 4194304
-Sync kernel error: invalid device function
-0.075712
-Sync kernel error: invalid device function
-0.047232
-Sync kernel error: invalid device function
-0.04608
-Sync kernel error: invalid device function
-0.046592
-Sync kernel error: invalid device function
-0.045568
-Sync kernel error: invalid device function
-0.045216
-Sync kernel error: invalid device function
-0.045792
-Sync kernel error: invalid device function
-0.053344
-Sync kernel error: invalid device function
-0.045728
-Sync kernel error: invalid device function
-0.045952
+71.6422
+71.6693
+71.4042
+71.4517
+71.3767
+71.4573
+71.3842
+71.4806
+71.3983
+71.4443
  
 262144
 4194304
-Sync kernel error: invalid device function
-0.08816
-Sync kernel error: invalid device function
-0.059456
-Sync kernel error: invalid device function
-0.057888
-Sync kernel error: invalid device function
-0.0552
-Sync kernel error: invalid device function
-0.056352
-Sync kernel error: invalid device function
-0.064768
-Sync kernel error: invalid device function
-0.05728
-Sync kernel error: invalid device function
-0.056224
-Sync kernel error: invalid device function
-0.056864
-Sync kernel error: invalid device function
-0.056416
+71.5432
+71.59
+71.3211
+71.3491
+71.2889
+71.3649
+71.2837
+71.3554
+71.3002
+71.3513
  
 524288
 4194304
-Sync kernel error: invalid device function
-0.077408
-Sync kernel error: invalid device function
-0.047712
-Sync kernel error: invalid device function
-0.048896
-Sync kernel error: invalid device function
-0.046656
-Sync kernel error: invalid device function
-0.046976
-Sync kernel error: invalid device function
-0.046336
-Sync kernel error: invalid device function
-0.04736
-Sync kernel error: invalid device function
-0.046208
-Sync kernel error: invalid device function
-0.046368
-Sync kernel error: invalid device function
-0.047616
+71.4885
+71.4806
+71.27
+71.3208
+71.2725
+71.3035
+71.2201
+71.3059
+71.2395
+71.2997
  
 1048576
 4194304
-Sync kernel error: invalid device function
-0.075072
-Sync kernel error: invalid device function
-0.046144
-Sync kernel error: invalid device function
-0.046016
-Sync kernel error: invalid device function
-0.045664
-Sync kernel error: invalid device function
-0.045536
-Sync kernel error: invalid device function
-0.044864
-Sync kernel error: invalid device function
-0.046592
-Sync kernel error: invalid device function
-0.04528
-Sync kernel error: invalid device function
-0.045408
-Sync kernel error: invalid device function
-0.05296
+71.4531
+71.4523
+71.2117
+71.2371
+71.178
+71.2694
+71.1867
+71.2913
+71.1867
+71.2611
  
 1
 8388608
-Sync kernel error: invalid device function
-0.106976
-Sync kernel error: invalid device function
-0.077728
-Sync kernel error: invalid device function
-0.073344
-Sync kernel error: invalid device function
-0.081056
-Sync kernel error: invalid device function
-0.072384
-Sync kernel error: invalid device function
-0.0728
-Sync kernel error: invalid device function
-0.096768
-Sync kernel error: invalid device function
-0.0736
-Sync kernel error: invalid device function
-0.072832
-Sync kernel error: invalid device function
-0.073536
+162.198
+161.529
+161.545
+161.498
+161.574
+161.523
+161.499
+161.458
+161.45
+161.445
  
 2
 8388608
-Sync kernel error: invalid device function
-0.125664
-Sync kernel error: invalid device function
-0.099008
-Sync kernel error: invalid device function
-0.096
-Sync kernel error: invalid device function
-0.105152
-Sync kernel error: invalid device function
-0.095904
-Sync kernel error: invalid device function
-0.09584
-Sync kernel error: invalid device function
-0.124032
-Sync kernel error: invalid device function
-0.096096
-Sync kernel error: invalid device function
-0.095744
-Sync kernel error: invalid device function
-0.103872
+162.104
+161.539
+161.565
+161.497
+161.489
+161.534
+161.592
+161.435
+161.418
+161.38
  
 4
 8388608
-Sync kernel error: invalid device function
-0.120352
-Sync kernel error: invalid device function
-0.093792
-Sync kernel error: invalid device function
-0.089696
-Sync kernel error: invalid device function
-0.091264
-Sync kernel error: invalid device function
-0.090048
-Sync kernel error: invalid device function
-0.08944
-Sync kernel error: invalid device function
-0.089504
-Sync kernel error: invalid device function
-0.089696
-Sync kernel error: invalid device function
-0.089888
-Sync kernel error: invalid device function
-0.089056
+162.095
+161.483
+161.569
+161.539
+161.521
+161.506
+161.519
+161.517
+161.448
+161.386
  
 8
 8388608
-Sync kernel error: invalid device function
-0.095808
-Sync kernel error: invalid device function
-0.068128
-Sync kernel error: invalid device function
-0.065952
-Sync kernel error: invalid device function
-0.067488
-Sync kernel error: invalid device function
-0.066944
-Sync kernel error: invalid device function
-0.06368
-Sync kernel error: invalid device function
-0.07744
-Sync kernel error: invalid device function
-0.067872
-Sync kernel error: invalid device function
-0.068416
-Sync kernel error: invalid device function
-0.064928
+162.157
+161.529
+161.501
+161.528
+161.512
+161.482
+161.572
+161.541
+161.469
+161.435
  
 16
 8388608
-Sync kernel error: invalid device function
-0.096512
-Sync kernel error: invalid device function
-0.068096
-Sync kernel error: invalid device function
-0.063136
-Sync kernel error: invalid device function
-0.063712
-Sync kernel error: invalid device function
-0.063648
-Sync kernel error: invalid device function
-0.064
-Sync kernel error: invalid device function
-0.06512
-Sync kernel error: invalid device function
-0.062816
-Sync kernel error: invalid device function
-0.063584
-Sync kernel error: invalid device function
-0.063296
+162.122
+161.52
+161.536
+161.551
+161.522
+161.537
+161.514
+161.491
+161.484
+161.415
  
 32
 8388608
-Sync kernel error: invalid device function
-0.091232
-Sync kernel error: invalid device function
-0.063232
-Sync kernel error: invalid device function
-0.06208
-Sync kernel error: invalid device function
-0.060064
-Sync kernel error: invalid device function
-0.061056
-Sync kernel error: invalid device function
-0.060576
-Sync kernel error: invalid device function
-0.060224
-Sync kernel error: invalid device function
-0.061216
-Sync kernel error: invalid device function
-0.060672
-Sync kernel error: invalid device function
-0.060224
+162.097
+161.49
+161.583
+161.56
+161.582
+161.521
+161.509
+161.561
+161.43
+161.446
  
 64
 8388608
-Sync kernel error: invalid device function
-0.124704
-Sync kernel error: invalid device function
-0.093728
-Sync kernel error: invalid device function
-0.089024
-Sync kernel error: invalid device function
-0.091104
-Sync kernel error: invalid device function
-0.090976
-Sync kernel error: invalid device function
-0.115488
-Sync kernel error: invalid device function
-0.0912
-Sync kernel error: invalid device function
-0.089696
-Sync kernel error: invalid device function
-0.090368
-Sync kernel error: invalid device function
-0.089824
+162.175
+161.574
+161.5
+161.485
+161.504
+161.526
+161.536
+161.491
+161.391
+161.479
  
 128
 8388608
-Sync kernel error: invalid device function
-0.09568
-Sync kernel error: invalid device function
-0.0656
-Sync kernel error: invalid device function
-0.06368
-Sync kernel error: invalid device function
-0.062016
-Sync kernel error: invalid device function
-0.065408
-Sync kernel error: invalid device function
-0.0632
-Sync kernel error: invalid device function
-0.064576
-Sync kernel error: invalid device function
-0.06384
-Sync kernel error: invalid device function
-0.063584
-Sync kernel error: invalid device function
-0.06336
+162.152
+161.578
+161.539
+161.572
+161.521
+161.546
+161.561
+161.473
+161.394
+161.374
  
 256
 8388608
-Sync kernel error: invalid device function
-0.097056
-Sync kernel error: invalid device function
-0.074976
-Sync kernel error: invalid device function
-0.064992
-Sync kernel error: invalid device function
-0.065024
-Sync kernel error: invalid device function
-0.064352
-Sync kernel error: invalid device function
-0.062976
-Sync kernel error: invalid device function
-0.064256
-Sync kernel error: invalid device function
-0.064608
-Sync kernel error: invalid device function
-0.063936
-Sync kernel error: invalid device function
-0.064992
+162.123
+161.54
+161.508
+161.552
+161.551
+161.608
+161.506
+161.492
+161.455
+161.41
  
 512
 8388608
-Sync kernel error: invalid device function
-0.098816
-Sync kernel error: invalid device function
-0.070816
-Sync kernel error: invalid device function
-0.06832
-Sync kernel error: invalid device function
-0.067072
-Sync kernel error: invalid device function
-0.074048
-Sync kernel error: invalid device function
-0.068928
-Sync kernel error: invalid device function
-0.067936
-Sync kernel error: invalid device function
-0.067232
-Sync kernel error: invalid device function
-0.069152
-Sync kernel error: invalid device function
-0.067264
+162.144
+161.534
+161.531
+161.538
+161.556
+161.547
+161.54
+161.411
+161.47
+161.384
  
 1024
 8388608
-Sync kernel error: invalid device function
-0.104576
-Sync kernel error: invalid device function
-0.074112
-Sync kernel error: invalid device function
-0.073696
-Sync kernel error: invalid device function
-0.071872
-Sync kernel error: invalid device function
-0.071904
-Sync kernel error: invalid device function
-0.071904
-Sync kernel error: invalid device function
-0.071776
-Sync kernel error: invalid device function
-0.071872
-Sync kernel error: invalid device function
-0.080096
-Sync kernel error: invalid device function
-0.072064
+162.053
+161.504
+161.564
+161.547
+161.524
+161.564
+161.564
+161.524
+161.508
+161.469
  
 2048
 8388608
-Sync kernel error: invalid device function
-0.10576
-Sync kernel error: invalid device function
-0.076
-Sync kernel error: invalid device function
-0.073504
-Sync kernel error: invalid device function
-0.074048
-Sync kernel error: invalid device function
-0.074784
-Sync kernel error: invalid device function
-0.073856
-Sync kernel error: invalid device function
-0.074784
-Sync kernel error: invalid device function
-0.083072
-Sync kernel error: invalid device function
-0.074368
-Sync kernel error: invalid device function
-0.074432
+162.13
+161.558
+161.496
+161.565
+161.567
+161.539
+161.49
+161.563
+161.483
+161.427
  
 4096
 8388608
-Sync kernel error: invalid device function
-0.10752
-Sync kernel error: invalid device function
-0.077024
-Sync kernel error: invalid device function
-0.075264
-Sync kernel error: invalid device function
-0.07248
-Sync kernel error: invalid device function
-0.075168
-Sync kernel error: invalid device function
-0.074912
-Sync kernel error: invalid device function
-0.08224
-Sync kernel error: invalid device function
-0.074208
-Sync kernel error: invalid device function
-0.074464
-Sync kernel error: invalid device function
-0.073824
+162.098
+161.558
+161.561
+161.512
+161.535
+161.552
+161.546
+161.524
+161.42
+161.413
  
 8192
 8388608
-Sync kernel error: invalid device function
-0.105888
-Sync kernel error: invalid device function
-0.0768
-Sync kernel error: invalid device function
-0.075584
-Sync kernel error: invalid device function
-0.07216
-Sync kernel error: invalid device function
-0.073248
-Sync kernel error: invalid device function
-0.074016
-Sync kernel error: invalid device function
-0.073728
-Sync kernel error: invalid device function
-0.072992
-Sync kernel error: invalid device function
-0.074368
-Sync kernel error: invalid device function
-0.074208
+162.073
+161.506
+161.472
+161.531
+161.517
+161.515
+161.548
+161.442
+161.423
+161.434
  
 16384
 8388608
-Sync kernel error: invalid device function
-0.10896
-Sync kernel error: invalid device function
-0.078592
-Sync kernel error: invalid device function
-0.075264
-Sync kernel error: invalid device function
-0.07456
-Sync kernel error: invalid device function
-0.075168
-Sync kernel error: invalid device function
-0.075808
-Sync kernel error: invalid device function
-0.075616
-Sync kernel error: invalid device function
-0.07648
-Sync kernel error: invalid device function
-0.074912
-Sync kernel error: invalid device function
-0.075872
+161.498
+161.024
+161.041
+160.977
+160.992
+161.023
+160.955
+160.983
+160.908
+160.868
  
 32768
 8388608
-Sync kernel error: invalid device function
-0.103232
-Sync kernel error: invalid device function
-0.073248
-Sync kernel error: invalid device function
-0.072
-Sync kernel error: invalid device function
-0.072224
-Sync kernel error: invalid device function
-0.072288
-Sync kernel error: invalid device function
-0.070272
-Sync kernel error: invalid device function
-0.070208
-Sync kernel error: invalid device function
-0.06992
-Sync kernel error: invalid device function
-0.069984
-Sync kernel error: invalid device function
-0.070528
+160.985
+160.588
+160.539
+160.522
+160.551
+160.537
+160.6
+160.545
+160.497
+160.429
  
 65536
 8388608
-Sync kernel error: invalid device function
-0.1064
-Sync kernel error: invalid device function
-0.078784
-Sync kernel error: invalid device function
-0.074816
-Sync kernel error: invalid device function
-0.075936
-Sync kernel error: invalid device function
-0.07376
-Sync kernel error: invalid device function
-0.07504
-Sync kernel error: invalid device function
-0.074496
-Sync kernel error: invalid device function
-0.073824
-Sync kernel error: invalid device function
-0.074656
-Sync kernel error: invalid device function
-0.075424
+160.561
+160.186
+160.161
+160.153
+160.165
+160.149
+160.161
+160.109
+160.129
+160.029
  
 131072
 8388608
-Sync kernel error: invalid device function
-0.103264
-Sync kernel error: invalid device function
-0.073824
-Sync kernel error: invalid device function
-0.07248
-Sync kernel error: invalid device function
-0.072512
-Sync kernel error: invalid device function
-0.070848
-Sync kernel error: invalid device function
-0.071456
-Sync kernel error: invalid device function
-0.070848
-Sync kernel error: invalid device function
-0.072864
-Sync kernel error: invalid device function
-0.071872
-Sync kernel error: invalid device function
-0.075424
+160.183
+159.782
+159.806
+159.742
+159.837
+159.759
+159.816
+159.789
+159.726
+159.66
  
 262144
 8388608
-Sync kernel error: invalid device function
-0.109248
-Sync kernel error: invalid device function
-0.07856
-Sync kernel error: invalid device function
-0.077568
-Sync kernel error: invalid device function
-0.077088
-Sync kernel error: invalid device function
-0.09552
-Sync kernel error: invalid device function
-0.076448
-Sync kernel error: invalid device function
-0.07632
-Sync kernel error: invalid device function
-0.076
-Sync kernel error: invalid device function
-0.07744
-Sync kernel error: invalid device function
-0.07664
+159.873
+159.386
+159.449
+159.49
+159.443
+159.41
+159.412
+159.446
+159.413
+159.411
  
 524288
 8388608
-Sync kernel error: invalid device function
-0.104032
-Sync kernel error: invalid device function
-0.073824
-Sync kernel error: invalid device function
-0.073216
-Sync kernel error: invalid device function
-0.073056
-Sync kernel error: invalid device function
-0.072768
-Sync kernel error: invalid device function
-0.073632
-Sync kernel error: invalid device function
-0.072032
-Sync kernel error: invalid device function
-0.072288
-Sync kernel error: invalid device function
-0.0808
-Sync kernel error: invalid device function
-0.072896
+159.735
+159.393
+159.316
+159.337
+159.328
+159.394
+159.388
+159.337
+159.281
+159.181
  
 1048576
 8388608
-Sync kernel error: invalid device function
-0.105792
-Sync kernel error: invalid device function
-0.074432
-Sync kernel error: invalid device function
-0.074752
-Sync kernel error: invalid device function
-0.073184
-Sync kernel error: invalid device function
-0.075008
-Sync kernel error: invalid device function
-0.07568
-Sync kernel error: invalid device function
-0.074272
-Sync kernel error: invalid device function
-0.074592
-Sync kernel error: invalid device function
-0.075072
-Sync kernel error: invalid device function
-0.072544
+159.566
+159.246
+159.177
+159.251
+159.231
+159.246
+159.235
+159.244
+159.112
+159.124
  
 1
 16777216
-Sync kernel error: invalid device function
-0.130912
-Sync kernel error: invalid device function
-0.102432
-Sync kernel error: invalid device function
-0.101696
-Sync kernel error: invalid device function
-0.101216
-Sync kernel error: invalid device function
-0.100992
-Sync kernel error: invalid device function
-0.097632
-Sync kernel error: invalid device function
-0.098368
-Sync kernel error: invalid device function
-0.097792
-Sync kernel error: invalid device function
-0.099296
-Sync kernel error: invalid device function
-0.097984
+356.879
+355.587
+355.573
+355.594
+355.506
+355.533
+355.509
+355.504
+355.487
+355.51
  
 2
 16777216
-Sync kernel error: invalid device function
-0.131168
-Sync kernel error: invalid device function
-0.101376
-Sync kernel error: invalid device function
-0.100064
-Sync kernel error: invalid device function
-0.099808
-Sync kernel error: invalid device function
-0.099904
-Sync kernel error: invalid device function
-0.099264
-Sync kernel error: invalid device function
-0.100128
-Sync kernel error: invalid device function
-0.115232
-Sync kernel error: invalid device function
-0.100448
-Sync kernel error: invalid device function
-0.098496
+356.822
+355.55
+355.578
+355.571
+355.53
+355.49
+355.618
+355.554
+355.539
+355.528
  
 4
 16777216
-Sync kernel error: invalid device function
-0.138688
-Sync kernel error: invalid device function
-0.10544
-Sync kernel error: invalid device function
-0.10304
-Sync kernel error: invalid device function
-0.10256
-Sync kernel error: invalid device function
-0.10416
-Sync kernel error: invalid device function
-0.103712
-Sync kernel error: invalid device function
-0.11152
-Sync kernel error: invalid device function
-0.104032
-Sync kernel error: invalid device function
-0.104352
-Sync kernel error: invalid device function
-0.10192
+356.868
+355.518
+355.567
+355.512
+355.49
+355.524
+355.541
+355.445
+355.511
+355.532
  
 8
 16777216
-Sync kernel error: invalid device function
-0.120576
-Sync kernel error: invalid device function
-0.091552
-Sync kernel error: invalid device function
-0.089472
-Sync kernel error: invalid device function
-0.089184
-Sync kernel error: invalid device function
-0.088544
-Sync kernel error: invalid device function
-0.088768
-Sync kernel error: invalid device function
-0.088448
-Sync kernel error: invalid device function
-0.089824
-Sync kernel error: invalid device function
-0.09024
-Sync kernel error: invalid device function
-0.089376
+356.833
+355.595
+355.558
+355.524
+355.495
+355.543
+355.503
+355.588
+355.482
+355.628
  
 16
 16777216
-Sync kernel error: invalid device function
-0.120832
-Sync kernel error: invalid device function
-0.091552
-Sync kernel error: invalid device function
-0.087616
-Sync kernel error: invalid device function
-0.089184
-Sync kernel error: invalid device function
-0.088256
-Sync kernel error: invalid device function
-0.091424
-Sync kernel error: invalid device function
-0.101024
-Sync kernel error: invalid device function
-0.091584
-Sync kernel error: invalid device function
-0.091424
-Sync kernel error: invalid device function
-0.092192
+356.906
+355.547
+355.529
+355.568
+355.575
+355.517
+355.507
+355.51
+355.527
+355.499
  
 32
 16777216
-Sync kernel error: invalid device function
-0.118688
-Sync kernel error: invalid device function
-0.091328
-Sync kernel error: invalid device function
-0.089504
-Sync kernel error: invalid device function
-0.10752
-Sync kernel error: invalid device function
-0.089056
-Sync kernel error: invalid device function
-0.089472
-Sync kernel error: invalid device function
-0.088704
-Sync kernel error: invalid device function
-0.089216
-Sync kernel error: invalid device function
-0.087104
-Sync kernel error: invalid device function
-0.087936
+356.856
+355.487
+355.553
+355.587
+355.556
+355.501
+355.544
+355.482
+355.524
+355.507
  
 64
 16777216
-Sync kernel error: invalid device function
-0.119584
-Sync kernel error: invalid device function
-0.089504
-Sync kernel error: invalid device function
-0.087328
-Sync kernel error: invalid device function
-0.088032
-Sync kernel error: invalid device function
-0.088096
-Sync kernel error: invalid device function
-0.086912
-Sync kernel error: invalid device function
-0.087232
-Sync kernel error: invalid device function
-0.088064
-Sync kernel error: invalid device function
-0.087776
-Sync kernel error: invalid device function
-0.087456
+356.851
+355.544
+355.467
+355.611
+355.511
+355.524
+355.566
+355.569
+355.54
+355.521
  
 128
 16777216
-Sync kernel error: invalid device function
-0.076064
-Sync kernel error: invalid device function
-0.05088
-Sync kernel error: invalid device function
-0.049952
-Sync kernel error: invalid device function
-0.04848
-Sync kernel error: invalid device function
-0.0496
-Sync kernel error: invalid device function
-0.049472
-Sync kernel error: invalid device function
-0.0448
-Sync kernel error: invalid device function
-0.04576
-Sync kernel error: invalid device function
-0.04656
-Sync kernel error: invalid device function
-0.062336
+356.829
+355.527
+355.558
+355.519
+355.462
+355.502
+355.526
+355.529
+355.455
+355.553
  
 256
 16777216
-Sync kernel error: invalid device function
-0.12336
-Sync kernel error: invalid device function
-0.0904
-Sync kernel error: invalid device function
-0.088704
-Sync kernel error: invalid device function
-0.088
-Sync kernel error: invalid device function
-0.088384
-Sync kernel error: invalid device function
-0.088096
-Sync kernel error: invalid device function
-0.087552
-Sync kernel error: invalid device function
-0.087552
-Sync kernel error: invalid device function
-0.088672
-Sync kernel error: invalid device function
-0.088736
+356.935
+355.523
+355.529
+355.536
+355.525
+355.507
+355.554
+355.543
+355.469
+355.475
  
 512
 16777216
-Sync kernel error: invalid device function
-0.138976
-Sync kernel error: invalid device function
-0.108544
-Sync kernel error: invalid device function
-0.10608
-Sync kernel error: invalid device function
-0.13168
-Sync kernel error: invalid device function
-0.106432
-Sync kernel error: invalid device function
-0.10608
-Sync kernel error: invalid device function
-0.106624
-Sync kernel error: invalid device function
-0.105856
-Sync kernel error: invalid device function
-0.1064
-Sync kernel error: invalid device function
-0.1064
+356.879
+355.527
+355.582
+355.523
+355.566
+355.509
+355.551
+355.535
+355.462
+355.481
  
 1024
 16777216
-Sync kernel error: invalid device function
-0.13264
-Sync kernel error: invalid device function
-0.101504
-Sync kernel error: invalid device function
-0.10304
-Sync kernel error: invalid device function
-0.101952
-Sync kernel error: invalid device function
-0.102752
-Sync kernel error: invalid device function
-0.104352
-Sync kernel error: invalid device function
-0.102432
-Sync kernel error: invalid device function
-0.10272
-Sync kernel error: invalid device function
-0.103232
-Sync kernel error: invalid device function
-0.111584
+356.874
+355.533
+355.568
+355.531
+355.506
+355.51
+355.491
+355.549
+355.504
+355.551
  
 2048
 16777216
-Sync kernel error: invalid device function
-0.158144
-Sync kernel error: invalid device function
-0.12816
-Sync kernel error: invalid device function
-0.126816
-Sync kernel error: invalid device function
-0.126912
-Sync kernel error: invalid device function
-0.125728
-Sync kernel error: invalid device function
-0.126464
-Sync kernel error: invalid device function
-0.1264
-Sync kernel error: invalid device function
-0.1272
-Sync kernel error: invalid device function
-0.12624
-Sync kernel error: invalid device function
-0.125792
+356.829
+355.579
+355.548
+355.561
+355.493
+355.456
+355.475
+355.468
+355.569
+355.533
  
 4096
 16777216
-Sync kernel error: invalid device function
-0.129632
-Sync kernel error: invalid device function
-0.100416
-Sync kernel error: invalid device function
-0.108544
-Sync kernel error: invalid device function
-0.097888
-Sync kernel error: invalid device function
-0.09824
-Sync kernel error: invalid device function
-0.098048
-Sync kernel error: invalid device function
-0.099232
-Sync kernel error: invalid device function
-0.098528
-Sync kernel error: invalid device function
-0.097792
-Sync kernel error: invalid device function
-0.10016
+356.855
+355.588
+355.58
+355.465
+355.533
+355.541
+355.529
+355.639
+355.569
+355.515
  
 8192
 16777216
-Sync kernel error: invalid device function
-0.129088
-Sync kernel error: invalid device function
-0.099744
-Sync kernel error: invalid device function
-0.098464
-Sync kernel error: invalid device function
-0.098848
-Sync kernel error: invalid device function
-0.021344
-Sync kernel error: invalid device function
-0.0984
-Sync kernel error: invalid device function
-0.099104
-Sync kernel error: invalid device function
-0.098528
-Sync kernel error: invalid device function
-0.098656
-Sync kernel error: invalid device function
-0.098528
+356.872
+355.586
+355.566
+355.608
+355.522
+355.515
+355.509
+355.567
+355.51
+355.542
  
 16384
 16777216
-Sync kernel error: invalid device function
-0.084352
-Sync kernel error: invalid device function
-0.058592
-Sync kernel error: invalid device function
-0.05792
-Sync kernel error: invalid device function
-0.058528
-Sync kernel error: invalid device function
-0.074784
-Sync kernel error: invalid device function
-0.00144
-Sync kernel error: invalid device function
-0.05872
-Sync kernel error: invalid device function
-0.058368
-Sync kernel error: invalid device function
-0.059296
-Sync kernel error: invalid device function
-0.058464
+356.86
+355.62
+355.506
+355.555
+355.491
+355.541
+355.518
+355.557
+355.558
+355.601
  
 32768
 16777216
-Sync kernel error: invalid device function
-0.133984
-Sync kernel error: invalid device function
-0.104032
-Sync kernel error: invalid device function
-0.103712
-Sync kernel error: invalid device function
-0.101248
-Sync kernel error: invalid device function
-0.112768
-Sync kernel error: invalid device function
-0.10144
-Sync kernel error: invalid device function
-0.102144
-Sync kernel error: invalid device function
-0.102304
-Sync kernel error: invalid device function
-0.101792
-Sync kernel error: invalid device function
-0.101536
+355.656
+354.492
+354.476
+354.466
+354.416
+354.555
+354.497
+354.46
+354.474
+354.505
  
 65536
 16777216
-Sync kernel error: invalid device function
-0.149184
-Sync kernel error: invalid device function
-0.120288
-Sync kernel error: invalid device function
-0.119392
-Sync kernel error: invalid device function
-0.119904
-Sync kernel error: invalid device function
-0.118112
-Sync kernel error: invalid device function
-0.118496
-Sync kernel error: invalid device function
-0.119552
-Sync kernel error: invalid device function
-0.11888
-Sync kernel error: invalid device function
-0.119936
-Sync kernel error: invalid device function
-0.11936
+354.686
+353.572
+353.64
+353.562
+353.508
+353.552
+353.499
+353.499
+353.562
+353.526
  
 131072
 16777216
-Sync kernel error: invalid device function
-0.140128
-Sync kernel error: invalid device function
-0.107296
-Sync kernel error: invalid device function
-0.106528
-Sync kernel error: invalid device function
-0.107296
-Sync kernel error: invalid device function
-0.105792
-Sync kernel error: invalid device function
-0.108
-Sync kernel error: invalid device function
-0.107456
-Sync kernel error: invalid device function
-0.107584
-Sync kernel error: invalid device function
-0.106208
-Sync kernel error: invalid device function
-0.108032
+353.83
+352.743
+352.829
+352.756
+352.744
+352.721
+352.79
+352.717
+352.741
+352.829
  
 262144
 16777216
-Sync kernel error: invalid device function
-0.14848
-Sync kernel error: invalid device function
-0.119488
-Sync kernel error: invalid device function
-0.116864
-Sync kernel error: invalid device function
-0.118592
-Sync kernel error: invalid device function
-0.118528
-Sync kernel error: invalid device function
-0.122272
-Sync kernel error: invalid device function
-0.119936
-Sync kernel error: invalid device function
-0.140032
-Sync kernel error: invalid device function
-0.120256
-Sync kernel error: invalid device function
-0.120672
+353.087
+352.007
+351.996
+352.105
+351.982
+352.04
+352.039
+352.005
+351.985
+352.022
  
 524288
 16777216
-Sync kernel error: invalid device function
-0.129952
-Sync kernel error: invalid device function
-0.101632
-Sync kernel error: invalid device function
-0.100032
-Sync kernel error: invalid device function
-0.099584
-Sync kernel error: invalid device function
-0.09984
-Sync kernel error: invalid device function
-0.096896
-Sync kernel error: invalid device function
-0.096832
-Sync kernel error: invalid device function
-0.096736
-Sync kernel error: invalid device function
-0.0952
-Sync kernel error: invalid device function
-0.096352
+352.531
+351.533
+351.471
+351.425
+351.539
+351.475
+351.552
+351.432
+351.506
+351.475
  
 1048576
 16777216
-Sync kernel error: invalid device function
-0.132064
-Sync kernel error: invalid device function
-0.09952
-Sync kernel error: invalid device function
-0.099424
-Sync kernel error: invalid device function
-0.099744
-Sync kernel error: invalid device function
-0.098592
-Sync kernel error: invalid device function
-0.09808
-Sync kernel error: invalid device function
-0.099168
-Sync kernel error: invalid device function
-0.098688
-Sync kernel error: invalid device function
-0.100416
-Sync kernel error: invalid device function
-0.116832
+352.075
+351.115
+351.134
+351.162
+351.167
+351.11
+351.109
+351.132
+351.117
+351.13
  
 1
 33554432
-Sync kernel error: invalid device function
-0.199744
-Sync kernel error: invalid device function
-0.1744
-Sync kernel error: invalid device function
-0.159616
-Sync kernel error: invalid device function
-0.16
-Sync kernel error: invalid device function
-0.157408
-Sync kernel error: invalid device function
-0.158656
-Sync kernel error: invalid device function
-0.158432
-Sync kernel error: invalid device function
-0.160032
-Sync kernel error: invalid device function
-0.160064
-Sync kernel error: invalid device function
-0.157856
+784.246
+781.418
+781.385
+781.35
+781.464
+781.371
+781.432
+781.396
+781.344
+781.376
  
 2
 33554432
-Sync kernel error: invalid device function
-0.15456
-Sync kernel error: invalid device function
-0.124736
-Sync kernel error: invalid device function
-0.12448
-Sync kernel error: invalid device function
-0.12528
-Sync kernel error: invalid device function
-0.124256
-Sync kernel error: invalid device function
-0.122944
-Sync kernel error: invalid device function
-0.124832
-Sync kernel error: invalid device function
-0.12352
-Sync kernel error: invalid device function
-0.123264
-Sync kernel error: invalid device function
-0.12432
+784.222
+781.396
+781.411
+781.459
+781.432
+781.331
+781.31
+781.424
+781.302
+781.49
  
 4
 33554432
-Sync kernel error: invalid device function
-0.152384
-Sync kernel error: invalid device function
-0.123328
-Sync kernel error: invalid device function
-0.125248
-Sync kernel error: invalid device function
-0.125312
-Sync kernel error: invalid device function
-0.125792
-Sync kernel error: invalid device function
-0.125728
-Sync kernel error: invalid device function
-0.1264
-Sync kernel error: invalid device function
-0.125152
-Sync kernel error: invalid device function
-0.125824
-Sync kernel error: invalid device function
-0.125024
+784.264
+781.315
+781.323
+781.443
+781.152
+781.449
+781.277
+781.412
+781.319
+781.33
  
 8
 33554432
-Sync kernel error: invalid device function
-0.097184
-Sync kernel error: invalid device function
-0.070688
-Sync kernel error: invalid device function
-0.070368
-Sync kernel error: invalid device function
-0.07008
-Sync kernel error: invalid device function
-0.069824
-Sync kernel error: invalid device function
-0.071776
-Sync kernel error: invalid device function
-0.069888
-Sync kernel error: invalid device function
-0.070464
-Sync kernel error: invalid device function
-0.07136
-Sync kernel error: invalid device function
-0.070496
+784.206
+781.39
+781.47
+781.591
+781.543
+781.401
+781.393
+781.408
+781.355
+781.789
  
 16
 33554432
-Sync kernel error: invalid device function
-0.154304
-Sync kernel error: invalid device function
-0.112064
-Sync kernel error: invalid device function
-0.112224
-Sync kernel error: invalid device function
-0.111744
-Sync kernel error: invalid device function
-0.112
-Sync kernel error: invalid device function
-0.111392
-Sync kernel error: invalid device function
-0.111232
-Sync kernel error: invalid device function
-0.112576
-Sync kernel error: invalid device function
-0.112448
-Sync kernel error: invalid device function
-0.111936
+784.268
+781.492
+781.395
+781.37
+781.361
+781.43
+781.387
+781.643
+781.518
+781.318
  
 32
 33554432
-Sync kernel error: invalid device function
-0.121696
-Sync kernel error: invalid device function
-0.094432
-Sync kernel error: invalid device function
-0.095872
-Sync kernel error: invalid device function
-0.093952
-Sync kernel error: invalid device function
-0.104992
-Sync kernel error: invalid device function
-0.093408
-Sync kernel error: invalid device function
-0.110976
-Sync kernel error: invalid device function
-0.09552
-Sync kernel error: invalid device function
-0.093024
-Sync kernel error: invalid device function
-0.09328
+784.333
+781.373
+781.375
+781.508
+781.363
+781.348
+781.092
+781.554
+781.641
+781.465
  
 64
 33554432
-Sync kernel error: invalid device function
-0.149472
-Sync kernel error: invalid device function
-0.118912
-Sync kernel error: invalid device function
-0.116512
-Sync kernel error: invalid device function
-0.116384
-Sync kernel error: invalid device function
-0.11776
-Sync kernel error: invalid device function
-0.11728
-Sync kernel error: invalid device function
-0.116448
-Sync kernel error: invalid device function
-0.117472
-Sync kernel error: invalid device function
-0.116032
-Sync kernel error: invalid device function
-0.116736
+784.137
+781.435
+781.56
+781.348
+781.394
+781.234
+781.614
+781.556
+781.506
+781.624
  
 128
 33554432
-Sync kernel error: invalid device function
-0.143296
-Sync kernel error: invalid device function
-0.112448
-Sync kernel error: invalid device function
-0.114592
-Sync kernel error: invalid device function
-0.115584
-Sync kernel error: invalid device function
-0.11344
-Sync kernel error: invalid device function
-0.114368
-Sync kernel error: invalid device function
-0.113888
-Sync kernel error: invalid device function
-0.11424
-Sync kernel error: invalid device function
-0.11376
-Sync kernel error: invalid device function
-0.11424
+784.25
+781.47
+781.446
+781.369
+781.525
+781.193
+781.398
+781.583
+781.433
+781.906
  
 256
 33554432
-Sync kernel error: invalid device function
-0.163648
-Sync kernel error: invalid device function
-0.134848
-Sync kernel error: invalid device function
-0.130144
-Sync kernel error: invalid device function
-0.129952
-Sync kernel error: invalid device function
-0.130176
-Sync kernel error: invalid device function
-0.13008
-Sync kernel error: invalid device function
-0.130624
-Sync kernel error: invalid device function
-0.1312
-Sync kernel error: invalid device function
-0.130656
-Sync kernel error: invalid device function
-0.131392
+784.241
+781.407
+781.472
+781.452
+781.455
+781.432
+781.619
+781.862
+781.863
+781.764
  
 512
 33554432
-Sync kernel error: invalid device function
-0.145248
-Sync kernel error: invalid device function
-0.115296
-Sync kernel error: invalid device function
-0.13984
-Sync kernel error: invalid device function
-0.113056
-Sync kernel error: invalid device function
-0.11248
-Sync kernel error: invalid device function
-0.112096
-Sync kernel error: invalid device function
-0.113152
-Sync kernel error: invalid device function
-0.112384
-Sync kernel error: invalid device function
-0.11232
-Sync kernel error: invalid device function
-0.111392
+784.189
+781.394
+781.431
+781.473
+781.445
+781.393
+781.643
+782.027
+781.784
+781.966
  
 1024
 33554432
-Sync kernel error: invalid device function
-0.206592
-Sync kernel error: invalid device function
-0.176256
-Sync kernel error: invalid device function
-0.17536
-Sync kernel error: invalid device function
-0.17504
-Sync kernel error: invalid device function
-0.174912
-Sync kernel error: invalid device function
-0.1752
-Sync kernel error: invalid device function
-0.175616
-Sync kernel error: invalid device function
-0.175904
-Sync kernel error: invalid device function
-0.174336
-Sync kernel error: invalid device function
-0.175904
+784.257
+781.611
+781.338
+781.595
+781.135
+781.704
+781.566
+781.54
+781.88
+782.094
  
 2048
 33554432
-Sync kernel error: invalid device function
-0.19328
-Sync kernel error: invalid device function
-0.161504
-Sync kernel error: invalid device function
-0.161504
-Sync kernel error: invalid device function
-0.160384
-Sync kernel error: invalid device function
-0.160224
-Sync kernel error: invalid device function
-0.16
-Sync kernel error: invalid device function
-0.160512
-Sync kernel error: invalid device function
-0.161184
-Sync kernel error: invalid device function
-0.160512
-Sync kernel error: invalid device function
-0.161216
+784.188
+781.423
+781.456
+781.361
+781.547
+781.536
+781.889
+781.96
+781.881
+781.735
  
 4096
 33554432
-Sync kernel error: invalid device function
-0.154208
-Sync kernel error: invalid device function
-0.126624
-Sync kernel error: invalid device function
-0.12528
-Sync kernel error: invalid device function
-0.125728
-Sync kernel error: invalid device function
-0.132352
-Sync kernel error: invalid device function
-0.12512
-Sync kernel error: invalid device function
-0.12512
-Sync kernel error: invalid device function
-0.128096
-Sync kernel error: invalid device function
-0.126336
-Sync kernel error: invalid device function
-0.125248
+784.215
+781.477
+781.354
+781.475
+781.427
+782.006
+781.949
+781.969
+782.047
+782.007
  
 8192
 33554432
-Sync kernel error: invalid device function
-0.181184
-Sync kernel error: invalid device function
-0.152192
-Sync kernel error: invalid device function
-0.150304
-Sync kernel error: invalid device function
-0.150304
-Sync kernel error: invalid device function
-0.15056
-Sync kernel error: invalid device function
-0.149824
-Sync kernel error: invalid device function
-0.1496
-Sync kernel error: invalid device function
-0.15008
-Sync kernel error: invalid device function
-0.151712
-Sync kernel error: invalid device function
-0.150496
+784.163
+781.414
+781.464
+781.191
+781.619
+781.571
+782.055
+782.135
+781.827
+782.116
  
 16384
 33554432
-Sync kernel error: invalid device function
-0.104384
-Sync kernel error: invalid device function
-0.076896
-Sync kernel error: invalid device function
-0.076064
-Sync kernel error: invalid device function
-0.076
-Sync kernel error: invalid device function
-0.076096
-Sync kernel error: invalid device function
-0.0768
-Sync kernel error: invalid device function
-0.117856
-Sync kernel error: invalid device function
-0.07616
-Sync kernel error: invalid device function
-0.076928
-Sync kernel error: invalid device function
-0.076672
+784.17
+781.44
+781.382
+781.241
+781.576
+781.955
+781.85
+781.806
+782.694
+782.611
  
 32768
 33554432
-Sync kernel error: invalid device function
-0.105728
-Sync kernel error: invalid device function
-0.081248
-Sync kernel error: invalid device function
-0.07952
-Sync kernel error: invalid device function
-0.080576
-Sync kernel error: invalid device function
-0.079488
-Sync kernel error: invalid device function
-0.079744
-Sync kernel error: invalid device function
-0.07952
-Sync kernel error: invalid device function
-0.094144
-Sync kernel error: invalid device function
-0.080352
-Sync kernel error: invalid device function
-0.088224
+784.187
+781.457
+781.467
+781.662
+781.68
+782.011
+781.967
+781.766
+782.158
+782.315
  
 65536
 33554432
-Sync kernel error: invalid device function
-0.154048
-Sync kernel error: invalid device function
-0.12608
-Sync kernel error: invalid device function
-0.124288
-Sync kernel error: invalid device function
-0.125824
-Sync kernel error: invalid device function
-0.124832
-Sync kernel error: invalid device function
-0.1256
-Sync kernel error: invalid device function
-0.132768
-Sync kernel error: invalid device function
-0.132992
-Sync kernel error: invalid device function
-0.124928
-Sync kernel error: invalid device function
-0.125472
+781.866
+779.236
+779.342
+778.945
+779.41
+779.183
+779.961
+779.83
+780.422
+780.378
  
 131072
 33554432
-Sync kernel error: invalid device function
-0.180608
-Sync kernel error: invalid device function
-0.150688
-Sync kernel error: invalid device function
-0.149568
-Sync kernel error: invalid device function
-0.149984
-Sync kernel error: invalid device function
-0.148512
-Sync kernel error: invalid device function
-0.149216
-Sync kernel error: invalid device function
-0.150016
-Sync kernel error: invalid device function
-0.150464
-Sync kernel error: invalid device function
-0.149856
-Sync kernel error: invalid device function
-0.148352
+779.881
+777.531
+777.535
+777.355
+777.58
+777.907
+777.848
+778.027
+778.605
+778.521
  
 262144
 33554432
-Sync kernel error: invalid device function
-0.102944
-Sync kernel error: invalid device function
-0.078112
-Sync kernel error: invalid device function
-0.076448
-Sync kernel error: invalid device function
-0.07968
-Sync kernel error: invalid device function
-0.079264
-Sync kernel error: invalid device function
-0.086752
-Sync kernel error: invalid device function
-0.087648
-Sync kernel error: invalid device function
-0.07888
-Sync kernel error: invalid device function
-0.08896
-Sync kernel error: invalid device function
-0.077984
+778.329
+775.976
+775.86
+775.703
+775.95
+776.258
+776.33
+776.449
+776.897
+776.874
  
 524288
 33554432
-Sync kernel error: invalid device function
-0.159456
-Sync kernel error: invalid device function
-0.125792
-Sync kernel error: invalid device function
-0.12464
-Sync kernel error: invalid device function
-0.125248
-Sync kernel error: invalid device function
-0.123616
-Sync kernel error: invalid device function
-0.123552
-Sync kernel error: invalid device function
-0.122752
-Sync kernel error: invalid device function
-0.124032
-Sync kernel error: invalid device function
-0.12368
-Sync kernel error: invalid device function
-0.123584
+776.68
+774.3
+774.334
+774.324
+774.602
+774.583
+774.75
+774.853
+775.22
+775.304
  
 1048576
 33554432
-Sync kernel error: invalid device function
-0.18256
-Sync kernel error: invalid device function
-0.151936
-Sync kernel error: invalid device function
-0.177504
-Sync kernel error: invalid device function
-0.149536
-Sync kernel error: invalid device function
-0.151008
-Sync kernel error: invalid device function
-0.150176
-Sync kernel error: invalid device function
-0.150784
-Sync kernel error: invalid device function
-0.150368
-Sync kernel error: invalid device function
-0.149728
-Sync kernel error: invalid device function
-0.150944
+775.553
+773.423
+773.302
+773.208
+773.115
+773.681
+773.724
+773.772
+774.314
+774.202
  
 1
 67108864
-Sync kernel error: invalid device function
-0.212288
-Sync kernel error: invalid device function
-0.1744
-Sync kernel error: invalid device function
-0.171968
-Sync kernel error: invalid device function
-0.173472
-Sync kernel error: invalid device function
-0.170336
-Sync kernel error: invalid device function
-0.17152
-Sync kernel error: invalid device function
-0.172096
-Sync kernel error: invalid device function
-0.17152
-Sync kernel error: invalid device function
-0.171936
-Sync kernel error: invalid device function
-0.17216
+1722.47
+1718.15
+1717.48
+1718.54
+1718.75
+1719.69
+1720.84
+1719.69
+1721.05
+1720.46
  
 2
 67108864
-Sync kernel error: invalid device function
-0.182464
-Sync kernel error: invalid device function
-0.151616
-Sync kernel error: invalid device function
-0.152864
-Sync kernel error: invalid device function
-0.150112
-Sync kernel error: invalid device function
-0.149696
-Sync kernel error: invalid device function
-0.151264
-Sync kernel error: invalid device function
-0.149984
-Sync kernel error: invalid device function
-0.149792
-Sync kernel error: invalid device function
-0.15168
-Sync kernel error: invalid device function
-0.150048
+1721.59
+1718.02
+1718.12
+1718.95
+1719.28
+1720.84
+1719.63
+1720.4
+1720.77
+1721.62
  
 4
 67108864
-Sync kernel error: invalid device function
-0.178592
-Sync kernel error: invalid device function
-0.151008
-Sync kernel error: invalid device function
-0.149248
-Sync kernel error: invalid device function
-0.151072
-Sync kernel error: invalid device function
-0.150816
-Sync kernel error: invalid device function
-0.151904
-Sync kernel error: invalid device function
-0.151488
-Sync kernel error: invalid device function
-0.15056
-Sync kernel error: invalid device function
-0.15056
-Sync kernel error: invalid device function
-0.151712
+1722.35
+1718.02
+1718.26
+1718.97
+1719.87
+1720.72
+1719.89
+1720.41
+1720.51
+1721.63
  
 8
 67108864
-Sync kernel error: invalid device function
-0.169888
-Sync kernel error: invalid device function
-0.139936
-Sync kernel error: invalid device function
-0.138432
-Sync kernel error: invalid device function
-0.136672
-Sync kernel error: invalid device function
-0.139008
-Sync kernel error: invalid device function
-0.136128
-Sync kernel error: invalid device function
-0.162432
-Sync kernel error: invalid device function
-0.136416
-Sync kernel error: invalid device function
-0.136672
-Sync kernel error: invalid device function
-0.139072
+1721.57
+1717.81
+1718.35
+1718.57
+1720
+1719.95
+1720.25
+1720.84
+1721.64
+1721.43
  
 16
 67108864
-Sync kernel error: invalid device function
-0.149408
-Sync kernel error: invalid device function
-0.12048
-Sync kernel error: invalid device function
-0.146144
-Sync kernel error: invalid device function
-0.133664
-Sync kernel error: invalid device function
-0.13648
-Sync kernel error: invalid device function
-0.136864
-Sync kernel error: invalid device function
-0.129856
-Sync kernel error: invalid device function
-0.119776
-Sync kernel error: invalid device function
-0.12048
-Sync kernel error: invalid device function
-0.133024
+1721.31
+1717.71
+1718.04
+1719.69
+1720.57
+1720.16
+1720.32
+1720.86
+1721.65
+1721.43
  
 32
 67108864
-Sync kernel error: invalid device function
-0.198752
-Sync kernel error: invalid device function
-0.179264
-Sync kernel error: invalid device function
-0.165376
-Sync kernel error: invalid device function
-0.165792
-Sync kernel error: invalid device function
-0.165952
-Sync kernel error: invalid device function
-0.166752
-Sync kernel error: invalid device function
-0.16576
-Sync kernel error: invalid device function
-0.167776
-Sync kernel error: invalid device function
-0.165568
-Sync kernel error: invalid device function
-0.166496
+1722.06
+1717.61
+1718.28
+1719.77
+1720.15
+1720.35
+1720.51
+1720.78
+1721.21
+1721.42
  
 64
 67108864
-Sync kernel error: invalid device function
-0.168928
-Sync kernel error: invalid device function
-0.140192
-Sync kernel error: invalid device function
-0.13856
-Sync kernel error: invalid device function
-0.138912
-Sync kernel error: invalid device function
-0.138848
-Sync kernel error: invalid device function
-0.139552
-Sync kernel error: invalid device function
-0.137824
-Sync kernel error: invalid device function
-0.138208
-Sync kernel error: invalid device function
-0.138496
-Sync kernel error: invalid device function
-0.140224
+1722.64
+1717.87
+1719.02
+1719.65
+1720.51
+1720.84
+1721.53
+1721.35
+1721.21
+1721.11
  
 128
 67108864
-Sync kernel error: invalid device function
-0.192416
-Sync kernel error: invalid device function
-0.15824
-Sync kernel error: invalid device function
-0.156864
-Sync kernel error: invalid device function
-0.158016
-Sync kernel error: invalid device function
-0.157504
-Sync kernel error: invalid device function
-0.157024
-Sync kernel error: invalid device function
-0.157184
-Sync kernel error: invalid device function
-0.158368
-Sync kernel error: invalid device function
-0.157728
-Sync kernel error: invalid device function
-0.157024
+1722.18
+1717.38
+1718.84
+1719.98
+1720.35
+1720.24
+1720.63
+1721.27
+1721.25
+1721.33
  
 256
 67108864
-Sync kernel error: invalid device function
-0.173248
-Sync kernel error: invalid device function
-0.145632
-Sync kernel error: invalid device function
-0.14112
-Sync kernel error: invalid device function
-0.142016
-Sync kernel error: invalid device function
-0.140608
-Sync kernel error: invalid device function
-0.142976
-Sync kernel error: invalid device function
-0.157696
-Sync kernel error: invalid device function
-0.139904
-Sync kernel error: invalid device function
-0.163968
-Sync kernel error: invalid device function
-0.141696
+1721.32
+1717.73
+1718.81
+1719.92
+1720.12
+1721.68
+1720.92
+1721.95
+1721.43
+1721.33
  
 512
 67108864
-Sync kernel error: invalid device function
-0.179776
-Sync kernel error: invalid device function
-0.140096
-Sync kernel error: invalid device function
-0.139616
-Sync kernel error: invalid device function
-0.138176
-Sync kernel error: invalid device function
-0.138656
-Sync kernel error: invalid device function
-0.137472
-Sync kernel error: invalid device function
-0.137696
-Sync kernel error: invalid device function
-0.137728
-Sync kernel error: invalid device function
-0.137376
-Sync kernel error: invalid device function
-0.137088
+1721.65
+1717.66
+1718.85
+1719.86
+1720.23
+1720.6
+1720.72
+1721.81
+1721.22
+1721.22
  
 1024
 67108864
-Sync kernel error: invalid device function
-0.20832
-Sync kernel error: invalid device function
-0.152992
-Sync kernel error: invalid device function
-0.151648
-Sync kernel error: invalid device function
-0.152192
-Sync kernel error: invalid device function
-0.150016
-Sync kernel error: invalid device function
-0.149664
-Sync kernel error: invalid device function
-0.1512
-Sync kernel error: invalid device function
-0.150656
-Sync kernel error: invalid device function
-0.150048
-Sync kernel error: invalid device function
-0.160704
+1722.2
+1717.91
+1718.89
+1719.91
+1719.7
+1720.72
+1721.2
+1721.46
+1720.8
+1721.22
  
 2048
 67108864
-Sync kernel error: invalid device function
-0.182976
-Sync kernel error: invalid device function
-0.148928
-Sync kernel error: invalid device function
-0.149248
-Sync kernel error: invalid device function
-0.157216
-Sync kernel error: invalid device function
-0.146592
-Sync kernel error: invalid device function
-0.14736
-Sync kernel error: invalid device function
-0.146272
-Sync kernel error: invalid device function
-0.14816
-Sync kernel error: invalid device function
-0.14768
-Sync kernel error: invalid device function
-0.147488
+1720.13
+1717.69
+1718.78
+1720.54
+1719.49
+1720.84
+1721.58
+1721.77
+1721.06
+1721.15
  
 4096
 67108864
-Sync kernel error: invalid device function
-0.18256
-Sync kernel error: invalid device function
-0.153888
-Sync kernel error: invalid device function
-0.151552
-Sync kernel error: invalid device function
-0.153824
-Sync kernel error: invalid device function
-0.153088
-Sync kernel error: invalid device function
-0.15264
-Sync kernel error: invalid device function
-0.153792
-Sync kernel error: invalid device function
-0.154592
-Sync kernel error: invalid device function
-0.151872
-Sync kernel error: invalid device function
-0.153984
+1722.05
+1717.74
+1718.82
+1720.48
+1720.42
+1720.6
+1721.15
+1721.3
+1721.29
+1721.36
  
 8192
 67108864
-Sync kernel error: invalid device function
-0.18032
-Sync kernel error: invalid device function
-0.151648
-Sync kernel error: invalid device function
-0.149696
-Sync kernel error: invalid device function
-0.150176
-Sync kernel error: invalid device function
-0.149888
-Sync kernel error: invalid device function
-0.168192
-Sync kernel error: invalid device function
-0.159008
-Sync kernel error: invalid device function
-0.152704
-Sync kernel error: invalid device function
-0.150016
-Sync kernel error: invalid device function
-0.151328
+1721.52
+1717.4
+1718.61
+1720.29
+1720.2
+1720.67
+1721.67
+1721.34
+1721.31
+1721.06
  
 16384
 67108864
-Sync kernel error: invalid device function
-0.184352
-Sync kernel error: invalid device function
-0.153664
-Sync kernel error: invalid device function
-0.152384
-Sync kernel error: invalid device function
-0.153248
-Sync kernel error: invalid device function
-0.152128
-Sync kernel error: invalid device function
-0.152448
-Sync kernel error: invalid device function
-0.152288
-Sync kernel error: invalid device function
-0.152416
-Sync kernel error: invalid device function
-0.153536
-Sync kernel error: invalid device function
-0.15008
+1721.35
+1717.36
+1719.11
+1720.55
+1719.72
+1720.63
+1720.98
+1721.48
+1721.04
+1721.05
  
 32768
 67108864
-Sync kernel error: invalid device function
-0.128672
-Sync kernel error: invalid device function
-0.102752
-Sync kernel error: invalid device function
-0.102208
-Sync kernel error: invalid device function
-0.102144
-Sync kernel error: invalid device function
-0.100736
-Sync kernel error: invalid device function
-0.100736
-Sync kernel error: invalid device function
-0.1024
-Sync kernel error: invalid device function
-0.103264
-Sync kernel error: invalid device function
-0.1032
-Sync kernel error: invalid device function
-0.102272
+1721.36
+1717.46
+1718.71
+1720.58
+1720.22
+1720.77
+1720.04
+1721.35
+1721.3
+1721.18
  
 65536
 67108864
-Sync kernel error: invalid device function
-0.182304
-Sync kernel error: invalid device function
-0.151488
-Sync kernel error: invalid device function
-0.153696
-Sync kernel error: invalid device function
-0.15152
-Sync kernel error: invalid device function
-0.150912
-Sync kernel error: invalid device function
-0.150944
-Sync kernel error: invalid device function
-0.158272
-Sync kernel error: invalid device function
-0.150976
-Sync kernel error: invalid device function
-0.15104
-Sync kernel error: invalid device function
-0.1512
+1720.44
+1717.35
+1719.34
+1719.13
+1720.55
+1721.6
+1720.85
+1721.21
+1721.07
+1721.21
  
 131072
 67108864
-Sync kernel error: invalid device function
-0.181344
-Sync kernel error: invalid device function
-0.151488
-Sync kernel error: invalid device function
-0.151392
-Sync kernel error: invalid device function
-0.150944
-Sync kernel error: invalid device function
-0.149536
-Sync kernel error: invalid device function
-0.153472
-Sync kernel error: invalid device function
-0.150464
-Sync kernel error: invalid device function
-0.150144
-Sync kernel error: invalid device function
-0.153472
-Sync kernel error: invalid device function
-0.159712
+1717.21
+1713.11
+1715.05
+1715.63
+1715.67
+1716.96
+1716.14
+1716.58
+1716.46
+1716.66
  
 262144
 67108864
-Sync kernel error: invalid device function
-0.192
-Sync kernel error: invalid device function
-0.149216
-Sync kernel error: invalid device function
-0.147552
-Sync kernel error: invalid device function
-0.147072
-Sync kernel error: invalid device function
-0.150048
-Sync kernel error: invalid device function
-0.148256
-Sync kernel error: invalid device function
-0.14672
-Sync kernel error: invalid device function
-0.147552
-Sync kernel error: invalid device function
-0.146688
-Sync kernel error: invalid device function
-0.17168
+1713.96
+1709.54
+1710.83
+1711.89
+1712.08
+1712.6
+1712.75
+1712.64
+1712.51
+1712.87
  
 524288
 67108864
-Sync kernel error: invalid device function
-0.183872
-Sync kernel error: invalid device function
-0.152096
-Sync kernel error: invalid device function
-0.151392
-Sync kernel error: invalid device function
-0.15168
-Sync kernel error: invalid device function
-0.15056
-Sync kernel error: invalid device function
-0.151616
-Sync kernel error: invalid device function
-0.152672
-Sync kernel error: invalid device function
-0.151776
-Sync kernel error: invalid device function
-0.150112
-Sync kernel error: invalid device function
-0.151008
+1711.26
+1706.41
+1707.58
+1708.62
+1708.85
+1709.66
+1709.01
+1708.96
+1709.12
+1709.03
  
 1048576
 67108864
-Sync kernel error: invalid device function
-0.183392
-Sync kernel error: invalid device function
-0.15392
-Sync kernel error: invalid device function
-0.149312
-Sync kernel error: invalid device function
-0.1496
-Sync kernel error: invalid device function
-0.151232
-Sync kernel error: invalid device function
-0.150592
-Sync kernel error: invalid device function
-0.150208
-Sync kernel error: invalid device function
-0.150496
-Sync kernel error: invalid device function
-0.170272
-Sync kernel error: invalid device function
-0.152288
+1707.56
+1703.4
+1705.01
+1705.24
+1705.74
+1706.49
+1705.64
+1705.99
+1705.95
+1705.98
  
